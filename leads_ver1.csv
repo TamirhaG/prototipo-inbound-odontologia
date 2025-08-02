@@ -1,501 +1,501 @@
-nombre,correo,telefono,interes,fecha_registro,interes_activo
-Gonzalo Gisbert Mosquera,ernesto93@hotmail.com,+34683096742,Blanqueamiento,2025-02-14 00:00:00,No
-Rufina Ruano Burgos,bertapol@gmail.com,+34 727 69 75 68,Blanqueamiento,2025-03-07 00:00:00,No
-Alejo Riquelme Noriega,rayafederico@hotmail.com,+34889 87 65 21,Ortodoncia,2025-04-27 00:00:00,No
-Natalia Manjón Mayo,lacevedo@hotmail.com,+34944451495,Ortodoncia,2025-03-17 00:00:00,Sí
-Rogelio Roda,jcases@yahoo.com,+34716 22 39 63,Endodoncia,2025-02-07 00:00:00,Sí
-Miriam Lidia Vilanova Barreda,nicolasaboada@gmail.com,+34887260543,Implantes,2025-04-01 00:00:00,No
-Asdrubal Gallo Yáñez,ecalvet@ferrandiz.es,+34 700 33 23 27,Ortodoncia,2025-07-19 00:00:00,Sí
-Cruz Busquets Villa,anunciacioncarreras@gimenez.es,+34721 103 417,Endodoncia,2025-05-10 00:00:00,Sí
-Clementina Ugarte Juárez,efrain47@seco.com,+34742 086 418,Endodoncia,2025-05-27 00:00:00,No
-Alejandra Iñiguez Luz,olgaledesma@reina.com,+34 675 214 565,Implantes,2025-05-09 00:00:00,No
-Efraín Mendoza Santamaria,eusebia83@yahoo.com,+34 713482544,Limpieza dental,2025-03-31 00:00:00,No
-Javiera del Poza,wvalero@aparicio-prieto.es,+34731 20 57 39,Evaluación general,2025-06-07 00:00:00,No
-Marcos de Zapata,marco49@gmail.com,+34 700 97 13 99,Implantes,2025-03-25 00:00:00,No
-Simón del Cal,asarmiento@gmail.com,+34 670638104,Implantes,2025-07-15 00:00:00,Sí
-Isidro Mesa Boix,elodiasolera@narvaez.com,+34718 100 990,Blanqueamiento,2025-06-23 00:00:00,Sí
-Verónica Hidalgo Carballo,delfina31@hotmail.com,+34738 07 71 68,Blanqueamiento,2025-03-09 00:00:00,No
-Espiridión Lozano Marco,kbarreda@armas-benito.com,+34866564151,Evaluación general,2025-06-24 00:00:00,Sí
-Irene Peña,apozuelo@yahoo.com,+34 709080607,Ortodoncia,2025-04-05 00:00:00,Sí
-Isabel Duran-Barrera,delia34@yahoo.com,+34722 54 96 29,Endodoncia,2025-06-11 00:00:00,Sí
-Noemí del Moraleda,viniciodieguez@montserrat-recio.net,+34 713973311,Endodoncia,2025-06-22 00:00:00,No
-Maribel Doménech Landa,romeuleonor@guitart.es,+34728887212,Endodoncia,2025-03-11 00:00:00,No
-Rogelio Julián Cordero,ricarda84@gmail.com,+34 722420588,Endodoncia,2025-04-06 00:00:00,Sí
-Leandra Cabrera Folch,joaquina34@gmail.com,+34 691 75 72 85,Limpieza dental,2025-04-06 00:00:00,No
-Elpidio Montenegro,estradaalcides@cortina.com,+34 740 24 29 88,Implantes,2025-03-02 00:00:00,Sí
-Guillermo Valenzuela Cuevas,josedalmau@pastor.es,+34 743 293 502,Evaluación general,2025-06-27 00:00:00,Sí
-Fernanda del Bustamante,victorcampillo@rosell.es,+34738 055 151,Implantes,2025-03-28 00:00:00,Sí
-Cleto Méndez-Viñas,luciano92@velazquez.com,+34727 78 04 92,Endodoncia,2025-06-16 00:00:00,No
-Cintia Alfaro Gimeno,ileana61@briones.com,+34903 56 91 17,Ortodoncia,2025-06-26 00:00:00,Sí
-Eusebio Sarmiento,jpol@gascon.es,+34 699 821 020,Blanqueamiento,2025-03-20 00:00:00,No
-Juana Zapata-Jara,candidabecerra@casal-ballester.com,+34 638 299 736,Evaluación general,2025-03-27 00:00:00,Sí
-Encarnacion Morena Nicolau Ureña,uropero@yahoo.com,+34727 468 700,Implantes,2025-02-28 00:00:00,No
-Vanesa Echevarría-Llano,expositoambar@gmail.com,+34736 029 143,Implantes,2025-06-01 00:00:00,Sí
-Marisol Olivera,eustaquioferrero@gmail.com,+34 739 375 798,Evaluación general,2025-04-24 00:00:00,Sí
-Evelia Montalbán Uría,yvina@sarmiento.org,+34 715 774 012,Evaluación general,2025-03-05 00:00:00,No
-Alex Pedraza Barón,klozano@bermudez-ripoll.es,+34739 374 927,Evaluación general,2025-04-02 00:00:00,Sí
-Anselmo Alvarez Peralta,silvio32@quiros.es,+34 733 709 407,Endodoncia,2025-05-30 00:00:00,Sí
-Rosenda de Manuel,cortinaeladio@sobrino-salom.com,+34730 54 83 93,Limpieza dental,2025-01-31 00:00:00,Sí
-Pía Adelia Barreda Antúnez,bayokike@larrea-valcarcel.org,+34 827364568,Implantes,2025-06-13 00:00:00,Sí
-Enrique Mur Hierro,lluchoriana@calzada.com,+34 948 41 72 54,Implantes,2025-03-03 00:00:00,No
-Ana Belén de Peinado,kikecanas@mendez-olive.es,+34729 450 798,Endodoncia,2025-06-17 00:00:00,No
-Jacinto Niño Santiago,casandra42@yahoo.com,+34 950 89 45 32,Endodoncia,2025-07-15 00:00:00,No
-Omar Recio-Viana,donairedario@vara-romero.es,+34707 14 17 34,Ortodoncia,2025-02-05 00:00:00,No
-Abraham Almagro Teruel,bcarbo@gmail.com,+34 907 97 63 12,Limpieza dental,2025-05-15 00:00:00,No
-Emilio Bruno Bernad Cuervo,julian73@malo.com,+34 712884974,Ortodoncia,2025-03-04 00:00:00,No
-Pío Tapia Calderón,maria-belen62@mateos.net,+34877574591,Endodoncia,2025-02-23 00:00:00,No
-Quique Llamas Múgica,aheras@yahoo.com,+34862349762,Evaluación general,2025-04-24 00:00:00,Sí
-Adelardo del Castro,alonso95@julian-alcalde.com,+34 812938744,Endodoncia,2025-05-06 00:00:00,Sí
-Reyes Fuster-Arévalo,hipolito93@hotmail.com,+34 606 205 934,Evaluación general,2025-02-04 00:00:00,Sí
-Nacio Jódar Alonso,basilio04@yahoo.com,+34 746 094 136,Blanqueamiento,2025-03-15 00:00:00,No
-Asunción Llorens Boix,riveraselena@garcia.com,+34720 79 89 45,Endodoncia,2025-03-22 00:00:00,No
-Obdulia Solera,lorenzo85@adadia-nebot.com,+34739 12 49 11,Limpieza dental,2025-07-14 00:00:00,No
-Carmina Querol Salmerón,esparzajose@rincon-caro.org,+34 866 31 51 41,Implantes,2025-02-17 00:00:00,Sí
-Aureliano Arnau Guardia,medinajose-francisco@pacheco-heredia.com,+34875 510 816,Endodoncia,2025-02-01 00:00:00,No
-Gaspar Cepeda Gordillo,isidro28@montana.net,+34 724 485 530,Blanqueamiento,2025-03-03 00:00:00,No
-Gregorio Jódar Escudero,odalis77@yahoo.com,+34 841 989 776,Limpieza dental,2025-03-19 00:00:00,No
-Ricardo Bermúdez Juárez,omorillo@fuente-davila.com,+34749 124 612,Limpieza dental,2025-06-10 00:00:00,No
-Donato Malo Neira,rosauraalberto@yahoo.com,+34731 88 16 73,Endodoncia,2025-06-11 00:00:00,No
-Miriam Baquero Campo,dieguezfausto@gmail.com,+34843 79 57 10,Ortodoncia,2025-03-02 00:00:00,No
-Mohamed Sebastián Ródenas,emontes@alsina.com,+34956552554,Implantes,2025-06-03 00:00:00,Sí
-Reina Perales Torres,kvaquero@olmedo.com,+34 699565589,Implantes,2025-06-06 00:00:00,No
-Carmelita del Sancho,aroldan@arrieta-polo.es,+34743739505,Endodoncia,2025-03-27 00:00:00,No
-Faustino Maldonado Ferrer,vilaltaanna@figueroa.com,+34980419599,Evaluación general,2025-07-02 00:00:00,No
-Salomé Botella Múgica,duenaslourdes@canals.net,+34748 29 30 31,Blanqueamiento,2025-07-04 00:00:00,Sí
-Blanca Torrent Ocaña,teruelsol@hotmail.com,+34 821 113 202,Ortodoncia,2025-06-26 00:00:00,No
-Amaya Rincón Ripoll,lilia72@yahoo.com,+34 747 25 82 54,Evaluación general,2025-05-28 00:00:00,No
-Rosario Lara Calvet,jaime89@gmail.com,+34 745574495,Limpieza dental,2025-05-08 00:00:00,No
-Ana Belén Planas Ferrán,tiradoencarnita@escriva.es,+34 892 70 75 70,Evaluación general,2025-07-31 00:00:00,No
-Emiliana Sola,jose-ramon65@rincon.org,+34738 347 393,Implantes,2025-03-21 00:00:00,No
-Prudencia Salamanca-Simó,zmelendez@godoy.net,+34717 637 160,Endodoncia,2025-02-28 00:00:00,No
-Lucila Sureda Aroca,amurcia@casal.es,+34 722146185,Implantes,2025-04-17 00:00:00,Sí
-Samanta de Carmona,maricelavalentin@acosta.com,+34 743388536,Endodoncia,2025-06-13 00:00:00,No
-María Ignacio Montenegro Dalmau,maximovives@gmail.com,+34706555260,Limpieza dental,2025-02-12 00:00:00,No
-Pío Fortunato Chaves Ibañez,urenatadeo@amat.com,+34 714 29 89 05,Ortodoncia,2025-03-08 00:00:00,Sí
-Maristela del Román,brunildacid@guerra.es,+34741 881 127,Implantes,2025-06-15 00:00:00,No
-Soledad Español Cerezo,isabela70@yahoo.com,+34 874 887 418,Limpieza dental,2025-03-22 00:00:00,No
-Ruth Benito Plaza,xgalan@gmail.com,+34705810114,Limpieza dental,2025-06-02 00:00:00,No
-Olalla Valenzuela Serra,ubarriga@yahoo.com,+34809 459 876,Endodoncia,2025-03-19 00:00:00,Sí
-Elpidio Tomás Andres,lidiapena@bueno.com,+34676801474,Evaluación general,2025-03-15 00:00:00,Sí
-Lucho Castro Almansa,arsenio06@llano-serna.com,+34647 376 865,Blanqueamiento,2025-03-28 00:00:00,No
-Catalina Colom,jessicabarco@soto.es,+34 727690247,Ortodoncia,2025-03-05 00:00:00,Sí
-Ema Alemán Morata,romeuteodosio@yahoo.com,+34880280852,Ortodoncia,2025-06-22 00:00:00,Sí
-Jafet Carrasco Valcárcel,bernabe63@gmail.com,+34666559829,Limpieza dental,2025-07-27 00:00:00,No
-Lalo Jimenez Arce,solsonacesar@yahoo.com,+34 935849615,Evaluación general,2025-04-03 00:00:00,Sí
-Ildefonso Rosales Infante,segoviasevero@yahoo.com,+34614 417 609,Implantes,2025-04-27 00:00:00,Sí
-Mirta Talavera Atienza,daniela67@yahoo.com,+34962790911,Blanqueamiento,2025-06-08 00:00:00,No
-José María Ortega Bolaños,zcarreras@trillo.es,+34 719558402,Blanqueamiento,2025-06-05 00:00:00,No
-Aura Bejarano Prado,pardoefrain@lara.com,+34727 399 715,Ortodoncia,2025-03-31 00:00:00,Sí
-Marc Ruiz Manzanares,domingoadelia@yahoo.com,+34724207267,Evaluación general,2025-07-29 00:00:00,No
-Lisandro Fernández Casal,silvestremiro@hotmail.com,+34 717577873,Limpieza dental,2025-03-03 00:00:00,No
-Hernando Pastor Fernández,hsaavedra@hotmail.com,+34726434507,Ortodoncia,2025-04-09 00:00:00,Sí
-Noé Orozco Navarrete,julie82@yahoo.com,+34 732604340,Limpieza dental,2025-04-24 00:00:00,Sí
-Anastasio Reig Gras,tonomercader@aleman-exposito.org,+34 746784229,Blanqueamiento,2025-02-21 00:00:00,Sí
-Ileana de Moles,nblazquez@gmail.com,+34 605174292,Ortodoncia,2025-02-28 00:00:00,Sí
-Alberto del Maldonado,jtur@rodenas.com,+34 714384940,Endodoncia,2025-07-27 00:00:00,Sí
-Jeremías del Salcedo,valleestela@pujol-espana.es,+34725 821 507,Implantes,2025-03-20 00:00:00,Sí
-Anacleto Vera Viana,eva-mariasanmiguel@gmail.com,+34 708 61 26 79,Blanqueamiento,2025-02-09 00:00:00,No
-Raimundo Jordán Aller Nebot,arreguichus@cifuentes-serrano.com,+34 955 444 802,Blanqueamiento,2025-06-11 00:00:00,Sí
-César Benito Aguado,damian32@uribe.es,+34734 024 120,Ortodoncia,2025-05-21 00:00:00,Sí
-Román Faustino Fernandez Benavente,pilar08@gmail.com,+34 708 44 26 72,Ortodoncia,2025-05-24 00:00:00,No
-Olivia Cuesta Ramírez,vazquezjuan-jose@gmail.com,+34991656950,Endodoncia,2025-06-15 00:00:00,Sí
-Chuy Valle Cámara,severolamas@hotmail.com,+34 920 19 85 11,Ortodoncia,2025-04-28 00:00:00,No
-Jose Miguel Mayol Leon,soniacriado@yahoo.com,+34 842 986 191,Limpieza dental,2025-07-05 00:00:00,No
-Claudia Mariscal-Pozuelo,reyes68@yahoo.com,+34942090992,Ortodoncia,2025-03-06 00:00:00,Sí
-Emilio Fulgencio Solana Dalmau,eufemiarosell@yahoo.com,+34 732080615,Evaluación general,2025-05-06 00:00:00,Sí
-Nicanor Sánchez Cánovas,lsarmiento@gallego.com,+34 653 157 209,Implantes,2025-07-20 00:00:00,Sí
-Esteban Prada-Atienza,dorasala@yahoo.com,+34 876 66 74 58,Evaluación general,2025-06-14 00:00:00,No
-Rubén Lorenzo Calatayud,elpidiosolano@castells.com,+34710 48 59 83,Ortodoncia,2025-04-22 00:00:00,No
-Francisco Jose Marqués-Sandoval,aanglada@hotmail.com,+34715 27 08 02,Implantes,2025-06-10 00:00:00,No
-Evaristo Valentín Gárate Valderrama,teodoro52@hotmail.com,+34 712 61 04 88,Limpieza dental,2025-07-01 00:00:00,No
-Severiano de Lozano,vtamarit@leon-borrell.es,+34710 37 89 47,Evaluación general,2025-07-24 00:00:00,Sí
-Filomena de Arrieta,pastora06@tenorio.com,+34723 561 635,Endodoncia,2025-07-18 00:00:00,No
-Jeremías Lorenzo Vilar Barco,sjulian@ramon-manuel.es,+34747926989,Blanqueamiento,2025-06-29 00:00:00,No
-Modesta Cueto-Rico,rosalia85@gmail.com,+34 740 234 369,Ortodoncia,2025-07-17 00:00:00,Sí
-Primitiva Almagro Mármol,munizpepita@hotmail.com,+34720810584,Endodoncia,2025-02-06 00:00:00,Sí
-Bonifacio Mate Navarrete,salmeronnadia@yahoo.com,+34 905 39 26 04,Limpieza dental,2025-08-01 00:00:00,No
-Gabriela Pazos Huertas,varelaprimitivo@mayol.com,+34697 026 111,Evaluación general,2025-02-11 00:00:00,Sí
-Che Valdés Amorós,jaimecamacho@rios.net,+34728 93 32 98,Evaluación general,2025-04-15 00:00:00,No
-Raquel Margarita Moles Calleja,ugimenez@julian.com,+34 717 278 644,Ortodoncia,2025-05-06 00:00:00,No
-Marc Benitez Marin,lupe46@yahoo.com,+34 702877316,Limpieza dental,2025-02-12 00:00:00,No
-Elba Morera Cañellas,barrigalucila@yahoo.com,+34 748 49 21 38,Endodoncia,2025-03-01 00:00:00,No
-Martina Cazorla-Miranda,zagusti@gmail.com,+34865893579,Limpieza dental,2025-04-16 00:00:00,Sí
-Marcio del Hernandez,ysanz@hotmail.com,+34 959484755,Endodoncia,2025-03-09 00:00:00,No
-Nuria Gual Trujillo,celestina63@arenas.es,+34723324770,Evaluación general,2025-07-27 00:00:00,Sí
-Morena Nadal Artigas,parejoflora@galan-bayona.es,+34720 80 87 15,Limpieza dental,2025-03-17 00:00:00,Sí
-Gervasio Asenjo Pagès,lagoana-belen@jorda-losada.org,+34 719 602 130,Blanqueamiento,2025-02-26 00:00:00,No
-Sancho Duarte Cuevas,jacinta42@ortuno.com,+34730 89 36 07,Endodoncia,2025-06-10 00:00:00,No
-Eugenia Montserrat Blasco,privera@sainz.es,+34 646 834 973,Blanqueamiento,2025-05-09 00:00:00,Sí
-Mohamed Julio Ariño Palomar,adora96@gmail.com,+34922593903,Implantes,2025-03-29 00:00:00,No
-Galo Diego Pinto Guitart,carmelojaen@ibarra.net,+34 703 996 309,Limpieza dental,2025-02-10 00:00:00,Sí
-Epifanio Agustín,consuelapuga@gmail.com,+34845685743,Evaluación general,2025-07-22 00:00:00,No
-Virgilio Mora Noguera,orianagascon@hotmail.com,+34716 67 77 05,Limpieza dental,2025-05-14 00:00:00,No
-Donato Anaya Grau,anna77@marmol-sales.es,+34727 06 85 89,Evaluación general,2025-02-04 00:00:00,Sí
-Bruno Amaya Cabanillas,hribas@gmail.com,+34 739 27 91 03,Evaluación general,2025-06-13 00:00:00,No
-Dulce Vidal-Escobar,aanton@borja-aguilo.com,+34 736 707 853,Evaluación general,2025-05-01 00:00:00,Sí
-Abraham Juan Pablo Barrena Dávila,rosalva25@hotmail.com,+34909 996 159,Ortodoncia,2025-03-28 00:00:00,No
-Dominga Amorós-Ferrera,abrahamoliver@hotmail.com,+34723680417,Blanqueamiento,2025-04-15 00:00:00,No
-Amaro Barral Paz,cpalacios@menendez.es,+34 722 80 61 43,Endodoncia,2025-03-08 00:00:00,No
-Javi Carbonell Cal,angel77@gmail.com,+34702572786,Endodoncia,2025-02-24 00:00:00,No
-Eliana Castell,nachobarcelo@yahoo.com,+34 977 848 606,Endodoncia,2025-03-19 00:00:00,Sí
-Quique Alcázar-Baeza,augusto15@yahoo.com,+34718 019 178,Blanqueamiento,2025-05-27 00:00:00,Sí
-Germán Montoya Anguita,aniestevez@gmail.com,+34 734 813 594,Evaluación general,2025-07-31 00:00:00,Sí
-Ale Gonzalo Alegre,juan-franciscoarjona@gmail.com,+34964 926 451,Limpieza dental,2025-07-23 00:00:00,No
-Melania Lledó Nuñez,alvaro50@andres-ferrandiz.com,+34727 433 308,Ortodoncia,2025-07-03 00:00:00,Sí
-Alma Lorenzo Ayllón,rebollomaria-jesus@rovira.es,+34828 445 503,Implantes,2025-06-27 00:00:00,No
-Pacífica Chamorro-Almagro,susanavargas@comas.com,+34803 45 67 19,Ortodoncia,2025-05-06 00:00:00,Sí
-Juan Pablo Botella Cervantes,baromanu@agudo.es,+34626205469,Ortodoncia,2025-03-14 00:00:00,No
-Diego Jordán-Oliva,arsenio06@ferrando.es,+34743 352 736,Ortodoncia,2025-05-03 00:00:00,No
-Vidal Seve Guardia Oller,lidia86@yahoo.com,+34 666 32 85 02,Blanqueamiento,2025-03-10 00:00:00,Sí
-Cornelio de Adán,domingodaniela@tamarit.com,+34 629211738,Ortodoncia,2025-07-08 00:00:00,No
-Valeria Posada Sales,ciriacosanchez@yahoo.com,+34 615 922 609,Evaluación general,2025-02-23 00:00:00,Sí
-Baltasar Oliver Baquero,ramirocasanovas@bernad-agullo.com,+34 627 13 48 78,Ortodoncia,2025-07-21 00:00:00,No
-Ámbar Martin Jerez,asdrubal07@yahoo.com,+34828 519 469,Limpieza dental,2025-05-17 00:00:00,No
-Etelvina Mur Somoza,moisesmurcia@martin.es,+34661371858,Blanqueamiento,2025-02-12 00:00:00,No
-Úrsula Domingo-Carreras,pchacon@gmail.com,+34749 505 980,Ortodoncia,2025-07-06 00:00:00,No
-Vidal Montenegro Aguirre,charo14@alba-boix.com,+34 706901293,Ortodoncia,2025-07-18 00:00:00,Sí
-Nacio Bárcena Salazar,julianmauricio@calzada.com,+34 732 28 01 21,Limpieza dental,2025-06-29 00:00:00,No
-Marcia Velasco Naranjo,qaleman@marin.net,+34 744690071,Endodoncia,2025-02-22 00:00:00,No
-Hilda Anguita,melaniaariza@hotmail.com,+34744 12 12 21,Limpieza dental,2025-03-28 00:00:00,No
-Fulgencio de Artigas,banosdiego@rozas-pedraza.es,+34 724 377 418,Evaluación general,2025-07-19 00:00:00,Sí
-Ildefonso Cruz Amor Uribe,fabraariel@hotmail.com,+34 707 84 12 33,Blanqueamiento,2025-07-30 00:00:00,Sí
-Armando Nicodemo Ibarra Artigas,wortuno@mas.es,+34720 379 577,Evaluación general,2025-06-04 00:00:00,Sí
-Crescencia Dafne Mercader Pujadas,ascension95@toro.com,+34701 55 44 34,Implantes,2025-05-07 00:00:00,No
-Lisandro del Anguita,barrioschelo@yahoo.com,+34723687927,Ortodoncia,2025-05-05 00:00:00,No
-Cándido Barragán Almazán,prudenciaaguado@ballester-riba.net,+34710 570 299,Limpieza dental,2025-04-10 00:00:00,No
-Odalis Guardia Velasco,silvio66@gmail.com,+34 986 97 84 57,Blanqueamiento,2025-07-24 00:00:00,Sí
-Emiliano Carballo Larrea,andresomar@giralt.net,+34713632704,Limpieza dental,2025-06-04 00:00:00,No
-Dalila Miranda Bustos,yanezisabel@ocana-llado.net,+34 730 47 26 34,Evaluación general,2025-02-17 00:00:00,Sí
-Xiomara Remedios Enríquez Morán,amayajodar@gmail.com,+34746495614,Implantes,2025-04-02 00:00:00,No
-Juan Luis Carbó Valero,margaritaoller@parra.com,+34747 911 211,Endodoncia,2025-03-29 00:00:00,Sí
-Leonel Eleuterio Alonso Pons,pviana@gmail.com,+34869 633 086,Blanqueamiento,2025-03-01 00:00:00,No
-Constanza Esparza Donaire,yalonso@gmail.com,+34651 696 467,Evaluación general,2025-02-06 00:00:00,No
-Martín Andrés Gargallo,tamara47@gmail.com,+34 829827554,Ortodoncia,2025-07-17 00:00:00,No
-Eutimio Perea-Lasa,shervia@barbera.es,+34 749792525,Implantes,2025-06-13 00:00:00,Sí
-Victoriano de Mateos,modestaroyo@hotmail.com,+34 733 416 068,Endodoncia,2025-04-23 00:00:00,Sí
-Francisca Posada,elosada@gmail.com,+34 958 204 682,Endodoncia,2025-07-05 00:00:00,Sí
-Ibán Carrera Pardo,josuearellano@mascaro-ruiz.es,+34 729 17 77 76,Limpieza dental,2025-04-04 00:00:00,Sí
-Nilda Uría Pla,eligiaanton@yahoo.com,+34714351157,Implantes,2025-07-15 00:00:00,Sí
-Purificación Nuria Moraleda Serna,joveteresita@gmail.com,+34726 59 19 42,Evaluación general,2025-05-08 00:00:00,Sí
-Florencia Herminia Lluch Aguado,ugarteemigdio@gutierrez-nunez.com,+34869 911 238,Limpieza dental,2025-05-24 00:00:00,No
-Calixta Millán Cabello,qsebastian@lluch.es,+34 711 126 264,Evaluación general,2025-07-21 00:00:00,Sí
-Albano Miranda Lorenzo,colomcarolina@hotmail.com,+34811 64 43 79,Ortodoncia,2025-03-17 00:00:00,No
-Albano Mendez Caro,chamorromirta@sarabia.com,+34 708993351,Ortodoncia,2025-07-07 00:00:00,Sí
-Andrés Arévalo Pagès,llopisamparo@egea.com,+34 728 662 801,Implantes,2025-03-01 00:00:00,No
-Carmelita Larrea Botella,bilbaoruth@polo.com,+34740220185,Ortodoncia,2025-03-22 00:00:00,Sí
-Teodosio Abellán-Donoso,aurrutia@pardo.net,+34722423175,Evaluación general,2025-05-09 00:00:00,Sí
-Cintia de Tapia,sanmartinnico@coll.com,+34715489851,Limpieza dental,2025-05-10 00:00:00,No
-Hilda Solsona Blázquez,osvaldorosales@gmail.com,+34 838 692 957,Evaluación general,2025-07-14 00:00:00,No
-Andrés Felipe del Durán,batllejorge@hotmail.com,+34 745895294,Implantes,2025-05-07 00:00:00,No
-Cruz Roldan Diaz,mohamedcarpio@gmail.com,+34730 160 440,Evaluación general,2025-03-29 00:00:00,No
-Carlito Juan Hernández,josuemadrid@echeverria-carranza.net,+34 732 46 11 36,Evaluación general,2025-07-09 00:00:00,Sí
-Zacarías Carballo Posada,sandovalfrancisco-javier@hotmail.com,+34705 59 78 27,Implantes,2025-02-25 00:00:00,No
-Bernardo del Rosselló,feliciano31@yahoo.com,+34608686602,Evaluación general,2025-06-17 00:00:00,No
-Elba Villalba-Vega,igargallo@pera.com,+34738 82 31 85,Implantes,2025-03-28 00:00:00,No
-Héctor Crespi Iglesias,verduhector@yahoo.com,+34 675 17 99 15,Limpieza dental,2025-07-27 00:00:00,No
-Jose Manuel Malo Castro,samperedelmiro@barrios-feliu.es,+34 725 33 46 87,Evaluación general,2025-05-10 00:00:00,Sí
-Lucía Ferrán Cid,gracielasevilla@hotmail.com,+34 898 384 566,Endodoncia,2025-03-06 00:00:00,No
-Nereida Perelló Delgado,amilcarverdejo@yahoo.com,+34 717 435 241,Limpieza dental,2025-04-24 00:00:00,No
-Fanny Cases-Tovar,jose92@hotmail.com,+34 847 490 396,Blanqueamiento,2025-04-18 00:00:00,Sí
-Cristian Elorza Andrade,adoraluis@gmail.com,+34 693 99 70 19,Limpieza dental,2025-03-15 00:00:00,No
-Rogelio Camps Moraleda,gilbertocarrera@fernandez-gallo.es,+34705 861 596,Blanqueamiento,2025-03-29 00:00:00,No
-Ezequiel del Serra,diegofelipe@hotmail.com,+34935737581,Evaluación general,2025-07-17 00:00:00,Sí
-Dulce Canales Rey,omonreal@bastida.com,+34732 382 867,Ortodoncia,2025-06-23 00:00:00,Sí
-Eusebia de Izaguirre,leonardoprieto@urrutia.es,+34729418384,Limpieza dental,2025-02-15 00:00:00,No
-Curro Verdú Valenciano,amormorell@mariscal-delgado.es,+34649828098,Endodoncia,2025-03-30 00:00:00,Sí
-Emigdio de Mora,juliecaro@sosa.com,+34717 37 66 65,Endodoncia,2025-06-30 00:00:00,No
-Belen Pino Iglesias,vivesesperanza@miranda.net,+34691 305 306,Limpieza dental,2025-06-06 00:00:00,No
-Feliciano Mate Valenciano,bartolomeamador@pedro.com,+34829477736,Ortodoncia,2025-02-16 00:00:00,No
-Heraclio Bou Calderon,pablobeltran@sosa.com,+34821 608 780,Ortodoncia,2025-02-03 00:00:00,No
-Graciana Alfonso Losa,clemente35@gabaldon.com,+34 742 85 02 65,Blanqueamiento,2025-05-09 00:00:00,Sí
-José María Rocha-Llamas,garayismael@catala-beltran.es,+34 739309550,Limpieza dental,2025-01-31 00:00:00,Sí
-Dimas Moraleda Donoso,dmendizabal@yahoo.com,+34733 57 98 56,Blanqueamiento,2025-07-23 00:00:00,No
-Ámbar Espada Portero,egeaanna@tormo-llamas.es,+34 962244817,Limpieza dental,2025-05-09 00:00:00,No
-Lucho José Mari Tena Trillo,sbeltran@gmail.com,+34850674084,Ortodoncia,2025-03-09 00:00:00,Sí
-Alberto Sainz-Pintor,pazosfaustino@yahoo.com,+34 810 498 516,Blanqueamiento,2025-05-21 00:00:00,No
-Cesar Puerta Castilla,blazquezcayetano@grande.es,+34 716 582 444,Evaluación general,2025-07-28 00:00:00,Sí
-América Oliver,casandrasolano@yahoo.com,+34 746 662 501,Endodoncia,2025-07-18 00:00:00,Sí
-Hugo Ferrán-Escrivá,daniel85@yahoo.com,+34710 05 63 10,Endodoncia,2025-02-09 00:00:00,No
-Bárbara Díaz Escrivá,jsanz@arribas-blazquez.com,+34657 771 613,Limpieza dental,2025-03-18 00:00:00,No
-Raúl Tamayo Riera,bcriado@badia.net,+34 630 125 297,Implantes,2025-07-21 00:00:00,Sí
-Hugo de Alemán,hernandezaranzazu@sanchez-castillo.com,+34 800 684 976,Endodoncia,2025-04-11 00:00:00,No
-Paola Falcó Carpio,merinojose-carlos@gmail.com,+34 720 818 480,Endodoncia,2025-03-15 00:00:00,No
-Jafet Laguna González,cayetanobernat@gmail.com,+34 717842143,Ortodoncia,2025-04-14 00:00:00,No
-Ciriaco Leal-Montoya,hilda23@villanueva.com,+34732 96 99 89,Endodoncia,2025-04-16 00:00:00,Sí
-Jose Antonio Esparza Cabello,benigna25@alvaro.com,+34662263726,Evaluación general,2025-05-03 00:00:00,No
-Marcela Pedro Arnal,cristobalvizcaino@gmail.com,+34 803087392,Endodoncia,2025-04-09 00:00:00,Sí
-Maxi Noelia Gámez Hierro,ucuervo@bolanos-carmona.com,+34749916529,Endodoncia,2025-04-30 00:00:00,Sí
-Valero Pérez-Aparicio,iglesiairene@sevillano-pinilla.net,+34 719 483 954,Endodoncia,2025-05-30 00:00:00,No
-Amancio Coronado Almagro,visitacionduenas@gmail.com,+34691 610 169,Limpieza dental,2025-06-05 00:00:00,No
-Samu Vélez-Costa,lvalverde@calzada-arino.es,+34744 57 79 09,Implantes,2025-05-29 00:00:00,Sí
-Marita Escalona,lalo55@carranza.com,+34 988 739 696,Limpieza dental,2025-01-31 00:00:00,No
-Nicodemo Rosales-Miró,inmaculada34@puig-moll.com,+34 630 24 58 47,Implantes,2025-05-04 00:00:00,Sí
-Josué Bosch Palomar,munizmirta@moraleda.es,+34 746 568 614,Limpieza dental,2025-07-03 00:00:00,No
-Victoriano Seguí Aller,dramirez@gmail.com,+34733 94 69 06,Blanqueamiento,2025-02-11 00:00:00,Sí
-Fulgencio Borja Guillén Jara,ferrandezalbert@serrano.es,+34731 99 79 61,Ortodoncia,2025-04-08 00:00:00,Sí
-Joaquín Barberá-Barros,ciriacocasares@hotmail.com,+34 741672133,Blanqueamiento,2025-03-18 00:00:00,No
-Paulino Mariano Dueñas Garzón,teobaldolosa@tamayo.com,+34 740 974 090,Implantes,2025-02-26 00:00:00,Sí
-Marisa Blasco Dávila,teresita92@gmail.com,+34733934330,Blanqueamiento,2025-06-04 00:00:00,Sí
-Odalis Ferrán Benavides,leonamoros@galvan-feliu.com,+34 720 23 16 20,Endodoncia,2025-02-22 00:00:00,No
-Jacinto Mariño Torrecilla,ncortes@gmail.com,+34 600820603,Endodoncia,2025-06-02 00:00:00,Sí
-Constanza Blanca Díaz,cpatino@ramos-cuervo.es,+34 734 163 898,Ortodoncia,2025-07-09 00:00:00,No
-Candelaria Cloe Guerra Giralt,roxanadominguez@yahoo.com,+34 714 00 27 71,Implantes,2025-04-07 00:00:00,No
-Jose Francisco Zabaleta Mateu,sebastiancolomer@hotmail.com,+34 741 197 531,Ortodoncia,2025-03-30 00:00:00,Sí
-Graciana Camino Herrera,lauraalegria@cortes.es,+34700 144 574,Implantes,2025-02-21 00:00:00,Sí
-María Buendía,nachopinto@peiro.es,+34 717 41 67 45,Implantes,2025-05-22 00:00:00,No
-Isaac Ledesma-Robles,josue89@yahoo.com,+34717 56 73 05,Limpieza dental,2025-02-06 00:00:00,Sí
-Nilda Castellanos Rius,martin62@hotmail.com,+34867205022,Implantes,2025-02-03 00:00:00,No
-Verónica Consuela Vazquez Larrañaga,villajulieta@morcillo.com,+34 636594843,Endodoncia,2025-05-18 00:00:00,Sí
-Casandra Lluch Bastida,patricia60@gmail.com,+34 739 45 22 40,Endodoncia,2025-07-15 00:00:00,No
-Filomena Rius Coronado,jtorrens@ribera-berrocal.org,+34743 90 53 03,Evaluación general,2025-06-13 00:00:00,Sí
-Melisa Agustina Conesa Baquero,sernasaturnino@yahoo.com,+34 749423245,Ortodoncia,2025-02-10 00:00:00,Sí
-Pía Alcolea Linares,canovassoledad@hotmail.com,+34 705 59 04 61,Endodoncia,2025-02-08 00:00:00,Sí
-Cosme Rubén Marti Abad,maximilianofranco@hotmail.com,+34 712 30 56 87,Ortodoncia,2025-05-08 00:00:00,No
-Pilar Blanes Durán,constanzagilabert@tomas-sebastian.es,+34739 80 95 70,Implantes,2025-06-19 00:00:00,Sí
-Francisco Javier Nogueira-Porcel,zcervantes@mancebo.es,+34678643303,Limpieza dental,2025-02-16 00:00:00,No
-Roberto Escolano,arnaiztristan@madrigal.es,+34 710897732,Limpieza dental,2025-06-18 00:00:00,No
-Nereida Roldan España,salesesmeralda@pinto.com,+34729 286 244,Implantes,2025-03-06 00:00:00,Sí
-María Del Carmen del Arnal,amandomolins@hotmail.com,+34709 242 584,Implantes,2025-03-31 00:00:00,Sí
-Leire del Villaverde,paulavillaverde@garay.com,+34 992682631,Endodoncia,2025-04-30 00:00:00,No
-Luís de Carrillo,haroalbina@yahoo.com,+34966642615,Implantes,2025-04-25 00:00:00,No
-Evaristo Manuel Izquierdo,emelinapenalver@gmail.com,+34 941 436 348,Limpieza dental,2025-07-30 00:00:00,No
-Concha Español Nuñez,jribera@quintanilla.es,+34 650870398,Implantes,2025-03-07 00:00:00,Sí
-Tito Macario Revilla Bru,paulino08@olivera.com,+34 960449091,Evaluación general,2025-07-06 00:00:00,Sí
-Pili Garrido-Carlos,hermenegildoaznar@cabello.es,+34 927001101,Blanqueamiento,2025-05-12 00:00:00,No
-Aitor Caro-Gallo,edmundo19@marco.es,+34 727 67 51 30,Ortodoncia,2025-03-12 00:00:00,Sí
-Cristina Escolano Antón,tristancampillo@gmail.com,+34 737 893 028,Evaluación general,2025-05-18 00:00:00,Sí
-Hernando Mendizábal Sabater,emugica@yahoo.com,+34 827 33 83 57,Evaluación general,2025-04-12 00:00:00,No
-Vasco Boada-Hernando,maxima33@aroca.net,+34732234068,Blanqueamiento,2025-02-27 00:00:00,No
-José Roca Vázquez,brigidaalvarez@gmail.com,+34744 90 27 35,Evaluación general,2025-03-21 00:00:00,Sí
-Blas del Sales,pabloolmo@alba-aguirre.org,+34723 288 712,Endodoncia,2025-05-03 00:00:00,Sí
-Isidoro Fuster Guerra,planasprudencia@cozar.com,+34 954 041 518,Evaluación general,2025-03-02 00:00:00,Sí
-Pablo Fermín Roda Juliá,vicenta30@hotmail.com,+34739 117 648,Limpieza dental,2025-03-29 00:00:00,No
-Sandra Vizcaíno,carmela68@hotmail.com,+34712 35 10 04,Endodoncia,2025-03-17 00:00:00,No
-Nando Cabo Jaume,olivacecilia@yahoo.com,+34 743 994 789,Endodoncia,2025-03-06 00:00:00,No
-Purificación Acero Jerez,belen93@yahoo.com,+34 674637019,Endodoncia,2025-05-06 00:00:00,No
-Haroldo Juliá Vazquez,wvillalonga@lara-ricart.es,+34 633 359 344,Blanqueamiento,2025-07-31 00:00:00,Sí
-Ambrosio Rocha-Batalla,omaestre@cervantes.es,+34 705 30 13 09,Evaluación general,2025-04-20 00:00:00,No
-Xiomara Cáceres Valera,serranonelida@gmail.com,+34 746381103,Implantes,2025-02-20 00:00:00,Sí
-Mirta Adoración Hurtado Barral,vallejoflorinda@gmail.com,+34 736 730 097,Implantes,2025-03-13 00:00:00,No
-Ileana Garrido Rebollo,marcgamez@torrent-mendoza.org,+34 648468067,Ortodoncia,2025-06-27 00:00:00,Sí
-Darío Tenorio Ávila,tejedorsilvio@hotmail.com,+34 968 904 469,Ortodoncia,2025-07-21 00:00:00,Sí
-Ciríaco Español Vargas,uesparza@lobato.es,+34994 368 009,Evaluación general,2025-03-20 00:00:00,Sí
-Manuelita Paniagua Gargallo,romanmarcos@yahoo.com,+34 703 40 75 11,Evaluación general,2025-03-30 00:00:00,Sí
-Alicia Guzmán,pastorabuendia@yahoo.com,+34724598677,Endodoncia,2025-02-19 00:00:00,No
-Marisela Gomila Bilbao,fernandezmartin@robledo.es,+34 716 910 029,Implantes,2025-07-31 00:00:00,Sí
-Elisa Castilla,victoriabauza@amores-belmonte.com,+34712 255 826,Ortodoncia,2025-05-04 00:00:00,No
-Sabas Alberto Boix,fausto11@yahoo.com,+34708050722,Blanqueamiento,2025-04-20 00:00:00,No
-Paloma Gual Villena,omarojeda@montana-torres.com,+34619 554 282,Evaluación general,2025-05-18 00:00:00,Sí
-Obdulia Gutiérrez Oliva,heribertoalemany@milla.es,+34 748 09 90 65,Endodoncia,2025-06-11 00:00:00,No
-María Estevez Peñas,villaloboscatalina@jurado.es,+34744 89 04 55,Endodoncia,2025-05-12 00:00:00,Sí
-Feliciana Ropero Llamas,dortiz@yahoo.com,+34 702 750 320,Blanqueamiento,2025-06-05 00:00:00,No
-Leopoldo Vallejo Izaguirre,bnicolas@marmol-campoy.com,+34 717 12 28 57,Evaluación general,2025-02-14 00:00:00,No
-Maricela Briones Macías,riusrenata@urrutia.com,+34708 503 533,Ortodoncia,2025-03-25 00:00:00,No
-Sonia Acevedo Cañellas,adrianlaguna@rios.es,+34 726422406,Limpieza dental,2025-04-17 00:00:00,No
-Mauricio Rey Coello,fbenavente@peinado-garmendia.es,+34746196570,Evaluación general,2025-04-02 00:00:00,Sí
-Francisco Jose Roldán Mate,godoydaniela@olmedo.com,+34 689847949,Limpieza dental,2025-06-14 00:00:00,Sí
-Fabiola del Alarcón,geraldosantiago@diez-giralt.es,+34 722 10 67 05,Ortodoncia,2025-07-23 00:00:00,Sí
-Isaías Múgica-Peral,sofiabayo@gmail.com,+34 742 55 73 23,Evaluación general,2025-07-30 00:00:00,Sí
-Amador Solé Alba,gomezmarianela@hotmail.com,+34 701 262 515,Evaluación general,2025-05-11 00:00:00,No
-Elpidio de Sanchez,olmedolaura@hotmail.com,+34 694465333,Implantes,2025-03-22 00:00:00,No
-Patricio Rueda Fabregat,falcoflorencia@gmail.com,+34723 18 75 46,Evaluación general,2025-03-19 00:00:00,Sí
-Teodosio Guzmán Atienza,vsarabia@hotmail.com,+34 730821173,Implantes,2025-05-23 00:00:00,Sí
-Gervasio Revilla Boix,nico67@nogues.com,+34704 405 638,Implantes,2025-07-26 00:00:00,No
-Alicia Sarmiento Orozco,ajove@gmail.com,+34 726 08 78 36,Ortodoncia,2025-07-09 00:00:00,No
-Heliodoro Azorin Bustamante,jacinta90@yahoo.com,+34729409895,Limpieza dental,2025-07-17 00:00:00,No
-Jonatan del Izaguirre,maximinoespejo@yahoo.com,+34741951100,Implantes,2025-03-05 00:00:00,Sí
-Cecilio Luís Godoy Agustí,juliana38@hotmail.com,+34 610 787 598,Blanqueamiento,2025-06-02 00:00:00,No
-Ricarda Carreras Noguera,vsalgado@vilar.es,+34 623 339 543,Endodoncia,2025-03-12 00:00:00,Sí
-Osvaldo Pera Cañas,msaura@calderon-barba.es,+34 711606709,Limpieza dental,2025-03-24 00:00:00,No
-Martin Cabañas-Peralta,beltranhector@tena-casanovas.com,+34 724 624 999,Evaluación general,2025-03-12 00:00:00,Sí
-Ofelia Arias Elías,brossello@arcos-cabanas.org,+34928 518 090,Ortodoncia,2025-04-04 00:00:00,No
-Vasco Gracia Armas,hipolito77@vina.net,+34 729711024,Limpieza dental,2025-07-23 00:00:00,Sí
-Eliseo Ripoll Folch,rodriguezfito@canellas-anguita.com,+34637 63 49 37,Ortodoncia,2025-06-12 00:00:00,Sí
-Dora del Cáceres,oaznar@gmail.com,+34 731108804,Evaluación general,2025-07-10 00:00:00,Sí
-Damián Lastra-Sanz,rosalva77@hotmail.com,+34705 466 402,Blanqueamiento,2025-05-27 00:00:00,No
-Bernardo Mendez Duque,rrodriguez@yahoo.com,+34727646127,Implantes,2025-04-24 00:00:00,No
-Felicia Mayo Tudela,cluque@morales.es,+34 735462265,Endodoncia,2025-02-02 00:00:00,Sí
-Amalia Mayol Vigil,plillo@yahoo.com,+34 654 019 155,Endodoncia,2025-06-04 00:00:00,No
-Dora Escamilla-Ojeda,onieto@torrens-lozano.es,+34636633547,Implantes,2025-07-09 00:00:00,No
-Adolfo Candelario Vargas Cañellas,alonsomaristela@ballesteros-arjona.com,+34719 463 958,Endodoncia,2025-05-06 00:00:00,Sí
-Ángeles Marisa Bilbao Acedo,suarezaraceli@yahoo.com,+34 652 549 808,Evaluación general,2025-06-20 00:00:00,Sí
-Marcelo Vila-Nebot,wsales@sans.com,+34 931 58 93 09,Evaluación general,2025-05-10 00:00:00,Sí
-Serafina Aramburu-Rozas,sanchoismael@gmail.com,+34 740 19 81 52,Blanqueamiento,2025-03-03 00:00:00,No
-Basilio Vizcaíno Manzano,clarisa84@yahoo.com,+34708483150,Evaluación general,2025-05-01 00:00:00,Sí
-Adolfo Agudo Alberto,qayala@hotmail.com,+34 746 67 80 73,Implantes,2025-03-07 00:00:00,No
-Florencio Reina Olmedo,ponciopinedo@ferreras.es,+34740 43 53 44,Endodoncia,2025-03-16 00:00:00,Sí
-Quique Benito,omarin@polo.net,+34 637 36 72 45,Implantes,2025-05-09 00:00:00,Sí
-Lara Azcona Sanchez,iniestaamancio@gmail.com,+34984013063,Evaluación general,2025-06-11 00:00:00,No
-Jordán Mur-Lobato,reyes87@carrillo.es,+34720258547,Evaluación general,2025-07-11 00:00:00,Sí
-Eusebia Checa Losa,grequena@cortes-conde.net,+34 741 245 961,Implantes,2025-05-11 00:00:00,No
-Imelda Bolaños Bartolomé,sandaliorios@gallego.es,+34 822 88 10 13,Ortodoncia,2025-04-29 00:00:00,No
-Alba Recio-Rozas,eva44@tenorio.com,+34 716 170 032,Limpieza dental,2025-03-12 00:00:00,Sí
-Guadalupe Inmaculada Roca Benítez,edelmiro18@guijarro.net,+34703 050 265,Implantes,2025-02-04 00:00:00,No
-Griselda Querol Acedo,alvaro42@valbuena.es,+34 663 262 307,Implantes,2025-04-10 00:00:00,No
-Dora Busquets Villa,xfont@hotmail.com,+34 833 544 602,Endodoncia,2025-04-02 00:00:00,No
-María José Castro,ignaciomontserrat@yahoo.com,+34702250226,Endodoncia,2025-05-07 00:00:00,No
-Gregorio Vargas Sáez,elorzafederico@segui.es,+34911 578 155,Implantes,2025-07-26 00:00:00,No
-Nicodemo Alonso Iniesta,ecarpio@gilabert.es,+34970 07 85 71,Endodoncia,2025-02-28 00:00:00,Sí
-Maricela Quirós-Navarrete,minguezencarnacion@romero-canete.net,+34 714 99 14 06,Evaluación general,2025-06-11 00:00:00,No
-Sebastian Juliá,penalverodalis@gmail.com,+34 703 69 93 16,Evaluación general,2025-04-24 00:00:00,Sí
-Rocío Casado Porta,lsantana@alvarez-nadal.es,+34748 42 64 23,Evaluación general,2025-02-17 00:00:00,No
-Fabricio Pozuelo Portillo,gallegomaria-jose@lastra.es,+34706177434,Blanqueamiento,2025-03-13 00:00:00,No
-Rosario Soler Duarte,piobarriga@arcos.com,+34 843246948,Evaluación general,2025-02-10 00:00:00,Sí
-Macaria Ortiz Cabrero,evangelinamarti@hotmail.com,+34 732 76 41 09,Blanqueamiento,2025-05-20 00:00:00,No
-Eustaquio Tomás-Díez,maximo86@armengol-balaguer.es,+34733 959 248,Blanqueamiento,2025-02-24 00:00:00,Sí
-Patricio Elorza Marín,segismundogomila@pino.com,+34 745207092,Limpieza dental,2025-06-29 00:00:00,No
-Valerio Gabaldón Valenciano,nietociriaco@yahoo.com,+34718 245 039,Endodoncia,2025-07-01 00:00:00,Sí
-Ruperto Casas-Lloret,ferrerbrigida@gmail.com,+34 745192160,Limpieza dental,2025-03-30 00:00:00,Sí
-María Heriberto Villar Bueno,ignaciocarro@yahoo.com,+34 743095104,Limpieza dental,2025-03-07 00:00:00,Sí
-Erasmo Peiró Solana,brosado@dominguez.com,+34 609 33 81 81,Endodoncia,2025-06-12 00:00:00,Sí
-Josefa Landa,knicolau@hotmail.com,+34718733593,Limpieza dental,2025-06-09 00:00:00,No
-Sosimo Sosa Duran,jodarvictor-manuel@gmail.com,+34 740 318 346,Blanqueamiento,2025-04-11 00:00:00,Sí
-Jafet Benavente Abad,doloresnevado@hotmail.com,+34 704 342 634,Blanqueamiento,2025-04-19 00:00:00,No
-Nacho Miró-Manuel,joancarreno@gmail.com,+34 736997361,Blanqueamiento,2025-04-20 00:00:00,Sí
-Eligio Natalio Antón Corominas,pallarescarlito@marquez.es,+34 647 563 241,Ortodoncia,2025-04-14 00:00:00,No
-Sonia del Peñalver,lastrahugo@blasco-quiroga.org,+34 725 318 327,Ortodoncia,2025-04-08 00:00:00,No
-Carolina Espada Benavides,ginerfilomena@hotmail.com,+34748803832,Limpieza dental,2025-03-30 00:00:00,No
-Gracia Muñoz Cortés,veronica39@yahoo.com,+34 624 48 11 32,Endodoncia,2025-06-21 00:00:00,Sí
-Amado Arellano Leiva,ofont@vinas-aroca.net,+34998 85 95 47,Limpieza dental,2025-03-05 00:00:00,No
-Bruno Bejarano Juan,ursulaarias@alfaro.org,+34915 39 18 04,Ortodoncia,2025-07-28 00:00:00,Sí
-Nazaret Angulo Guardia,beltranteodoro@gmail.com,+34 716 239 718,Blanqueamiento,2025-03-31 00:00:00,No
-Gerardo Bautista Mena,alfonsomarta@yahoo.com,+34 728 88 90 51,Limpieza dental,2025-07-21 00:00:00,No
-Asdrubal Castrillo Casanovas,carbonellgregorio@prats.net,+34727398793,Limpieza dental,2025-02-23 00:00:00,No
-Áurea Lobo Bellido,droman@velazquez-leon.es,+34 844 17 42 34,Ortodoncia,2025-03-23 00:00:00,Sí
-Pablo Tamarit-Ortuño,encarnacion55@cerro-nogues.org,+34713 99 71 23,Blanqueamiento,2025-01-31 00:00:00,Sí
-Wilfredo Cámara-Batlle,danilopozuelo@yahoo.com,+34687 883 902,Limpieza dental,2025-05-07 00:00:00,No
-Odalis Sancho Carretero,ninomargarita@gibert.org,+34 886374379,Ortodoncia,2025-06-09 00:00:00,Sí
-Micaela de Quintana,cribera@hotmail.com,+34 998 927 124,Limpieza dental,2025-02-04 00:00:00,No
-Fidel Jose Ramón Manuel Bermejo,wcasares@rosello.es,+34692348394,Limpieza dental,2025-02-08 00:00:00,No
-Hilda Valls Polo,bonifacio63@iglesia-pol.com,+34 681 25 49 14,Ortodoncia,2025-07-12 00:00:00,Sí
-Anabel Rius Escolano,tcozar@hotmail.com,+34 730089568,Endodoncia,2025-07-18 00:00:00,No
-María Ángeles Ayuso-Salinas,raquel06@yahoo.com,+34 823 170 973,Blanqueamiento,2025-06-29 00:00:00,Sí
-Ana Belén Cuadrado,valerio63@llabres.net,+34749 960 890,Evaluación general,2025-02-11 00:00:00,Sí
-Fabián Martí Benitez,lupepoza@navarro.com,+34975610292,Implantes,2025-06-22 00:00:00,No
-Fabián Alcides Carreño Castelló,muletjordan@quiros.org,+34 726479680,Implantes,2025-06-13 00:00:00,No
-Haydée Maestre Araujo,leyrequiros@hotmail.com,+34729 480 797,Endodoncia,2025-02-16 00:00:00,No
-Abilio Doménech Carpio,adonaire@hotmail.com,+34 660 91 19 44,Ortodoncia,2025-05-10 00:00:00,Sí
-Jennifer Cabezas Bonet,catalablanca@yahoo.com,+34 723 652 318,Endodoncia,2025-03-28 00:00:00,Sí
-Fortunato Codina Mata,juanitagomila@hotmail.com,+34 873 105 050,Endodoncia,2025-05-05 00:00:00,No
-Maxi Pepita Valenzuela Paz,pujadaslucas@yahoo.com,+34726 403 277,Evaluación general,2025-05-05 00:00:00,No
-Pío Echeverría,bernaldora@rueda.net,+34866 19 25 82,Blanqueamiento,2025-06-25 00:00:00,No
-Elpidio Ripoll Guillen,concha59@vigil.es,+34 747 832 669,Evaluación general,2025-03-17 00:00:00,Sí
-Godofredo Palacio Cardona,cabanillasnicolasa@hotmail.com,+34713 04 30 99,Ortodoncia,2025-04-23 00:00:00,Sí
-Emiliano Castro Blanca,jtaboada@gmail.com,+34991475213,Implantes,2025-05-29 00:00:00,No
-Domitila Estrada Pi,tvazquez@hotmail.com,+34705 39 65 45,Evaluación general,2025-03-24 00:00:00,Sí
-Estela de Grande,cebriansegui@jimenez.org,+34707596728,Endodoncia,2025-03-15 00:00:00,Sí
-Adela de Mena,leonardo00@cortes-rojas.net,+34739 80 36 61,Blanqueamiento,2025-05-19 00:00:00,No
-Fortunato Gallo Nogués,fabriciopino@verdu-domenech.com,+34 741 30 11 39,Ortodoncia,2025-07-07 00:00:00,Sí
-Felicia Vicens Calzada,matayolanda@gonzalez.es,+34 709 727 020,Endodoncia,2025-07-21 00:00:00,No
-Pepita Bartolomé Castells,kestevez@hotmail.com,+34 723 138 398,Limpieza dental,2025-03-28 00:00:00,No
-Ruperta Carina Juliá Santos,vsanjuan@menendez-robledo.org,+34 717 63 71 45,Limpieza dental,2025-06-18 00:00:00,No
-Duilio Pol-Posada,fernandacoloma@gmail.com,+34925 570 706,Evaluación general,2025-02-05 00:00:00,Sí
-Rico Llobet Mercader,adoracion09@gmail.com,+34 739 95 15 85,Limpieza dental,2025-03-19 00:00:00,Sí
-Melania Rivera-Vilanova,amaliasastre@gmail.com,+34 717 894 140,Implantes,2025-07-05 00:00:00,No
-Juan Bautista Ciro Cervera Alegre,bautistaalexandra@yahoo.com,+34738225637,Evaluación general,2025-06-11 00:00:00,Sí
-Isaías Corominas,camila09@fortuny.com,+34 738 50 80 13,Ortodoncia,2025-02-08 00:00:00,Sí
-Jordana Iriarte-Delgado,isabelaalcalde@verdu.es,+34700708031,Implantes,2025-06-16 00:00:00,Sí
-Bienvenida Rosales Morcillo,mmolins@exposito-romero.com,+34 687 98 39 00,Implantes,2025-03-17 00:00:00,No
-Gerardo Pulido Benavente,borrellolegario@calzada-gimenez.com,+34848752465,Implantes,2025-02-27 00:00:00,Sí
-Ovidio Peñalver,karamburu@gmail.com,+34612653757,Limpieza dental,2025-02-07 00:00:00,Sí
-Rebeca Águila-Riera,scatala@torres.net,+34706180885,Ortodoncia,2025-05-08 00:00:00,No
-Adora Aragón Casado,segoviadomingo@gmail.com,+34704 028 401,Blanqueamiento,2025-03-27 00:00:00,Sí
-Coral Portillo-Aguado,edu99@vila.com,+34 674887357,Limpieza dental,2025-06-07 00:00:00,Sí
-Asdrubal Cazorla-Raya,vianaciriaco@franch.org,+34 739 427 696,Endodoncia,2025-06-18 00:00:00,Sí
-Benjamín Peña Tomas,qbarbero@palma.es,+34707 297 056,Blanqueamiento,2025-04-09 00:00:00,No
-Efraín Molina Navarro,graciasalinas@hotmail.com,+34 737636294,Limpieza dental,2025-01-31 00:00:00,No
-María Jesús Corominas-Marti,gabinosolano@pozuelo.com,+34 725 667 304,Blanqueamiento,2025-04-18 00:00:00,No
-Filomena Pou Figueroa,xaznar@yahoo.com,+34943 60 06 52,Ortodoncia,2025-05-21 00:00:00,No
-Domitila Orozco Hurtado,luis-angel30@aragon-estrada.com,+34744 838 881,Endodoncia,2025-06-03 00:00:00,No
-Selena Baños Gibert,cmarques@guerra.com,+34730 371 754,Blanqueamiento,2025-04-21 00:00:00,No
-Juan Luis Francisco Gutierrez,magdalenacobos@yahoo.com,+34942 559 362,Blanqueamiento,2025-05-13 00:00:00,Sí
-Judith Cózar Prats,barberomilagros@guardia-roca.es,+34 727 983 108,Implantes,2025-06-22 00:00:00,Sí
-Virgilio Castañeda Bauzà,prudencia54@hotmail.com,+34 648534466,Blanqueamiento,2025-07-05 00:00:00,Sí
-Geraldo Andrade,anguitajulian@hotmail.com,+34 882851661,Blanqueamiento,2025-05-19 00:00:00,Sí
-Manolo Canales-Cifuentes,adan77@yahoo.com,+34666 993 732,Blanqueamiento,2025-05-25 00:00:00,No
-Vito de Rius,almudenaredondo@berenguer.com,+34 637258010,Implantes,2025-03-19 00:00:00,Sí
-Hipólito Espejo Sanabria,pialopez@yahoo.com,+34 982 28 94 14,Blanqueamiento,2025-03-03 00:00:00,No
-Maribel Peláez-Ibáñez,zrico@hotmail.com,+34909 43 22 92,Endodoncia,2025-02-16 00:00:00,No
-Goyo Farré Sevillano,doroteasegovia@yahoo.com,+34895 14 29 04,Evaluación general,2025-07-27 00:00:00,Sí
-Demetrio Pérez-Rozas,tprat@llorens.es,+34724 55 15 89,Endodoncia,2025-06-30 00:00:00,No
-Horacio del Ávila,terueleric@paredes.es,+34 945683112,Implantes,2025-07-15 00:00:00,Sí
-Herminia Rosado Pagès,leonel47@hotmail.com,+34 724 94 52 97,Blanqueamiento,2025-03-08 00:00:00,No
-Natanael Cervantes Barroso,nievespintor@gmail.com,+34729 840 214,Implantes,2025-02-23 00:00:00,No
-Asunción del Redondo,emilio95@gmail.com,+34848038284,Implantes,2025-02-08 00:00:00,No
-Luciano Rosell Hoz,gala06@hotmail.com,+34 929796708,Endodoncia,2025-07-17 00:00:00,No
-Fidela Cerdá Lozano,mateopaloma@aguila.com,+34 651151612,Endodoncia,2025-06-09 00:00:00,No
-León Mas-Quevedo,cruz93@gmail.com,+34 748 370 112,Ortodoncia,2025-04-21 00:00:00,Sí
-Florentino Arcos Estevez,francisco-javier00@yahoo.com,+34 707 171 562,Ortodoncia,2025-04-12 00:00:00,Sí
-Irene Rosales Alsina,lsanjuan@ropero.es,+34714 132 509,Evaluación general,2025-06-21 00:00:00,Sí
-Luna Montoya Lorenzo,qsomoza@gmail.com,+34 739 532 049,Ortodoncia,2025-04-19 00:00:00,No
-Patricia Viana-Palomares,eulaliamateo@gmail.com,+34739 948 743,Blanqueamiento,2025-02-12 00:00:00,Sí
-Teresita Almagro Canals,lilianajaen@lozano-gonzalez.es,+34715 520 990,Evaluación general,2025-06-06 00:00:00,Sí
-Caridad Vara-Vilanova,eugenia78@merino.net,+34 717073024,Ortodoncia,2025-06-09 00:00:00,Sí
-Elías Baeza,conrado46@carnero.net,+34 740 870 506,Implantes,2025-03-25 00:00:00,Sí
-Teresita Ricart Roca,qpacheco@yahoo.com,+34730379691,Implantes,2025-03-14 00:00:00,No
-Darío Barranco Villalonga,davidluna@villar-mendoza.es,+34 891 185 981,Evaluación general,2025-06-18 00:00:00,Sí
-Anabel Arribas Montaña,melania78@larranaga-coronado.com,+34736 316 909,Evaluación general,2025-05-03 00:00:00,No
-Antonia Zabaleta Almeida,begona82@gmail.com,+34724 826 368,Endodoncia,2025-05-19 00:00:00,No
-Irene Ribas Pedro,eli19@prada.net,+34736 330 463,Limpieza dental,2025-04-19 00:00:00,No
-Eligio Gomila Cabo,campsrosario@carvajal.com,+34 746 80 92 19,Limpieza dental,2025-05-11 00:00:00,Sí
-Ramona Otilia Benítez Fiol,rene44@anaya.org,+34748654966,Evaluación general,2025-06-17 00:00:00,No
-Gonzalo Castells,xcatala@hotmail.com,+34 741005301,Endodoncia,2025-06-30 00:00:00,No
-Marcial Adán Jaén,pepecamacho@aragon.com,+34740901854,Blanqueamiento,2025-02-26 00:00:00,Sí
-Mohamed Feliu Fernández,amormarcos@pareja-serna.es,+34 725474312,Implantes,2025-04-02 00:00:00,No
-Patricio Cantero Hurtado,juliadesiderio@garcia-mate.net,+34 705 197 636,Implantes,2025-05-29 00:00:00,Sí
-Eduardo Pintor-Mendizábal,placidoasensio@gmail.com,+34915 218 554,Endodoncia,2025-07-28 00:00:00,No
-Albert Porras Carlos,fabiola75@yahoo.com,+34 734865230,Implantes,2025-02-01 00:00:00,Sí
-Edelmira Viñas-Palomar,barragansol@cuenca-sanmiguel.net,+34917 569 588,Implantes,2025-04-25 00:00:00,Sí
-Diana Coello Piñol,pia62@gmail.com,+34738722131,Evaluación general,2025-05-15 00:00:00,Sí
-Jose Ramón del Cabeza,ainoavilar@izquierdo.net,+34716287436,Limpieza dental,2025-07-09 00:00:00,No
-Fausto del Mir,bruno23@yahoo.com,+34 739 87 75 45,Limpieza dental,2025-06-19 00:00:00,No
-Alfonso de Arias,feliciana57@calvet.net,+34 678516611,Limpieza dental,2025-02-26 00:00:00,No
-David Alemany Carbó,jose-miguelpinol@yahoo.com,+34989298964,Limpieza dental,2025-07-10 00:00:00,No
-Hermenegildo Roldán Carrasco,ydaza@jara-navarro.com,+34 913246138,Limpieza dental,2025-07-05 00:00:00,No
-Joaquina Varela Redondo,martin83@gonzalez.net,+34 744 015 022,Limpieza dental,2025-03-12 00:00:00,Sí
-Bernardino Viana Duran,bautistamorante@rebollo-valle.com,+34866 54 88 02,Limpieza dental,2025-06-08 00:00:00,Sí
-Venceslás Pedraza Múñiz,calcaraz@conde-iriarte.es,+34 717 42 44 47,Evaluación general,2025-05-30 00:00:00,Sí
-Ainara Ochoa Moll,jose-miguel57@hotmail.com,+34 825434899,Endodoncia,2025-07-19 00:00:00,No
-Moisés Andrade Rius,alfarocesar@hotmail.com,+34617351502,Limpieza dental,2025-04-25 00:00:00,No
-Carmelita Querol-Carballo,qmarquez@boada.es,+34741 12 40 57,Limpieza dental,2025-06-04 00:00:00,No
-Bautista Yuste Cortes,lvallejo@burgos.org,+34734840447,Ortodoncia,2025-05-26 00:00:00,No
-Baldomero Leon Mendez,leandralucas@yahoo.com,+34709 53 71 23,Blanqueamiento,2025-05-04 00:00:00,No
-Armida Anguita Abril,miguelignacia@yahoo.com,+34717 903 606,Evaluación general,2025-04-18 00:00:00,Sí
-Samanta Romeu Ángel,cruz52@gmail.com,+34 727 479 049,Implantes,2025-05-25 00:00:00,Sí
-Hortensia Arteaga Rius,quirinosanmiguel@pomares.es,+34 718 02 21 03,Evaluación general,2025-06-29 00:00:00,Sí
-Albano Valcárcel-Melero,regina64@yahoo.com,+34832884267,Blanqueamiento,2025-05-31 00:00:00,No
-Anselmo Sotelo Escudero,xpeinado@jordan.es,+34 844 193 163,Endodoncia,2025-05-11 00:00:00,No
-Haroldo de Real,franciscogaray@gmail.com,+34 742402892,Blanqueamiento,2025-05-09 00:00:00,No
-Isa Tamarit Llabrés,cjimenez@peinado-vara.net,+34 995704489,Implantes,2025-04-10 00:00:00,No
-Lope Torralba Marti,ayusoagata@gmail.com,+34990 431 755,Implantes,2025-04-02 00:00:00,Sí
-Beatriz Soler Durán,adrian26@gascon.com,+34 742 65 31 54,Blanqueamiento,2025-06-30 00:00:00,Sí
-Nazaret Urrutia-Rosa,jennifermarti@guillen.es,+34 721174103,Blanqueamiento,2025-07-15 00:00:00,No
-Vicente Rozas Nebot,roberto36@gmail.com,+34721 18 43 01,Implantes,2025-02-06 00:00:00,No
-Bruno Burgos Nevado,baenafrancisco-javier@taboada.es,+34705 27 62 66,Blanqueamiento,2025-05-02 00:00:00,No
-Claudio del Ariño,zamoranelida@vives.es,+34729568669,Ortodoncia,2025-02-15 00:00:00,No
-Silvestre Orozco Cámara,wespana@bou.com,+34917 429 152,Blanqueamiento,2025-06-05 00:00:00,No
-Amador del Cadenas,heliodoro61@yahoo.com,+34 731 82 32 78,Limpieza dental,2025-07-04 00:00:00,No
-Leire Baena Dalmau,dmontalban@gmail.com,+34722077972,Blanqueamiento,2025-04-24 00:00:00,Sí
-Esmeralda Porras Andrade,vilaalex@nieto.com,+34874279103,Implantes,2025-07-30 00:00:00,Sí
-Leandra Uribe Lucas,escalonaadalberto@martinez.com,+34 631113708,Blanqueamiento,2025-03-07 00:00:00,No
-Matilde del Villa,kzabaleta@bayon.net,+34732157189,Ortodoncia,2025-05-28 00:00:00,Sí
-María Pastora Luque Estévez,fbusquets@casado-roca.com,+34738091329,Implantes,2025-02-08 00:00:00,Sí
-Ambrosio del Garmendia,dlasa@gmail.com,+34 882 521 032,Blanqueamiento,2025-02-07 00:00:00,Sí
-Dalila Pinilla Pera,eduardo73@gmail.com,+34 735 03 06 83,Limpieza dental,2025-04-14 00:00:00,Sí
-Carmela del Pedrero,jsilva@gmail.com,+34925516315,Limpieza dental,2025-06-08 00:00:00,Sí
-Alfredo Planas Portero,reinaesteban@hotmail.com,+34652 28 46 56,Evaluación general,2025-04-03 00:00:00,Sí
-Salvador Jiménez Duque,emigdioanaya@gmail.com,+34876 903 148,Evaluación general,2025-05-01 00:00:00,Sí
-Pascuala Sanmiguel Aguilar,pacificablanca@juarez-gutierrez.com,+34839457818,Limpieza dental,2025-04-15 00:00:00,Sí
-Juan Luis Alejo Baena Marti,anibalginer@hotmail.com,+34844 40 35 36,Blanqueamiento,2025-04-19 00:00:00,Sí
-Pastora Marita Borrás Bauzà,sagudo@campillo-bonet.es,+34935526797,Endodoncia,2025-05-30 00:00:00,Sí
-Francisco Salgado Sanjuan,maura18@yahoo.com,+34 696 28 41 77,Limpieza dental,2025-04-16 00:00:00,No
-Emelina España-Vélez,paolabayo@bustamante.es,+34747731091,Limpieza dental,2025-02-23 00:00:00,No
-Aristides Arnaiz-Romeu,luisina31@lago.es,+34 718 46 05 90,Limpieza dental,2025-07-22 00:00:00,Sí
-Atilio Donaire,puigeric@gmail.com,+34 731 42 33 21,Blanqueamiento,2025-06-30 00:00:00,No
-Encarna Manrique Bautista,ildefonso68@hotmail.com,+34 729105911,Ortodoncia,2025-06-20 00:00:00,No
-Teresa Tena Sanchez,vidal41@nicolas.es,+34802730344,Blanqueamiento,2025-03-22 00:00:00,Sí
-Carla Gutiérrez Múgica,oquintero@hotmail.com,+34989 941 765,Evaluación general,2025-03-19 00:00:00,No
-Isidora Barrio,ribasgonzalo@yahoo.com,+34 643405145,Blanqueamiento,2025-04-10 00:00:00,Sí
-Sarita Suarez Nadal,teovillar@aroca-cordero.org,+34 935 30 13 13,Blanqueamiento,2025-07-14 00:00:00,Sí
-Abilio Jerez,mcisneros@gmail.com,+34 612 923 681,Implantes,2025-06-20 00:00:00,No
-Guillermo Castañeda Mayol,florencio36@hotmail.com,+34745 681 007,Limpieza dental,2025-07-12 00:00:00,No
+nombre,correo,telefono,servicio,canal,interes_activo
+Crescencia Barón Ariño,dionisiopi@yahoo.com,406940693,Ortodoncia,TikTok,1
+Evelia Odalys Tovar Llano,alfaroheriberto@urrutia-arenas.es,450849023,Endodoncia,Facebook,0
+Verónica Vaquero Calatayud,pastoraragones@hotmail.com,881434400,Blanqueamiento,Otro,0
+Fátima Pardo-Arjona,rufina99@bermejo.com,829206170,Evaluación general,Instagram,1
+Morena Gonzalo Maestre,tereblazquez@hotmail.com,728633513,Endodoncia,Facebook,0
+Cayetano Álvaro Valdés,ofabra@quintanilla.com,269232916,Implantes,Instagram,0
+Jose Luis Vilanova Morata,julierios@roman-higueras.net,762690863,Implantes,Otro,1
+Eufemia Villegas,matefelipe@ortega.com,263758180,Evaluación general,Facebook,1
+Dionisio Briones,rhervas@giron.com,335812118,Implantes,TikTok,1
+Gabriela Lastra-Amo,carneroaurelio@yahoo.com,389820856,Implantes,Facebook,0
+Ana Reina Ferrera,lastrafelicidad@gmail.com,091341239,Ortodoncia,Instagram,0
+Benita Ruano Soler,ovidio77@yahoo.com,536362979,Endodoncia,Instagram,1
+Duilio Salvador,noelia39@otero-mayo.com,727342747,Blanqueamiento,Otro,0
+Toni Amorós-Duran,selena88@hotmail.com,994576615,Ortodoncia,TikTok,1
+Gastón Lozano,hipolito44@posada-flor.com,357622778,Implantes,Otro,1
+Andrés Felipe Royo Sans,jbarragan@yahoo.com,349687503,Implantes,Instagram,1
+Wálter Rovira Girón,xguitart@fabregas.com,461471682,Ortodoncia,WhatsApp,1
+Paulino Arnal Figueras,palaciolazaro@gmail.com,654888017,Ortodoncia,Facebook,1
+Gastón Pelayo Egea,carlito17@melendez-mateos.es,527968453,Blanqueamiento,WhatsApp,0
+Julio César Suárez Cuesta,guardiolaflorentina@aviles.es,791232424,Ortodoncia,WhatsApp,0
+René Amorós Almazán,kblanes@ochoa-carbonell.com,750640710,Limpieza dental,WhatsApp,1
+Narciso Colom Villaverde,apolinar37@barroso-garate.com,366442993,Implantes,TikTok,0
+Severino Segovia Gutierrez,vbenet@zurita.es,483705464,Implantes,TikTok,0
+Nerea Balaguer Ballesteros,lmanuel@yahoo.com,239667405,Limpieza dental,Otro,1
+Rodrigo Catalá Pintor,campilloleocadia@gmail.com,135565035,Evaluación general,Instagram,1
+Asunción Vergara Capdevila,dansebastian@yahoo.com,804553347,Limpieza dental,WhatsApp,0
+Amarilis Agullo,benitorobles@ariza-saenz.es,146329230,Blanqueamiento,Instagram,1
+Lilia Falcó Orozco,iban37@gmail.com,169648510,Implantes,Otro,1
+Manolo Pinedo Toledo,pintorgriselda@colomer-catalan.org,950294966,Implantes,WhatsApp,0
+Juan Ferrándiz-Belda,juan-jose67@gmail.com,252023324,Implantes,Facebook,0
+Soraya Julia Bas Muñoz,jose-antoniovendrell@yahoo.com,887747054,Implantes,TikTok,0
+Rómulo Salas Jódar,barberopascual@segura.net,688400792,Ortodoncia,Otro,1
+Bernardino Pou Álvaro,agata49@gmail.com,146466023,Implantes,Facebook,1
+Anita Larrañaga Hervia,coral02@cervera-tenorio.net,512231543,Endodoncia,Facebook,0
+Leonardo del Hierro,vpascual@sarmiento-vargas.es,977867020,Ortodoncia,Otro,0
+Joaquín Portillo Cantero,sara72@hotmail.com,537064471,Evaluación general,Facebook,1
+Evelia Tejero-Calzada,cabellan@moles.com,829194224,Ortodoncia,WhatsApp,0
+Valerio Benitez Cobos,dionisiasantos@hotmail.com,207917395,Endodoncia,WhatsApp,0
+Martina Varela Alcalá,rolando66@yahoo.com,282288900,Ortodoncia,Otro,1
+Valentín Riera,alvaro09@ochoa.es,722816394,Ortodoncia,Instagram,1
+Pili Ródenas Cruz,priscila21@yahoo.com,847059147,Implantes,Otro,1
+Heliodoro Palmer Rosado,zcarbonell@torre.es,416562097,Endodoncia,TikTok,1
+Quique Plana,adora36@gaya.com,014378100,Limpieza dental,Facebook,0
+Wilfredo Bautista Ferrán,porcelrafa@rius.org,320930642,Ortodoncia,Otro,0
+Reinaldo Gutiérrez Barranco,esarmiento@torralba.com,983830453,Evaluación general,TikTok,0
+Abel Cantero Millán,josefaalcalde@gmail.com,777504115,Limpieza dental,WhatsApp,1
+Griselda de Madrigal,fperez@maldonado-pera.org,520072108,Ortodoncia,Facebook,1
+Gervasio Giralt Blázquez,pereramarino@gmail.com,321492326,Ortodoncia,WhatsApp,0
+Ana Bayón Vallés,spino@hotmail.com,424180242,Blanqueamiento,Facebook,1
+Calista de Iglesia,serafinapomares@hotmail.com,596176640,Ortodoncia,TikTok,1
+José Ángel Aller Carranza,tudelaanastasio@nicolas.org,326645990,Endodoncia,Instagram,0
+Félix del Alcántara,diglesias@yahoo.com,714741690,Ortodoncia,TikTok,0
+Gertrudis Andres,xcadenas@benitez-aramburu.es,673096098,Blanqueamiento,TikTok,1
+Miriam Tena-Pera,carmelosimo@hotmail.com,456262436,Blanqueamiento,TikTok,1
+Dominga Camacho,leandromorillo@yahoo.com,273550674,Evaluación general,TikTok,1
+Marcos Pujol-Galán,josefa07@amador.com,080714439,Endodoncia,Instagram,1
+Jorge Ródenas Blanes,pedreroomar@duran-coloma.com,981854327,Ortodoncia,TikTok,1
+Eduardo Almazán-Pascual,cleto74@hotmail.com,567747067,Evaluación general,TikTok,0
+Carlos Alcolea Escolano,placidoguerrero@yahoo.com,901261950,Endodoncia,Otro,1
+José Manzano-Cid,crespisabas@gmail.com,127812716,Ortodoncia,Otro,1
+Aureliano Jove-Carreras,tmontes@yahoo.com,803794290,Blanqueamiento,Otro,1
+Luis Miguel del Nogueira,octavio51@recio.com,011894689,Endodoncia,Facebook,0
+Águeda Lerma Pinto,ricocastillo@carrasco.es,352197687,Blanqueamiento,Otro,0
+Olegario Trinidad Escribano Barrios,velascoana-sofia@hotmail.com,024676298,Endodoncia,Otro,1
+Ainoa del Mateos,emelina58@rey.com,453854721,Limpieza dental,WhatsApp,0
+Elba Cobo Bayona,gperal@yahoo.com,983618724,Blanqueamiento,Instagram,1
+María Fernanda Ruiz Ramirez,hipolitogordillo@hotmail.com,922322743,Limpieza dental,Facebook,0
+José del Palma,arcoalejandra@gmail.com,006566008,Endodoncia,Otro,0
+Carina Guerra-Bayón,rleal@yahoo.com,163034594,Evaluación general,Otro,1
+Cristian Elías Trujillo Casal,pheras@gmail.com,297528336,Ortodoncia,TikTok,0
+Armando Cerro Ribera,araujorenata@gmail.com,068880605,Ortodoncia,Instagram,1
+Rosaura Checa Feliu,diezmarcia@gmail.com,257847412,Implantes,Otro,1
+Jose Angel Roldán,isantos@hotmail.com,812879518,Implantes,Otro,1
+Débora Palomo,fvergara@gmail.com,536197585,Blanqueamiento,TikTok,0
+Quique de Abellán,ciriaco64@hotmail.com,377874340,Limpieza dental,Otro,0
+Adelina Pujadas-Gelabert,minguezalbert@gmail.com,298796416,Limpieza dental,WhatsApp,0
+David Armengol Paredes,teodora16@roldan.com,054985819,Evaluación general,WhatsApp,0
+Mariano Aguiló,cornelio37@gmail.com,057325297,Blanqueamiento,TikTok,1
+Cruz Dorotea Mesa Cuéllar,dafne73@cuellar.es,864322778,Blanqueamiento,Instagram,0
+Guiomar Odalys Carretero Elías,pabloflor@gmail.com,057599979,Blanqueamiento,TikTok,1
+Telmo Pazos Menéndez,filomena11@hotmail.com,979431376,Evaluación general,WhatsApp,0
+Gil Juan Pablo Valbuena Gordillo,zplana@soriano-tirado.es,604979355,Blanqueamiento,Instagram,0
+Ceferino Carrión Colomer,expositobernabe@tome-escolano.es,188398800,Ortodoncia,TikTok,0
+Lupe Matilde Solera Ariño,jandres@gmail.com,896891410,Endodoncia,Otro,1
+Rosario de Ojeda,mpozuelo@yahoo.com,162219207,Limpieza dental,TikTok,0
+Cecilia Abella Agustín,esmeralda49@gmail.com,281185875,Blanqueamiento,Instagram,1
+Tomasa Baeza Báez,olivia09@mir.com,279930864,Ortodoncia,Otro,1
+Sandalio Villalobos Baeza,puentejose-francisco@lopez.org,459228496,Implantes,Facebook,1
+Isidro Almeida Barrios,fabregasadrian@cardenas.org,785983967,Implantes,WhatsApp,1
+Delia Saldaña Gabaldón,selenagonzalez@yahoo.com,895556052,Ortodoncia,TikTok,1
+Ruy Arregui Perales,encarnacion70@tenorio-benavides.com,886980926,Limpieza dental,Facebook,0
+Bernardita Paz Ortiz Redondo,eligio93@yahoo.com,959805068,Limpieza dental,TikTok,1
+Delfina Fuentes,rene52@carrion.net,040301353,Implantes,TikTok,1
+Trinidad Vaquero Mendizábal,snarvaez@yahoo.com,974689870,Endodoncia,TikTok,0
+Severino Arenas-Solano,eustaquio47@yahoo.com,038770668,Blanqueamiento,Instagram,1
+Dolores Pagès,eprieto@hotmail.com,871768997,Evaluación general,Otro,0
+Moisés Valero Pou España,porfirioparedes@hotmail.com,408500721,Limpieza dental,TikTok,1
+Rebeca Landa Soriano,cadenascarlota@fernandez.es,771423342,Ortodoncia,Instagram,0
+Teodora Vera,custodio91@yahoo.com,779695697,Limpieza dental,Facebook,0
+Alonso Pujadas Heredia,carrerabernardo@hotmail.com,669180979,Implantes,TikTok,1
+Áurea Sanchez Bayón,mariselatapia@macias.com,296730941,Implantes,Instagram,1
+Pilar del Quintero,macarenasosa@gmail.com,456762756,Implantes,TikTok,1
+Fortunato Puente Vázquez,jonatanserrano@yahoo.com,730543783,Ortodoncia,TikTok,1
+Eligio Font,chita15@madrigal-verdejo.net,423299660,Ortodoncia,TikTok,0
+Cipriano Cañete Benavent,florina87@martin-melendez.org,629087364,Endodoncia,TikTok,1
+Luciano Durán Plana,plazaovidio@zurita-bustamante.com,412241182,Ortodoncia,Otro,1
+Octavia Barrio Sandoval,calistaflor@varela.net,229276746,Blanqueamiento,WhatsApp,1
+Ignacia Gallart,samueljuarez@atienza-espejo.es,816608054,Limpieza dental,Otro,1
+Adriana Cadenas Lumbreras,roldancodina@gmail.com,198332907,Limpieza dental,Facebook,1
+Tecla Encarnacion Mosquera Sales,valeraemilio@gmail.com,056154649,Blanqueamiento,Instagram,1
+Eva María del Egea,dionisio70@hotmail.com,504125513,Ortodoncia,Instagram,1
+Fermín del Sabater,fsoria@canovas-aznar.com,969610505,Blanqueamiento,TikTok,0
+Flora Duque Albero,xmatas@gmail.com,455550889,Blanqueamiento,Facebook,1
+Bonifacio Cordero Carretero,menendezfortunato@canellas.es,801221762,Evaluación general,Instagram,0
+Iris Duran-Jover,tmillan@yahoo.com,569610767,Endodoncia,Otro,0
+Macaria del Berrocal,mamenmuro@tejera-olivera.com,288453073,Evaluación general,Instagram,1
+Quique Salvador,hllano@gmail.com,604674467,Endodoncia,Instagram,1
+Cruz Odalys Valle Cabezas,asensiojose-angel@diaz.com,557867453,Evaluación general,TikTok,0
+Jacinta Almagro Álvarez,clobato@leon-barragan.es,920584036,Limpieza dental,Instagram,0
+Chucho Vilanova Murillo,rubiourbano@bas.com,419617270,Limpieza dental,Facebook,0
+Octavio Ferrán Criado,eufemiacarnero@vendrell.com,648887247,Evaluación general,Otro,1
+Eutropio Édgar Soto Lara,molinafidela@gmail.com,679580149,Implantes,TikTok,1
+Marciano Garriga Saldaña,maestreolalla@salas.es,386796660,Evaluación general,TikTok,0
+Dolores Plaza Ferrera,graciela12@montserrat.com,979182149,Limpieza dental,Instagram,1
+Régulo Juliá Torre,montserratdominguez@segura-pozo.com,721086652,Limpieza dental,Otro,0
+Darío Mora Botella,florvalencia@yahoo.com,063651928,Ortodoncia,WhatsApp,1
+Adoración María Alegre Tamarit,pratevaristo@asenjo-frutos.com,263591049,Endodoncia,TikTok,1
+Guiomar Arnal Menendez,duartenelida@cabanillas-mercader.es,003683698,Endodoncia,WhatsApp,1
+Ciriaco Cristóbal Ballesteros Peña,rosalinda65@gmail.com,289588504,Ortodoncia,Facebook,1
+José Mateos Tenorio,mateocueto@yahoo.com,497453342,Limpieza dental,WhatsApp,1
+Quique Bernat Tenorio,mar07@casas-perera.org,955833878,Implantes,WhatsApp,1
+Cruz Amaya Pizarro,alejandraescolano@hotmail.com,416508843,Evaluación general,Facebook,0
+Alejo Villalba,montenegroamador@sevillano.com,301057957,Blanqueamiento,TikTok,1
+Moreno Vergara Berenguer,borrellrosa@arnal.es,229391883,Blanqueamiento,Instagram,1
+Godofredo Acevedo Castañeda,anarvaez@hotmail.com,847127608,Evaluación general,Otro,0
+Cecilia Llopis Gómez,octaviopozuelo@yahoo.com,144848162,Limpieza dental,WhatsApp,0
+Paco del Luz,alejo68@bartolome-cobo.com,338337205,Evaluación general,TikTok,0
+Moreno Estevez Vallés,mpastor@hotmail.com,444627701,Ortodoncia,Facebook,0
+Gisela Córdoba Busquets,hperez@yahoo.com,863779719,Evaluación general,Otro,1
+Florencio Lumbreras Portillo,canellasencarnacion@hotmail.com,200356809,Evaluación general,Facebook,1
+Roque Figueras,eberenguer@yahoo.com,664603018,Ortodoncia,Facebook,1
+Bautista Arce,guadalupebaena@gmail.com,353392237,Implantes,Instagram,0
+Bernardino Zorrilla Canet,lmancebo@gmail.com,106905073,Ortodoncia,WhatsApp,0
+Juan Bautista Salvador Torres,crespomarianela@cardenas.com,200007160,Endodoncia,TikTok,0
+Herminia Martí Gallego,lorenza91@yahoo.com,244934888,Limpieza dental,Facebook,1
+Melania Cristina Burgos Salcedo,deboracabrero@rey.com,750894342,Endodoncia,Facebook,0
+Leticia Pedraza Elías,lperello@gmail.com,989139478,Ortodoncia,TikTok,0
+Yésica Macias Amigó,pratschus@mateos.com,377054922,Blanqueamiento,Instagram,0
+Fortunata Lobato-Coll,yvalenciano@yahoo.com,431335973,Endodoncia,Otro,1
+Máxima Perlita Pont Ávila,nporta@otero-sosa.org,330877384,Implantes,Otro,0
+Ernesto Miró-Castells,baroconsuela@tejedor.com,900288994,Blanqueamiento,TikTok,0
+Ani Vallés Company,marita65@valles.es,079395423,Limpieza dental,TikTok,1
+Soraya Cases Gárate,claudiacamacho@izaguirre.net,489709280,Ortodoncia,TikTok,0
+Vinicio Torralba Luz,tmulet@gmail.com,011544970,Limpieza dental,Facebook,0
+Camila Valenciano Lerma,ruperto29@canizares-sanabria.com,965625133,Limpieza dental,Instagram,0
+Amílcar Berrocal Salmerón,armando31@yahoo.com,518985964,Limpieza dental,WhatsApp,1
+Maite Maldonado Zorrilla,leonardo27@hotmail.com,217718866,Blanqueamiento,WhatsApp,0
+Mamen de Garriga,arcoisaias@quiroga.com,629011067,Evaluación general,TikTok,0
+Ruperta Valentina Bernal Cantón,josue61@abella.net,837516710,Endodoncia,Instagram,0
+Vito Godoy-Franch,aitorhuerta@catalan.com,430909356,Implantes,Otro,1
+Benjamín Faustino Ramis Marín,maria-teresa24@asenjo-aguirre.es,172775440,Limpieza dental,Otro,1
+Vito Alfonso Font,plopez@yahoo.com,302477361,Ortodoncia,WhatsApp,0
+Isidro Busquets,xaviermarmol@figueras.es,784420413,Evaluación general,Otro,1
+Sabina Grande Castell,omarvalcarcel@almagro.com,436863354,Ortodoncia,Otro,1
+Martín Clavero Guerra,conchafont@orozco.net,626292509,Implantes,TikTok,0
+Epifanio Dani Blanca Carbó,jordanabarba@yahoo.com,361245603,Blanqueamiento,WhatsApp,1
+Remigio Baeza-Cabezas,ubejarano@hotmail.com,680268330,Limpieza dental,TikTok,0
+Amor Fernández,azucena88@hervia.es,178084776,Implantes,Otro,1
+Roque Somoza,qmontalban@gmail.com,776683532,Implantes,Facebook,0
+Reyes de Fabra,otoro@arco-vega.net,425792238,Implantes,TikTok,1
+Isidro Perez Larrañaga,cvallejo@hotmail.com,415385407,Limpieza dental,Otro,1
+Chema Eric Blanco Tejera,canalesmiguela@yahoo.com,179612764,Ortodoncia,Instagram,1
+Blanca Cuéllar Izquierdo,carreterojose-antonio@hotmail.com,415254357,Ortodoncia,WhatsApp,1
+Rico Villaverde Cabañas,vyuste@yahoo.com,174709145,Endodoncia,Instagram,0
+Leonardo Santana Alcaraz,rolandoasenjo@aguado.org,196050883,Endodoncia,Otro,1
+Sonia Bauzà,nando72@carro.com,749276288,Blanqueamiento,Instagram,1
+Arsenio Mármol,veronicaguillen@gmail.com,452229626,Endodoncia,Facebook,0
+Guiomar Pol Campo,colladoandrea@pellicer.com,014082258,Implantes,Otro,1
+Estefanía Quirós Grande,jalcantara@hotmail.com,803989435,Endodoncia,Otro,0
+Gabriel Castejón Bermúdez,cornelio04@perales.com,723841889,Implantes,TikTok,0
+Custodio Daza Solana,adelaida80@barco-catalan.com,096694525,Evaluación general,Facebook,0
+Bernardo Querol-Bello,ceferinobenet@yahoo.com,838710497,Evaluación general,Otro,1
+Julio Lerma Cánovas,lola22@yahoo.com,899076680,Ortodoncia,Otro,0
+Evaristo Berrocal Pinilla,chuscastilla@hotmail.com,033750223,Ortodoncia,WhatsApp,0
+Héctor de Marcos,jafet37@yahoo.com,430717982,Blanqueamiento,Facebook,0
+Jesusa Vidal Giner,aotero@hotmail.com,214281178,Endodoncia,TikTok,1
+Héctor Maza Moraleda,leandro84@yahoo.com,121268496,Blanqueamiento,Facebook,1
+Calista Gálvez Garmendia,gabaldonmercedes@hotmail.com,038457259,Endodoncia,WhatsApp,1
+Yaiza Vega Román,ubecerra@hotmail.com,334930813,Implantes,TikTok,0
+Marisela Clemente,rozasalfonso@monreal-amor.net,252370723,Blanqueamiento,Facebook,0
+Reyes Rozas-Carballo,emma58@fortuny.es,900882375,Implantes,Facebook,0
+Rafa Julio Acuña Miguel,lopezyago@hotmail.com,264735092,Endodoncia,TikTok,0
+Lupe Bilbao Piñeiro,joanfabregas@segura.es,578715615,Implantes,Facebook,0
+Epifanio Cuenca Vilanova,asdrubal10@castillo.net,153754083,Endodoncia,Otro,1
+Pío Esparza Madrigal,silvialucena@sales.org,081149951,Evaluación general,WhatsApp,1
+Sergio Guillen,jordiolive@hotmail.com,309721059,Limpieza dental,WhatsApp,1
+Vasco Leiva,cbonilla@hotmail.com,255910749,Ortodoncia,TikTok,1
+Alejandra Grau-Armas,rrosell@hotmail.com,237891734,Ortodoncia,Otro,1
+Javi Mariño Alberola,qorozco@casal-garcia.es,065963948,Implantes,WhatsApp,1
+Faustino Crespo Sabater,morenocorral@yahoo.com,578789239,Implantes,WhatsApp,0
+José Higueras-Alemany,suarezfermin@canales-ortega.com,712744604,Ortodoncia,Otro,0
+Dionisio Zamora Portillo,mireiacanals@gmail.com,974577721,Evaluación general,Instagram,1
+Bautista Madrid-Mendez,felipa85@cervera.es,713184595,Evaluación general,Facebook,0
+Danilo del Laguna,hmendoza@gmail.com,744736146,Blanqueamiento,Otro,1
+Alexandra Lucas,adela81@parra.es,856147865,Implantes,Facebook,0
+Charo Palomo-Abad,mesamicaela@gmail.com,452374233,Blanqueamiento,Facebook,0
+Margarita Sanz Balaguer,domingoesther@cazorla.es,425736205,Endodoncia,Facebook,0
+Fortunata Borja Castell,feliciano72@hotmail.com,280525663,Implantes,WhatsApp,0
+Guadalupe Lobo,eladio16@vigil.es,158157369,Evaluación general,Facebook,1
+Albert Gomila-Roda,barrigaalbina@yahoo.com,668648997,Blanqueamiento,TikTok,0
+Albina Manola Barba Arrieta,macario33@coll-llabres.com,003696248,Endodoncia,Facebook,0
+Nilo Arnau Barco,nico61@gmail.com,017434348,Limpieza dental,Otro,0
+Armida Caballero Conde,murofabio@yahoo.com,441639686,Limpieza dental,Instagram,0
+Anacleto Villaverde,saavedrarosario@hotmail.com,065261701,Limpieza dental,Facebook,0
+Tadeo Peinado Anglada,virginiacabeza@gmail.com,320069408,Blanqueamiento,Facebook,0
+Severo Fonseca Roura,aristidespaz@gmail.com,244755979,Implantes,Instagram,0
+Juan José Nicolás Moya Aparicio,abaro@hotmail.com,418624217,Implantes,Instagram,1
+Balduino Uriarte Peralta,carrillofelicia@mesa.org,904212398,Blanqueamiento,TikTok,0
+Azahar Fuentes Benavent,eligiobarral@llanos.com,797660187,Limpieza dental,Instagram,0
+Federico Castañeda-Lillo,antonialarranaga@hotmail.com,038867406,Blanqueamiento,Facebook,0
+Leire de Baeza,jose-antonio52@yahoo.com,549998782,Ortodoncia,Otro,1
+Narciso Basilio Moll Lumbreras,losabienvenida@hotmail.com,785508568,Evaluación general,WhatsApp,0
+Lilia Galvez Huguet,melerosancho@montserrat.com,486908596,Limpieza dental,Facebook,0
+Fanny Oliveras Benavides,isauraamaya@hotmail.com,864726160,Blanqueamiento,TikTok,1
+Anastasia Rubio Huertas,lidia11@julia-amaya.es,783024208,Ortodoncia,Otro,1
+Rosaura Asenjo,ntorrents@yahoo.com,065839702,Limpieza dental,WhatsApp,0
+Domingo de Lobato,rosenda15@hotmail.com,169077970,Blanqueamiento,Instagram,1
+Leonardo Perelló,daniel76@yahoo.com,444581428,Limpieza dental,TikTok,1
+Rodolfo Coll Pineda,kcifuentes@beltran-leon.es,763631376,Ortodoncia,Otro,0
+Pacífica de Elías,lillojuan-carlos@gmail.com,519770910,Ortodoncia,Otro,1
+Marcial Salvador-Riba,buenoedu@hotmail.com,859325607,Evaluación general,Otro,0
+Severo Bonilla Zurita,cesar14@gmail.com,174241061,Blanqueamiento,Instagram,1
+Antonio Tejero Pozo,vidalligia@caceres-lastra.es,620613634,Implantes,TikTok,1
+Rosenda Manso,josefa66@torrecilla.es,687968225,Ortodoncia,Instagram,0
+Valentina Guillen-Galvez,cerdanjoel@carreno.es,281774585,Endodoncia,Facebook,0
+Nando Madrid Font,taviles@colomer.net,296346435,Evaluación general,Otro,1
+Leonardo Boix Huguet,vizaguirre@hotmail.com,158611462,Limpieza dental,TikTok,1
+Benito Becerra Benito,rubenrobles@hotmail.com,107017471,Implantes,Instagram,1
+Álvaro Barba Carretero,mario29@hotmail.com,747211282,Implantes,TikTok,0
+Estefanía Giménez Amador,bellidohugo@yahoo.com,799768004,Limpieza dental,WhatsApp,0
+Celso Pedraza Alfonso,atirado@hotmail.com,038532072,Endodoncia,TikTok,0
+Melchor del Parejo,ytalavera@gmail.com,922523776,Endodoncia,WhatsApp,0
+Bernardo Múñiz Martin,nebotyaiza@gmail.com,959596045,Implantes,Instagram,1
+Lucas Escamilla Pereira,jeremias15@galvez-cuadrado.es,649901062,Limpieza dental,Instagram,0
+Jose Francisco Mancebo,jose-miguelalegria@diaz.es,524347624,Evaluación general,Facebook,1
+Basilio Soria Gisbert,nunezaristides@gmail.com,415457180,Ortodoncia,TikTok,1
+Curro Rincón Guzman,gplanas@carretero.com,785540682,Endodoncia,TikTok,1
+Apolonia Iniesta Uría,simoteresita@gmail.com,032126861,Ortodoncia,Facebook,0
+Delfina de Llorens,vvives@ramos.org,004423131,Ortodoncia,Instagram,1
+Ernesto Comas Molina,duiliocuadrado@carlos-soler.es,680449170,Evaluación general,WhatsApp,1
+Alma Donoso-Fuentes,scollado@yahoo.com,432401540,Evaluación general,Facebook,0
+Domitila del Armengol,ramirorovira@yahoo.com,588588950,Ortodoncia,TikTok,1
+Esperanza Rodriguez Marti,anastasialosa@hotmail.com,137773332,Ortodoncia,Otro,0
+Lorenza Alfonso Medina,clementina86@amores.es,985427759,Evaluación general,Otro,1
+Lalo Julio Rebollo Murcia,mribes@hotmail.com,570190629,Ortodoncia,Instagram,0
+Ruperta Peñalver Ferreras,samuelrodrigo@marco.es,333355032,Endodoncia,Instagram,0
+Ruperta del Sainz,pedrerodora@vazquez-roma.org,519368435,Limpieza dental,Otro,0
+Rosalva Llabrés Torrents,araujosol@yahoo.com,887374486,Ortodoncia,WhatsApp,1
+Lupe Julieta Torrents Cabrero,vicente29@padilla-fuente.com,747882856,Implantes,TikTok,1
+Bernardo de Hervia,josellobet@gmail.com,652525443,Endodoncia,Instagram,1
+René Castejón,cespedesruth@gmail.com,738361861,Implantes,Facebook,0
+Agustina Marco Taboada,atamarit@yahoo.com,539141861,Implantes,TikTok,1
+Fernando Mateos Lamas,rodolfo62@garmendia.com,008395259,Limpieza dental,TikTok,1
+Rolando Rey Bello,hespana@canet.es,330390051,Limpieza dental,WhatsApp,0
+Eulalia Ariza Gras,fsaez@yahoo.com,610024600,Evaluación general,Otro,1
+América Ibáñez Roman,contrerashilda@pujadas.com,624483454,Blanqueamiento,WhatsApp,0
+Angélica Mena Arana,octavio85@carvajal.es,886287607,Ortodoncia,Otro,0
+Blas Ayala Abellán,luisa71@flor-francisco.es,593903919,Evaluación general,Otro,1
+Edelmiro Alsina Avilés,modestogonzalez@bernat.es,324342705,Implantes,Instagram,0
+Susana Andrea Uría Sabater,sevillanopanfilo@cazorla-malo.es,551243470,Ortodoncia,Facebook,1
+Lucas Morell Cerdán,vazquezcelestino@hotmail.com,735500068,Ortodoncia,TikTok,0
+Ángela de Pavón,emilio27@gmail.com,969803153,Endodoncia,TikTok,1
+Encarnita Millán-Nebot,graciela36@bonet-jover.net,694548607,Endodoncia,Otro,1
+Odalys Valls-Ballester,ynunez@yahoo.com,775837193,Blanqueamiento,TikTok,1
+José Antonio Pablo Blasco Alfonso,paola38@goni-alcalde.com,524847693,Ortodoncia,TikTok,1
+Camila Jaén Heredia,ncabanillas@carreno-abad.com,479239773,Limpieza dental,Facebook,1
+Olalla de Molins,albano78@pi-gimenez.es,388267075,Limpieza dental,Otro,0
+Marcelo Guzman Paniagua,macarenarodriguez@dominguez-aller.com,543714367,Endodoncia,Instagram,1
+Benigno Malo Piña,badialeandra@hotmail.com,879449088,Endodoncia,TikTok,0
+Cristóbal Carlos Sanmartín Pujadas,patricioblanco@palomino-giralt.com,747051150,Blanqueamiento,Otro,1
+Juan Manuel Alcántara,canobibiana@blazquez-sureda.org,598263415,Blanqueamiento,WhatsApp,1
+Severino Quiroga Carbonell,wmelero@yahoo.com,139325629,Blanqueamiento,Facebook,0
+Lucía del Contreras,leonpablo@hotmail.com,773244268,Evaluación general,Facebook,0
+Melisa Marin Roldan,vilaplanaofelia@palma-solsona.es,581100130,Implantes,WhatsApp,0
+Erasmo Verdugo,ferrerasvasco@verdu.com,920755166,Blanqueamiento,TikTok,1
+Mohamed Sarmiento Salamanca,castejonfaustino@yahoo.com,973470993,Limpieza dental,Otro,1
+Yolanda Crespo-Arroyo,rosariodiaz@hotmail.com,579594554,Ortodoncia,Instagram,0
+Wilfredo Higueras-Garcia,marisaaguilera@yahoo.com,762849540,Implantes,Instagram,1
+Fernanda Solé Carro,xferrer@hotmail.com,115605469,Implantes,Facebook,1
+Estela Ferrández Rocamora,juliannarciso@gmail.com,992883121,Blanqueamiento,Facebook,1
+Nilo Cal Busquets,ameliahernandez@pelaez-davila.com,618298372,Implantes,Otro,1
+Sabas Hermenegildo Paredes Moll,pereirapastor@baquero.com,792733684,Evaluación general,TikTok,1
+Julián Sola Pedrero,dominga88@gmail.com,043059236,Ortodoncia,WhatsApp,1
+Trini Grau Nicolau,amadapatino@tejera.org,380710876,Blanqueamiento,Instagram,1
+Zoraida Pinedo Saavedra,npavon@yahoo.com,897067354,Blanqueamiento,WhatsApp,0
+Trini Natalia Arribas Ripoll,jayllon@prieto.com,532959533,Blanqueamiento,Facebook,0
+Victor de Vizcaíno,noa18@yahoo.com,918037281,Implantes,WhatsApp,0
+Luz de Azorin,pianoguera@leon.es,511559087,Implantes,TikTok,0
+Régulo Hoz Sebastián,conchaarevalo@baeza-diaz.net,532986970,Evaluación general,Otro,1
+Amanda Pallarès,hlaguna@agusti.net,110085429,Blanqueamiento,Otro,0
+Carmina Arranz Calderón,domitilaricart@arteaga.com,444785470,Endodoncia,Facebook,1
+Nicolás Blázquez Piquer,diezmaxi@dalmau.net,708464636,Evaluación general,WhatsApp,0
+Leticia Amor Núñez,antonio31@gmail.com,027996663,Limpieza dental,WhatsApp,1
+Chus Cisneros Palomo,alemanchema@pomares.es,585018245,Implantes,Instagram,0
+Encarnación Arellano Molins,cecilio67@grau.es,717636622,Implantes,Instagram,0
+Juan Mayo Guardiola,qmarques@alarcon-giralt.es,128303618,Endodoncia,Instagram,0
+Teodosio Cerezo Abellán,rclavero@manrique.com,522362036,Endodoncia,WhatsApp,0
+Jesús Plana Alemán,ramona25@gmail.com,996065893,Limpieza dental,Otro,1
+Isidora Rozas Lago,eligioblazquez@baeza-gomila.com,251413182,Blanqueamiento,TikTok,1
+Ismael Jonatan Contreras Plana,huertasasuncion@borrell.es,637841373,Implantes,TikTok,0
+Félix Pujol Guerra,carlospenas@pera.com,469786418,Endodoncia,WhatsApp,0
+Salvador de Artigas,bonifaciocalleja@yahoo.com,668406941,Implantes,Otro,0
+Roldán Paniagua-Acevedo,canovasoscar@yahoo.com,805558769,Ortodoncia,Facebook,1
+Modesto Martin Agustín Linares,alondra97@girona.net,342919639,Evaluación general,Instagram,0
+Ángeles Piña Sevillano,hermenegildo49@cabrero-alberola.es,023054323,Endodoncia,TikTok,1
+Miriam Velasco-Ferrera,arteagabenito@nicolas.es,800454697,Implantes,Facebook,0
+Abril Bueno Mur,alcantaracristina@yahoo.com,008159005,Endodoncia,Otro,0
+María José Reina-Carballo,pmoliner@jauregui-bejarano.com,628484128,Limpieza dental,WhatsApp,0
+Hector Olivares,chus24@campos.es,268640051,Endodoncia,Otro,1
+Chema Morell-Carretero,nbarrera@benitez.es,902771349,Endodoncia,WhatsApp,0
+Armida del Perea,hcabrero@gmail.com,455066680,Evaluación general,Facebook,1
+Juliana Cervera Cabrera,pjuan@guillen.com,536386956,Limpieza dental,Instagram,1
+Rafael Jose Luis Rivero Benavides,cortesanacleto@yahoo.com,194283548,Implantes,Instagram,0
+Palmira Montesinos Rodriguez,tomevidal@estrada.com,601208727,Ortodoncia,TikTok,0
+Isaías Ferrando Torrents,emaanguita@velasco.com,504531122,Ortodoncia,Instagram,1
+Sandalio Salgado Calatayud,xiomaracoloma@gmail.com,475521578,Limpieza dental,Otro,1
+Nacho Guillén,bautistateodoro@nogues.com,610779062,Blanqueamiento,Otro,1
+Luciano Corral Lasa,severiano36@gamez-mata.es,917955258,Limpieza dental,Facebook,1
+África Casals Ros,lourdes42@amo.com,070618012,Implantes,WhatsApp,1
+Toño Rodríguez Espinosa,calderonjosefa@garate.net,320006780,Limpieza dental,Facebook,0
+Sancho de Canales,odalyscomas@mayol.com,533321925,Endodoncia,Facebook,0
+Tiburcio Coll,cabezasjosep@riba-sotelo.es,958395120,Ortodoncia,Facebook,0
+Román de Fuster,sfortuny@yahoo.com,051010289,Implantes,Instagram,0
+Marcela Ribera Baena,teresitacolomer@montalban.com,555502571,Evaluación general,TikTok,0
+Anacleto de Torralba,aitor34@gallardo.com,175862537,Limpieza dental,Facebook,1
+Aníbal Larrea Serra,florencio16@fonseca-delgado.net,293608815,Implantes,Otro,1
+Eduardo Perez Porta,ipla@iglesias-castro.es,070762454,Endodoncia,TikTok,1
+Dimas Malo Sandoval,magdalenacarreras@pera.com,661320202,Implantes,Instagram,1
+Matilde Viña Marcos,chus20@baquero-murcia.es,365795892,Evaluación general,TikTok,0
+Genoveva Pina Villaverde,espanoldario@solis.es,325092814,Ortodoncia,TikTok,1
+Prudencia Rivero Ripoll,consuelaojeda@hotmail.com,708523254,Endodoncia,WhatsApp,1
+Rocío Perez Trujillo,nicolasursula@yahoo.com,674042891,Blanqueamiento,Otro,0
+Kike Carbó Alcázar,juliandanilo@salamanca.org,850454461,Blanqueamiento,Otro,1
+Felicidad Alberola Hierro,nrivero@caceres.net,748441448,Ortodoncia,WhatsApp,1
+Marta Pineda Peñas,jacobo46@gmail.com,047045577,Endodoncia,WhatsApp,1
+Vidal Cuéllar Arnaiz,florentino13@galan-calderon.org,927953412,Ortodoncia,Otro,0
+Leandra Martinez Anguita,aranzazu56@yahoo.com,950706603,Evaluación general,Otro,0
+Buenaventura Sancho Mora Caro,cortesmar@arranz.com,748414133,Endodoncia,Facebook,0
+Olivia Casado,nestor90@hotmail.com,821238060,Implantes,Instagram,1
+Cándido Lledó Querol,nlerma@capdevila.es,947547784,Implantes,Facebook,0
+Corona Cifuentes Pacheco,felicianoantunez@gmail.com,798999915,Evaluación general,TikTok,0
+Berta Macias Roura,llanosamalia@yahoo.com,296013029,Blanqueamiento,Instagram,1
+Edmundo Valderrama-Sainz,noeliareyes@calatayud-rius.es,455801995,Evaluación general,Otro,1
+Dan Izaguirre Sanmiguel,emiliana03@madrid-aragones.com,049005297,Implantes,Facebook,0
+Abel Núñez-Hernández,ssanabria@rueda-vives.es,263250670,Blanqueamiento,TikTok,1
+Esmeralda Pablo,fabregascristian@gmail.com,596295059,Limpieza dental,WhatsApp,0
+Ligia Amor-Sandoval,modesto22@valle.es,260665495,Implantes,TikTok,0
+Herminia de Rivera,kvalero@gmail.com,042926553,Ortodoncia,Facebook,1
+Amarilis Adoración Palacio Leon,pilicamacho@roman.es,780469298,Evaluación general,Otro,1
+Loida Corbacho Aguiló,teovaldes@sans-cabeza.es,111084757,Endodoncia,Instagram,1
+Alejo Arregui Blanca,armida46@hotmail.com,974789393,Ortodoncia,Facebook,0
+Gilberto Abella Zaragoza,carmonalilia@yahoo.com,653269142,Limpieza dental,Instagram,1
+Adriana Tomás Torrijos,mcaballero@iborra-escriva.com,836479325,Endodoncia,TikTok,0
+Aurelia Lobo-Perelló,maxibertran@escamilla.es,861858988,Evaluación general,Instagram,1
+Hipólito Aliaga Fuente,ferrerafilomena@yahoo.com,817301884,Ortodoncia,TikTok,0
+José Antonio Mendizábal Castellanos,belen43@gmail.com,234983615,Ortodoncia,Facebook,0
+Eligia Pardo-Núñez,danglada@hotmail.com,152667715,Ortodoncia,Otro,1
+Dora del Aguilar,zacarias33@pastor.com,178107252,Evaluación general,Facebook,1
+Antonio Blanch Quintero,joseporras@yahoo.com,445361855,Limpieza dental,Otro,1
+Albina Andrade Matas,xmarcos@yahoo.com,842828374,Ortodoncia,Instagram,1
+María Pilar Ortega Laguna,qllanos@goni-anaya.es,188545567,Limpieza dental,Instagram,1
+Adora Isabela Uría Valdés,perlafalco@dominguez-merino.es,924644421,Blanqueamiento,Instagram,0
+Kike Pastor Morán Perales,ealiaga@gmail.com,412215459,Limpieza dental,WhatsApp,0
+Javier de Moll,sergiogisbert@hotmail.com,347208410,Implantes,WhatsApp,1
+Candela Chacón Cánovas,ayalagenoveva@pinilla.com,764990082,Evaluación general,Facebook,0
+Rico del Carreras,paniaguafeliciano@yahoo.com,257252545,Blanqueamiento,WhatsApp,1
+Vasco José María Bernal Pastor,sampercipriano@gmail.com,343725496,Endodoncia,WhatsApp,1
+Primitiva Saura-Naranjo,guardianicolasa@hotmail.com,669458583,Limpieza dental,WhatsApp,0
+Severiano Uría Jordá,luciana27@hotmail.com,300513129,Implantes,WhatsApp,0
+Maristela Lago,primitiva60@yahoo.com,613513777,Limpieza dental,Instagram,1
+Matías Alemany Arellano,feliciana74@yahoo.com,740975739,Blanqueamiento,WhatsApp,1
+Aitana Hernández-Valdés,furena@gmail.com,083811229,Implantes,Instagram,0
+Vinicio del Bonet,campoaureliano@yahoo.com,212719647,Implantes,TikTok,1
+Javier Fabregat-González,vicentecaridad@campos.es,328335895,Blanqueamiento,Instagram,1
+Victor Nogués Viña,annabueno@paz.es,405207711,Ortodoncia,WhatsApp,1
+Carina Pineda Diéguez,clementebrunilda@gmail.com,746789457,Evaluación general,WhatsApp,1
+Agustina Samper Landa,mnunez@carro-alba.es,681022736,Endodoncia,Instagram,0
+Héctor Narváez-Reguera,agalvan@garcia.es,454470967,Blanqueamiento,WhatsApp,1
+José Luis Llorens Pacheco,chitagoicoechea@coronado.com,643047411,Endodoncia,TikTok,0
+Clara Sevilla Pinto,soledadlumbreras@gargallo.es,223968499,Limpieza dental,Facebook,0
+Alfonso Morán Quevedo,descamilla@barrena.com,169264521,Blanqueamiento,Otro,0
+Candelas Camacho Pujol,hernandomugica@yahoo.com,703023118,Ortodoncia,Instagram,1
+Maricruz Fátima Barroso Alegre,rborrell@machado-mir.com,335047832,Implantes,WhatsApp,1
+Eusebio Ferreras Solano,rufinocortes@hotmail.com,571308795,Limpieza dental,Instagram,1
+Emigdio Pardo Rubio,dalmagro@yahoo.com,443676436,Implantes,Otro,1
+Ángeles Querol Rueda,demetriosaura@hotmail.com,688217795,Limpieza dental,Facebook,1
+Joaquina Guillen Adadia,salberola@alvarado.org,788389724,Ortodoncia,Facebook,0
+Inmaculada Torrents Casanovas,evita52@hotmail.com,900672225,Blanqueamiento,WhatsApp,0
+Regina Vega Toro,ycodina@hotmail.com,612995340,Limpieza dental,Otro,0
+Edu Dan Marco Carpio,emendez@machado.es,885538246,Limpieza dental,Instagram,0
+Maite Armengol Hernando,osvaldo22@hotmail.com,844166062,Ortodoncia,Instagram,1
+Omar Aguirre Amador,xvarela@hotmail.com,124477165,Ortodoncia,WhatsApp,0
+Bárbara Jordán Mateo,crespolola@simo.com,966313050,Evaluación general,Facebook,0
+Brunilda de Beltrán,piedadtorres@lopez-valderrama.com,299631471,Endodoncia,Facebook,1
+Leire Antón Pera,herberto50@hotmail.com,264928680,Endodoncia,Facebook,0
+Irma Escribano Castell,edelmirogras@tolosa.com,453718274,Ortodoncia,Facebook,1
+Modesto Pedro Cortés,crescencia97@gmail.com,979816027,Implantes,WhatsApp,1
+Goyo Solsona Montesinos,jovitaprat@campoy.com,445264187,Endodoncia,TikTok,1
+Dani Rosell Mateo,malenabarba@gmail.com,899601652,Ortodoncia,Instagram,1
+Xavier Tomé Morales,knicolas@acuna.com,490080023,Limpieza dental,Otro,0
+Elvira Cabrero Pla,qmateos@gmail.com,688540257,Ortodoncia,WhatsApp,1
+Aurora Florina Múgica Gutierrez,mendizabalyolanda@tellez.com,052986182,Implantes,WhatsApp,0
+Fátima Caparrós Sacristán,wramon@gmail.com,320724228,Blanqueamiento,Otro,1
+Nerea Encarna Gallart Mascaró,amayarita@gmail.com,867847181,Blanqueamiento,TikTok,1
+Aurelio Guijarro Busquets,lisandro37@sobrino.org,237420266,Implantes,Otro,0
+Irma Sarabia Cifuentes,bbecerra@gmail.com,225531008,Evaluación general,TikTok,1
+Rodrigo Casal Iniesta,tecla80@barrena.es,407086279,Evaluación general,Facebook,1
+Sigfrido Américo Cervantes Valdés,panfilosoto@quevedo.es,241900508,Evaluación general,TikTok,1
+Isaura Morillo Hernández,palmiranevado@hotmail.com,832882559,Ortodoncia,Otro,1
+Marina de Toro,echico@gmail.com,961322991,Blanqueamiento,Instagram,1
+Anita Baños Paniagua,aureliajuan@escamilla.com,486090789,Implantes,WhatsApp,1
+María Pilar Gisbert Velasco,felicianovilla@blazquez.es,826878600,Blanqueamiento,Facebook,0
+Victoriano Huertas Mosquera,bzamora@yahoo.com,202987479,Ortodoncia,TikTok,1
+Eugenia Renata Montes Mas,ibancampillo@cueto.com,292261393,Implantes,WhatsApp,1
+Bernarda García Rios,luz59@hotmail.com,604744824,Limpieza dental,Instagram,1
+Jesusa de Pavón,maxicastro@garcia-saura.org,430282702,Endodoncia,Facebook,0
+Cloe Miguel Canet,gfuster@gmail.com,392937775,Endodoncia,Instagram,0
+Emiliano Sola Cueto,benignasantana@yahoo.com,738689222,Evaluación general,WhatsApp,0
+Manolo Ibarra Pou,eutropiosaenz@hotmail.com,779999619,Ortodoncia,Instagram,1
+Florencia Aparicio Blanca,salomonbernal@gmail.com,723382560,Implantes,Otro,1
+Severino Puga Estévez,mllamas@gmail.com,478747005,Evaluación general,Otro,1
+Cándido Rosario Rivera Franco,che85@gmail.com,022387111,Endodoncia,Otro,1
+África Jimenez-Fortuny,jose-angel25@aguila-llano.es,651615203,Implantes,Facebook,1
+Marisa Espinosa Lasa,marianosantiago@hotmail.com,489175348,Implantes,Facebook,1
+Maura Bueno Cuéllar,primitivobustos@garmendia.com,713547438,Endodoncia,Otro,1
+León Rivero Torres,bllopis@hotmail.com,740148207,Implantes,Otro,1
+Isidro Julián Fuente Ferrándiz,montanaborja@gmail.com,925243482,Ortodoncia,Instagram,0
+Jose Ramón Galindo Coca,vsainz@moraleda.es,235759720,Evaluación general,TikTok,1
+Ángel Narciso Carrillo Lledó,saavedraleocadio@sans.es,797578529,Endodoncia,TikTok,1
+Luís de Perelló,hernandocordero@gmail.com,345486462,Implantes,TikTok,1
+Macarena Arrieta,calixtasarmiento@hotmail.com,020645225,Limpieza dental,Facebook,0
+Pacífica Ibáñez Vidal,yessicagirona@gmail.com,966372494,Implantes,Facebook,0
+Susanita Barbero Recio,ofeliasaldana@yahoo.com,224060385,Implantes,Otro,0
+Joaquina Sarmiento Galván,pacifica04@lerma.es,735485294,Evaluación general,Instagram,1
+Gaspar Miralles-Segarra,isidroquevedo@villalobos-barriga.org,525129715,Endodoncia,Instagram,0
+Abraham Águila Bernat,marcia80@monreal.net,095482086,Evaluación general,TikTok,1
+Manuelita Vazquez Garmendia,sanmartinmanola@monreal.es,561884737,Endodoncia,TikTok,1
+Leoncio Erasmo Codina Velasco,herminiorodenas@gmail.com,332418537,Implantes,TikTok,1
+Quirino Antonio Ocaña Calderon,fernandozamorano@tormo.com,746592223,Endodoncia,TikTok,0
+Anselmo Tamayo,jandres@haro.es,174299879,Limpieza dental,Facebook,0
+Aurora de Escudero,wyanez@yahoo.com,494898891,Limpieza dental,WhatsApp,1
+Reynaldo Piñol Barberá,tejerarodrigo@yahoo.com,302070252,Endodoncia,Instagram,1
+Óscar Amando Cid Plaza,ezequielabellan@ropero-frias.es,254675976,Blanqueamiento,Instagram,0
+Marcio Campos-Cabañas,marinjoaquin@menendez.es,201722983,Implantes,WhatsApp,0
+Sancho Rosales Balaguer,carnerogertrudis@cano.es,633778000,Implantes,WhatsApp,0
+Evelia Roig,giladrian@hotmail.com,322716262,Evaluación general,TikTok,1
+Salud Román Méndez,tadeo71@mata.es,407955204,Endodoncia,Otro,1
+Beatriz Tejera Perez,pablonunez@casado-pellicer.com,499661050,Evaluación general,Facebook,1
+Ana Belén Macías Sales,caceresemperatriz@gmail.com,662199769,Evaluación general,WhatsApp,0
+Pelayo Barbero,blanca40@alonso.com,906639073,Implantes,Otro,0
+María Fernanda Palomares-Quero,santamariaagustin@camino-lopez.es,914288688,Evaluación general,Instagram,0
+Rebeca Ochoa Leiva,benaventemarisela@somoza-querol.com,356466424,Evaluación general,WhatsApp,0
+Eulalia Mosquera Pardo,gimenezpaca@torre.com,563776425,Evaluación general,TikTok,0
+Flavia Talavera Ariza,dazapascual@carranza.net,325509888,Ortodoncia,TikTok,0
+Adriana Sáez Abascal,lenriquez@hotmail.com,753203505,Evaluación general,WhatsApp,1
+Rosario del Quero,mmurillo@sola-cortina.com,938981200,Limpieza dental,WhatsApp,0
+Aura Mas Lledó,olgajara@yahoo.com,597498376,Limpieza dental,WhatsApp,1
+Adelina Romero Miralles,tenoriolilia@hotmail.com,146066198,Implantes,Facebook,1
+Patricia Sabater Manso,duilio52@vizcaino.net,484269008,Limpieza dental,WhatsApp,0
+Cristian Rodrigo,marcialrodriguez@nunez.es,939641993,Limpieza dental,Otro,1
+Bernardo Néstor Sarmiento Machado,teobaldoguzman@lamas.es,098125951,Limpieza dental,Instagram,0
+Zacarías Acuña Jimenez,lucas98@asenjo.es,463890679,Endodoncia,WhatsApp,1
+Sarita del Plaza,casasmaite@hotmail.com,547976559,Ortodoncia,WhatsApp,0
+Matilde Arana Marco,toribio27@hotmail.com,546875131,Blanqueamiento,TikTok,0
+Cristina Osuna Peñalver,mirtagascon@mateos.com,325500903,Blanqueamiento,TikTok,1
+Desiderio Fortunato Ferreras Nogués,scarmona@palacio-aviles.com,609904501,Implantes,TikTok,0
+Eutropio Bertrán Lucas,aitorotero@gibert.com,086184892,Implantes,TikTok,1
+Patricia Sanz Sanmartín,qcanales@pozuelo-machado.com,919457483,Blanqueamiento,WhatsApp,1
+Brunilda Quero Polo,edmundo91@gmail.com,830716278,Evaluación general,Instagram,1
+Claudio Marquez,tcuevas@yahoo.com,292287390,Ortodoncia,WhatsApp,1
+Édgar Ropero Alcázar,lobojose-angel@leon.net,493129363,Ortodoncia,TikTok,0
+Francisco Jose Mosquera,ramonaarana@izaguirre.org,219574899,Ortodoncia,Instagram,0
+Lourdes Santamaría Pujol,heraclioleon@calvet.com,046876331,Ortodoncia,TikTok,1
+Dalila Quesada Vicente,mbriones@hotmail.com,354864799,Implantes,Instagram,0
+Javi Diez Caballero,francisco-josecastaneda@martin.es,733582892,Ortodoncia,Instagram,1
+Lupita del Olivera,camachoambar@yahoo.com,287529513,Limpieza dental,Otro,0
+Nerea Pulido Castells,priscilanoriega@rosado.es,155964649,Evaluación general,WhatsApp,0
+Francisca González-Alegria,ygirona@yahoo.com,814773822,Endodoncia,Otro,1
+Fernanda Carmona Mora,javiperal@sole-gracia.es,593112735,Limpieza dental,Otro,1
+Evita Uribe Beltrán,griseldasolana@sanchez.es,827849795,Limpieza dental,Instagram,1
+Artemio Héctor Luís Estrada,yusteascension@gimenez.es,810129280,Endodoncia,TikTok,0
+Nazaret Balaguer,lroca@jorda.org,454607922,Endodoncia,Instagram,0
+Coral Amalia Priego Jove,bjaen@gmail.com,253646359,Implantes,WhatsApp,0
+Ezequiel Malo Donoso,fabiola98@gmail.com,375736371,Blanqueamiento,TikTok,1
+Malena del Gracia,esobrino@azorin.com,575552674,Limpieza dental,Instagram,1
+Leocadia Reguera Escribano,eolmedo@rico.es,635320561,Implantes,Instagram,1
+Anselmo Morcillo Portero,guillermoseco@yahoo.com,647146253,Implantes,TikTok,1
+Jacinta Guardiola-Miró,carmelatoledo@gmail.com,589426904,Limpieza dental,Facebook,1
+Tadeo Hernando Soler Zurita,goyo23@cifuentes-martinez.es,260179966,Implantes,Facebook,1
+Adelaida Chita Méndez Benavent,jaumeangelina@villena.es,198679146,Ortodoncia,Otro,1
