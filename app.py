@@ -13,7 +13,14 @@ CSV_FILE = "leads_ver1.csv"
 
 def cargar_datos():
     if os.path.exists(CSV_FILE):
-        return pd.read_csv(CSV_FILE)
+        df = pd.read_csv(CSV_FILE)
+
+        # Normalizar valores de interes_activo
+        if "interes_activo" in df.columns:
+            df["interes_activo"] = df["interes_activo"].replace({"Sí": 1, "No": 0})
+            df["interes_activo"] = pd.to_numeric(df["interes_activo"], errors="coerce").fillna(0).astype(int)
+
+        return df
     else:
         return pd.DataFrame(columns=["nombre", "correo", "telefono", "servicio", "canal", "interes_activo"])
 
