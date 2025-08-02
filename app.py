@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from io import BytesIO
+from utils.visualizaciones import grafico_servicios, grafico_interes
 import os
 
 # ---------------- CONFIGURACIÓN GENERAL ----------------
@@ -83,19 +84,13 @@ with tabs[1]:
         col3, col4 = st.columns(2)
 
         with col3:
-            conteo_servicios = df["servicio"].value_counts()
-            fig1, ax1 = plt.subplots()
-            ax1.bar(conteo_servicios.index, conteo_servicios.values, color="#66b3ff")
-            ax1.set_title("Leads por Servicio")
-            ax1.set_xticklabels(conteo_servicios.index, rotation=45)
+            fig1 = grafico_servicios(df)
             st.pyplot(fig1)
 
         with col4:
-            activos = df["interes_activo"].value_counts().sort_index()
-            fig2, ax2 = plt.subplots()
-            ax2.pie(activos, labels=["No Interesado", "Interesado"], autopct="%1.1f%%", colors=["#f1948a", "#58d68d"])
-            ax2.set_title("Distribución de Interés")
+            fig2 = grafico_interes(df)
             st.pyplot(fig2)
+
 
         st.divider()
         st.subheader("📋 Últimos Leads Registrados")
