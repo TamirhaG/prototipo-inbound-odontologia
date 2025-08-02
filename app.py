@@ -1,99 +1,105 @@
 import streamlit as st
 import pandas as pd
-from datetime import datetime
 import matplotlib.pyplot as plt
+from io import BytesIO
+import os
 
-st.set_page_config(page_title="Inbound Marketing Clínica Odontológica", layout="wide")
+# ---------------- CONFIGURACIÓN GENERAL ----------------
+st.set_page_config(page_title="Captura de Leads - Clínica Odontológica", layout="centered")
 
-st.title("🦷 Inbound Marketing para Clínica Odontológica")
+# ---------------- FUNCIONES AUXILIARES ----------------
+CSV_FILE = "leads_ver1.csv"
 
-# Menú de navegación
-seccion = st.sidebar.selectbox("📌 Menú de Navegación", ["📥 Registro de Leads", "📊 Dashboard"])
+def cargar_datos():
+    if os.path.exists(CSV_FILE):
+        return pd.read_csv(CSV_FILE)
+    else:
+        return pd.DataFrame(columns=["nombre", "correo", "telefono", "servicio", "canal", "interes_activo"])
 
-# Ruta del CSV
-csv_file = "leads_ver1.csv"
+def guardar_dato(df_nuevo):
+    df_actual = cargar_datos()
+    df_actual = pd.concat([df_actual, df_nuevo], ignore_index=True)
+    df_actual.to_csv(CSV_FILE, index=False)
 
-# ================================
-# 📥 SECCIÓN: REGISTRO DE LEADS
-# ================================
-if seccion == "📥 Registro de Leads":
-    st.header("📥 Registro de Leads")
+def generar_descarga_csv(df):
+    buffer = BytesIO()
+    df.to_csv(buffer, index=False)
+    buffer.seek(0)
+    return buffer
 
-    with st.form(key='lead_form'):
-        col1, col2 = st.columns(2)
-        with col1:
-            nombre = st.text_input("Nombre completo")
-            correo = st.text_input("Correo electrónico")
-            telefono = st.text_input("Teléfono")
+# ---------------- INTERFAZ PRINCIPAL ----------------
+st.title("🦷 Captura y Visualización de Leads")
+st.markdown("Este prototipo permite registrar leads y visualizar su análisis.")
 
-        with col2:
-            interes = st.selectbox("Servicio de interés", [
-                "Ortodoncia", "Implantes", "Blanqueamiento",
-                "Limpieza dental", "Evaluación general", "Endodoncia"
-            ])
-            canal = st.selectbox("Canal de contacto", ["Instagram", "Facebook", "WhatsApp", "Otro"])
+tabs = st.tabs(["➕ Registrar Lead", "📊 Análisis de Leads"])
 
-        submit = st.form_submit_button("Registrar Lead")
+# ---------------- TAB 1: REGISTRO ----------------
+with tabs[0]:
+    with st.form("lead_formulario"):
+        st.subheader("Registrar nuevo lead")
 
-    if submit:
-        nuevo_lead = {
-            "nombre": nombre,
-            "correo": correo,
-            "telefono": telefono,
-            "interes": interes,
-            "fecha_registro": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "canal": canal,
-            "interes_activo": "Pendiente"
-        }
+        nombre = st.text_input("Nombre completo", max_chars=50)
+        correo = st.text_input("Correo electrónico")
+        telefono = st.text_input("Número de teléfono")
+        servicio = st.selectbox("Servicio de interés", ["Ortodoncia", "Limpieza dental", "Blanqueamiento", "Implantes", "Evaluación general", "Endodoncia"])
+        canal = st.selectbox("Canal de contacto", ["Instagram", "Facebook", "WhatsApp", "TikTok", "Otro"])
+        interes_activo = st.selectbox("¿Interés confirmado?", ["Sí", "No"])
 
-        try:
-            df = pd.read_csv(csv_file)
-            df = pd.concat([df, pd.DataFrame([nuevo_lead])], ignore_index=True)
-        except FileNotFoundError:
-            df = pd.DataFrame([nuevo_lead])
+        enviar = st.form_submit_button("Guardar Lead")
 
-        df.to_csv(csv_file, index=False)
-        st.success("✅ Lead registrado exitosamente.")
+        if enviar:
+            if nombre and correo and telefono:
+                df_nuevo = pd.DataFrame([{
+                    "nombre": nombre,
+                    "correo": correo,
+                    "telefono": telefono,
+                    "servicio": servicio,
+                    "canal": canal,
+                    "interes_activo": 1 if interes_activo == "Sí" else 0
+                }])
+                guardar_dato(df_nuevo)
+                st.success("✅ Lead registrado con éxito.")
+            else:
+                st.error("❗ Por favor, completa todos los campos obligatorios.")
 
+# ---------------- TAB 2: DASHBOARD ----------------
+with tabs[1]:
+    df = cargar_datos()
 
-# ========================
-# 📊 SECCIÓN: DASHBOARD
-# ========================
-elif seccion == "📊 Dashboard":
-    st.header("📊 Dashboard de Leads")
-
-    try:
-        df = pd.read_csv(csv_file)
-
+    if df.empty:
+        st.info("Aún no hay leads registrados.")
+    else:
+        st.subheader("📈 Métricas generales")
         total_leads = len(df)
-        leads_activados = df[df["interes_activo"] == "Sí"]
-        tasa_conversion = (len(leads_activados) / total_leads * 100) if total_leads > 0 else 0
+        tasa_interes = df["interes_activo"].mean() * 100
 
         col1, col2 = st.columns(2)
-        col1.metric("👥 Total de Leads", total_leads)
-        col2.metric("✅ Tasa de Conversión", f"{tasa_conversion:.1f}%")
+        col1.metric("Total de Leads", total_leads)
+        col2.metric("Tasa de Conversión", f"{tasa_interes:.1f}%")
 
-        # Gráfico 1: Leads por tipo de tratamiento
-        st.subheader("Distribución por Servicio de Interés")
-        fig1, ax1 = plt.subplots()
-        df["interes"].value_counts().plot(kind='bar', color="#4db6ac", ax=ax1)
-        ax1.set_ylabel("Número de Leads")
-        st.pyplot(fig1)
+        st.divider()
+        st.subheader("📊 Gráficos")
 
-        # Gráfico 2: Leads por estado de interés
-        st.subheader("Interés Activo vs No Activo")
-        fig2, ax2 = plt.subplots()
-        df["interes_activo"].value_counts().plot.pie(autopct='%1.1f%%', startangle=90, colors=["#66bb6a", "#ef5350"], ax=ax2)
-        ax2.set_ylabel("")
-        st.pyplot(fig2)
+        col3, col4 = st.columns(2)
 
-        # Vista de tabla
-        st.subheader("Últimos 10 Leads Registrados")
-        st.dataframe(df.sort_values(by="fecha_registro", ascending=False).head(10))
+        with col3:
+            conteo_servicios = df["servicio"].value_counts()
+            fig1, ax1 = plt.subplots()
+            ax1.bar(conteo_servicios.index, conteo_servicios.values, color="#66b3ff")
+            ax1.set_title("Leads por Servicio")
+            ax1.set_xticklabels(conteo_servicios.index, rotation=45)
+            st.pyplot(fig1)
 
-        # Botón para descargar CSV
-        csv = df.to_csv(index=False).encode('utf-8')
-        st.download_button("📥 Descargar Leads (CSV)", csv, "leads.csv", "text/csv")
+        with col4:
+            activos = df["interes_activo"].value_counts().sort_index()
+            fig2, ax2 = plt.subplots()
+            ax2.pie(activos, labels=["No Interesado", "Interesado"], autopct="%1.1f%%", colors=["#f1948a", "#58d68d"])
+            ax2.set_title("Distribución de Interés")
+            st.pyplot(fig2)
 
-    except FileNotFoundError:
-        st.warning("No se encontró el archivo de leads.")
+        st.divider()
+        st.subheader("📋 Últimos Leads Registrados")
+        st.dataframe(df.tail(10))
+
+        csv_buffer = generar_descarga_csv(df)
+        st.download_button("📥 Descargar CSV completo", data=csv_buffer, file_name="leads.csv", mime="text/csv")
