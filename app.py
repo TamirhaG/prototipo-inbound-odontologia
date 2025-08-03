@@ -12,7 +12,7 @@ from sklearn.pipeline import Pipeline
 # Cargar el modelo 
 import cloudpickle
 
-with open("modelo/modelo_inbound_clinica.pkl", "rb") as f:
+with open("TamirhaG/prototipo-inbound-odontologia/modelo/modelo_inbound_clinica.pkl", "rb") as f:
     modelo = cloudpickle.load(f)
 
 # ---------------- CONFIGURACIÓN GENERAL ----------------
