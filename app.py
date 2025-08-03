@@ -16,7 +16,7 @@ modelo = joblib.load("modelo/modelo_inbound_clinica.pkl")
 st.set_page_config(page_title="Captura de Leads - Clínica Odontológica", layout="centered")
 
 # ---------------- FUNCIONES AUXILIARES ----------------
-CSV_FILE = "leads_ver3.csv"
+CSV_FILE = "leads_ver4.csv"
 
 def cargar_datos():
     columnas = [
