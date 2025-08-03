@@ -5,7 +5,6 @@ from io import BytesIO
 from utils.visualizaciones import grafico_servicios, grafico_interes
 import os
 
-import joblib  
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
