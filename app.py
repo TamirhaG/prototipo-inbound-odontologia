@@ -66,48 +66,76 @@ def es_correo_valido(correo):
 st.title("🦷 Captura y Visualización de Leads")
 st.markdown("Este prototipo permite registrar leads y visualizar su análisis.")
 
-tabs = st.tabs(["➕ Registrar Lead", "📊 Análisis de Leads", "🤖 Predicción de Conversión"])
+tabs = st.tabs(["🤖 Registro y Predicción", "📊 Análisis de Leads"])
 
-# ---------------- TAB 1: REGISTRO ----------------
-with tabs[0]:
-    with st.form("lead_formulario"):
-        st.subheader("Registrar nuevo lead")
+# ---------------- TAB UNIFICADA: REGISTRO Y PREDICCIÓN ----------------
+with tabs[2]:
+    st.subheader("🦷 Registrar Lead y Predecir Conversión")
+    st.markdown("Completa los campos para registrar el lead y estimar su probabilidad de conversión.")
 
-        nombre = st.text_input("Nombre completo", max_chars=50)
+    with st.form("formulario_registro_prediccion"):
+        nombre = st.text_input("Nombre completo")
         correo = st.text_input("Correo electrónico")
         telefono = st.text_input("Número de teléfono")
-        servicio = st.selectbox("Servicio de interés", ["Ortodoncia", "Limpieza dental", "Blanqueamiento", "Implantes", "Evaluación general", "Endodoncia"])
-        canal = st.selectbox("Canal de contacto", ["Instagram", "Facebook", "WhatsApp", "TikTok", "Otro"])
-        interes_activo = st.selectbox("¿Interés confirmado?", ["Sí", "No"])
+        servicio = st.selectbox("Servicio", ["Ortodoncia", "Limpieza dental", "Blanqueamiento", "Implantes", "Evaluación general", "Endodoncia"])
+        canal = st.selectbox("Canal", ["Instagram", "Facebook", "WhatsApp", "TikTok", "Otro"])
+        canal_origen = st.selectbox("Canal de origen", ["Página web", "Google Ads", "Recomendación", "Llamada directa"])
+        urgencia = st.selectbox("Nivel de urgencia", ["Alta", "Media", "Baja"])
+        mensaje_largo = st.selectbox("¿Mensaje largo?", ["Sí", "No"])
+        referido = st.selectbox("¿Fue referido?", ["Sí", "No"])
+        tratamiento_prev = st.selectbox("¿Tratamiento previo?", ["Sí", "No"])
         horario = st.selectbox("Horario de contacto", ["Mañana", "Tarde", "Noche"])
-        dias_desde = st.number_input("Días desde el contacto inicial", min_value=0, step=1)
-        referido = st.selectbox("¿Fue referido por otro paciente?", ["Sí", "No"])
-        tratamiento_prev = st.selectbox("¿Ha recibido tratamiento previo en la clínica?", ["Sí", "No"])
+        dias_desde_contacto = st.number_input("Días desde contacto", min_value=0, step=1)
+        hora_contacto = st.slider("Hora de contacto", min_value=0, max_value=23)
+        dias_recientes = st.selectbox("¿Días recientes?", ["Sí", "No"])
 
-        enviar = st.form_submit_button("Guardar Lead")
+        submit = st.form_submit_button("Registrar y Predecir")
 
-        if enviar:
-            # Validación de campos obligatorios y correo válido
-            if nombre.strip() and correo.strip() and telefono.strip() and es_correo_valido(correo):
-                df_nuevo = pd.DataFrame([{
-                    "nombre": nombre.strip().title(),
-                    "correo": correo.strip().lower(),
-                    "telefono": telefono.strip(),
-                    "servicio": servicio,
-                    "canal": canal,
-                    "interes_activo": 1 if interes_activo == "Sí" else 0,
-                    "horario_contacto": horario,
-                    "dias_desde_contacto": dias_desde,
-                    "referido": 1 if referido == "Sí" else 0,
-                    "tratamiento_prev": 1 if tratamiento_prev == "Sí" else 0
-                }])
+    if submit:
+        es_mañana = 1 if horario == "Mañana" else 0
 
-                guardar_dato(df_nuevo)
-                st.success("✅ Lead registrado con éxito.")
-            else:
-                st.error("❗ Por favor, completa todos los campos correctamente (correo válido requerido).")
+        # Preparar los datos para el modelo
+        df_pred = pd.DataFrame([{
+            'servicio': servicio,
+            'canal': canal,
+            'canal_origen': canal_origen,
+            'urgencia': urgencia,
+            'mensaje_largo': 1 if mensaje_largo == "Sí" else 0,
+            'referido': 1 if referido == "Sí" else 0,
+            'tratamiento_prev': 1 if tratamiento_prev == "Sí" else 0,
+            'es_mañana': es_mañana,
+            'dias_recientes': 1 if dias_recientes == "Sí" else 0,
+            'hora_contacto': hora_contacto,
+            'dias_desde_contacto': dias_desde_contacto
+        }])
 
+        # Obtener la probabilidad de conversión
+        prob = modelo.predict_proba(df_pred)[0][1]
 
+        # Guardar todos los datos + predicción en CSV
+        df_registro = df_pred.copy()
+        df_registro["nombre"] = nombre
+        df_registro["correo"] = correo
+        df_registro["telefono"] = telefono
+        df_registro["probabilidad_conversion"] = round(prob, 4)
+
+        # Guardar en CSV (crear archivo si no existe)
+        archivo = "data/leads_registrados.csv"
+        if not os.path.exists(archivo):
+            df_registro.to_csv(archivo, index=False)
+        else:
+            df_registro.to_csv(archivo, mode="a", header=False, index=False)
+
+        # Mostrar resultado
+        st.success(f"🔮 Probabilidad de conversión: **{prob*100:.1f}%**")
+        if prob >= 0.7:
+            st.markdown("✅ Alta probabilidad de conversión")
+        elif prob >= 0.4:
+            st.markdown("🟡 Probabilidad moderada de conversión")
+        else:
+            st.markdown("🔻 Baja probabilidad de conversión")
+
+        st.info("✔️ Lead registrado correctamente.")
 
 # ---------------- TAB 2: DASHBOARD ----------------
 with tabs[1]:
@@ -161,63 +189,3 @@ with tabs[1]:
         csv_buffer = generar_descarga_csv(df)
         st.download_button("📥 Descargar CSV completo", data=csv_buffer, file_name="leads.csv", mime="text/csv")
 
-# ---------------- TAB 3: PREDICCIÓN ----------------
-with tabs[2]:
-    st.subheader("🤖 Predicción de Conversión de Lead")
-    st.markdown("Completa los campos para estimar la probabilidad de conversión.")
-
-    with st.form("formulario_prediccion"):
-        nombre = st.text_input("Nombre completo")
-        correo = st.text_input("Correo electrónico")
-        telefono = st.text_input("Número de teléfono")
-
-        servicio = st.selectbox("Servicio", ["Ortodoncia", "Limpieza dental", "Blanqueamiento", "Implantes", "Evaluación general", "Endodoncia"])
-        canal = st.selectbox("Canal", ["Instagram", "Facebook", "WhatsApp", "TikTok", "Otro"])
-        canal_origen = st.selectbox("Canal de origen", ["Página web", "Google Ads", "Recomendación", "Llamada directa"])
-        urgencia = st.selectbox("Nivel de urgencia", ["Alta", "Media", "Baja"])
-        mensaje_largo = st.selectbox("¿Mensaje largo?", ["Sí", "No"])
-        referido = st.selectbox("¿Fue referido?", ["Sí", "No"])
-        tratamiento_prev = st.selectbox("¿Tratamiento previo?", ["Sí", "No"])
-        horario = st.selectbox("Horario de contacto", ["Mañana", "Tarde", "Noche"])
-        dias_desde_contacto = st.number_input("Días desde contacto", min_value=0, step=1)
-        hora_contacto = st.slider("Hora de contacto", min_value=0, max_value=23)
-        dias_recientes = st.selectbox("¿Días recientes?", ["Sí", "No"])
-
-        predecir = st.form_submit_button("Predecir Conversión")
-
-    if predecir:
-        if not (nombre.strip() and correo.strip() and telefono.strip()):
-            st.error("❗ Por favor, completa nombre, correo y teléfono.")
-        elif not es_correo_valido(correo):
-            st.error("❗ Ingresa un correo electrónico válido.")
-        else:
-            es_mañana = 1 if horario == "Mañana" else 0
-
-            # DataFrame SOLO con variables del modelo
-            df_pred = pd.DataFrame([{
-                'servicio': servicio,
-                'canal': canal,
-                'canal_origen': canal_origen,
-                'urgencia': urgencia,
-                'mensaje_largo': 1 if mensaje_largo == "Sí" else 0,
-                'referido': 1 if referido == "Sí" else 0,
-                'tratamiento_prev': 1 if tratamiento_prev == "Sí" else 0,
-                'es_mañana': es_mañana,
-                'dias_recientes': 1 if dias_recientes == "Sí" else 0,
-                'hora_contacto': hora_contacto,
-                'dias_desde_contacto': dias_desde_contacto
-            }])
-
-            try:
-                prob = modelo.predict_proba(df_pred)[0][1]
-                st.success(f"🔮 Probabilidad de conversión: **{prob*100:.1f}%**")
-
-                # Interpretación
-                if prob >= 0.7:
-                    st.markdown("✅ Alta probabilidad de conversión")
-                elif prob >= 0.4:
-                    st.markdown("🟡 Probabilidad moderada de conversión")
-                else:
-                    st.markdown("🔻 Baja probabilidad de conversión")
-            except Exception as e:
-                st.error(f"❗ Error al realizar la predicción: {e}")
