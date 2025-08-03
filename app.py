@@ -35,9 +35,11 @@ def cargar_datos():
         return pd.DataFrame(columns=columnas)
 
 def guardar_dato(df_nuevo):
-    df_actual = cargar_datos()
-    df_actual = pd.concat([df_actual, df_nuevo], ignore_index=True)
-    df_actual.to_csv(CSV_FILE, index=False)
+    if df_nuevo["correo"].iloc[0] not in df_actual["correo"].values:
+        df_actual = pd.concat([df_actual, df_nuevo], ignore_index=True)
+        df_actual.to_csv(CSV_FILE, index=False)
+    else:
+        st.warning("⚠️ Este lead ya fue registrado.")
 
 def generar_descarga_csv(df):
     buffer = BytesIO()
@@ -45,11 +47,15 @@ def generar_descarga_csv(df):
     buffer.seek(0)
     return buffer
 
+import re
+def es_correo_valido(correo):
+    return re.match(r"[^@]+@[^@]+\.[^@]+", correo)
+
 # ---------------- INTERFAZ PRINCIPAL ----------------
 st.title("🦷 Captura y Visualización de Leads")
 st.markdown("Este prototipo permite registrar leads y visualizar su análisis.")
 
-tabs = st.tabs(["➕ Registrar Lead", "📊 Análisis de Leads"])
+tabs = st.tabs(["➕ Registrar Lead", "📊 Análisis de Leads", "🤖 Predicción de Conversión"])
 
 # ---------------- TAB 1: REGISTRO ----------------
 with tabs[0]:
@@ -70,7 +76,7 @@ with tabs[0]:
         enviar = st.form_submit_button("Guardar Lead")
 
         if enviar:
-            if nombre.strip() and correo.strip() and telefono.strip():
+            if nombre.strip() and correo.strip() and telefono.strip() and es_correo_valido(correo):
                 df_nuevo = pd.DataFrame([{
                     "nombre": nombre,
                     "correo": correo,
@@ -87,7 +93,7 @@ with tabs[0]:
                 guardar_dato(df_nuevo)
                 st.success("✅ Lead registrado con éxito.")
             else:
-                st.error("❗ Por favor, completa todos los campos obligatorios.")
+                st.error("❗ Por favor, completa todos los campos correctamente (correo válido requerido).")
 
 # ---------------- TAB 2: DASHBOARD ----------------
 with tabs[1]:
