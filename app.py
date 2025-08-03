@@ -12,8 +12,18 @@ st.set_page_config(page_title="Captura de Leads - Clínica Odontológica", layou
 CSV_FILE = "leads_ver1.csv"
 
 def cargar_datos():
+    columnas = [
+        "nombre", "correo", "telefono", "servicio", "canal", "interes_activo",
+        "horario_contacto", "dias_desde_contacto", "referido", "tratamiento_prev"
+    ]
+
     if os.path.exists(CSV_FILE):
         df = pd.read_csv(CSV_FILE)
+
+        # Asegurar columnas (por si el archivo es antiguo)
+        for col in columnas:
+            if col not in df.columns:
+                df[col] = None
 
         # Normalizar valores de interes_activo
         if "interes_activo" in df.columns:
@@ -22,7 +32,7 @@ def cargar_datos():
 
         return df
     else:
-        return pd.DataFrame(columns=["nombre", "correo", "telefono", "servicio", "canal", "interes_activo"])
+        return pd.DataFrame(columns=columnas)
 
 def guardar_dato(df_nuevo):
     df_actual = cargar_datos()
@@ -56,7 +66,6 @@ with tabs[0]:
         dias_desde = st.number_input("Días desde el contacto inicial", min_value=0, step=1)
         referido = st.selectbox("¿Fue referido por otro paciente?", ["Sí", "No"])
         tratamiento_prev = st.selectbox("¿Ha recibido tratamiento previo en la clínica?", ["Sí", "No"])
-
 
         enviar = st.form_submit_button("Guardar Lead")
 
@@ -108,10 +117,13 @@ with tabs[1]:
             fig2 = grafico_interes(df)
             st.pyplot(fig2)
 
-
         st.divider()
         st.subheader("📋 Últimos Leads Registrados")
-        st.dataframe(df.tail(10))
+        columnas_mostrar = [
+            "nombre", "correo", "telefono", "servicio", "canal", "interes_activo",
+            "horario_contacto", "dias_desde_contacto", "referido", "tratamiento_prev"
+        ]
+        st.dataframe(df[columnas_mostrar].tail(10))
 
         csv_buffer = generar_descarga_csv(df)
         st.download_button("📥 Descargar CSV completo", data=csv_buffer, file_name="leads.csv", mime="text/csv")
