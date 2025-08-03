@@ -52,6 +52,11 @@ with tabs[0]:
         servicio = st.selectbox("Servicio de interés", ["Ortodoncia", "Limpieza dental", "Blanqueamiento", "Implantes", "Evaluación general", "Endodoncia"])
         canal = st.selectbox("Canal de contacto", ["Instagram", "Facebook", "WhatsApp", "TikTok", "Otro"])
         interes_activo = st.selectbox("¿Interés confirmado?", ["Sí", "No"])
+        horario = st.selectbox("Horario de contacto", ["Mañana", "Tarde", "Noche"])
+        dias_desde = st.number_input("Días desde el contacto inicial", min_value=0, step=1)
+        referido = st.selectbox("¿Fue referido por otro paciente?", ["Sí", "No"])
+        tratamiento_prev = st.selectbox("¿Ha recibido tratamiento previo en la clínica?", ["Sí", "No"])
+
 
         enviar = st.form_submit_button("Guardar Lead")
 
@@ -63,8 +68,13 @@ with tabs[0]:
                     "telefono": telefono,
                     "servicio": servicio,
                     "canal": canal,
-                    "interes_activo": 1 if interes_activo == "Sí" else 0
+                    "interes_activo": 1 if interes_activo == "Sí" else 0,
+                    "horario_contacto": horario,
+                    "dias_desde_contacto": dias_desde,
+                    "referido": 1 if referido == "Sí" else 0,
+                    "tratamiento_prev": 1 if tratamiento_prev == "Sí" else 0
                 }])
+
                 guardar_dato(df_nuevo)
                 st.success("✅ Lead registrado con éxito.")
             else:
