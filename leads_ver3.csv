@@ -1,0 +1,501 @@
+nombre,correo,telefono,servicio,canal,canal_origen,hora_contacto,dias_desde_contacto,mensaje_largo,urgencia,referido,tratamiento_prev,interes_activo,es_mañana,dias_recientes
+Dan Segovia,vallejodemetrio@example.org,+34981 57 59 57,Limpieza dental,Instagram,Recomendación,18,0,1,Baja,0,0,0,0,1
+Lorena Irene Haro Díez,rosellruy@example.org,+34 876 46 62 65,Implantes,WhatsApp,Google Ads,15,8,0,Media,0,0,1,0,0
+Celestino Noriega Chacón,parejahermenegildo@example.com,+34 926 03 17 43,Limpieza dental,Otro,Google Ads,14,7,0,Baja,1,1,1,0,0
+Genoveva Barco Hervia,hriquelme@example.com,+34 924 27 95 44,Blanqueamiento,Otro,Recomendación,18,1,1,Media,1,0,1,0,1
+Roberto Hidalgo Ropero,ajaume@example.net,+34886 29 33 10,Blanqueamiento,Otro,Recomendación,12,9,1,Media,0,0,1,0,0
+Nicodemo Garmendia Alberola,davilavisitacion@example.com,+34 947423056,Endodoncia,TikTok,WhatsApp Directo,13,9,0,Baja,0,1,0,0,0
+Ruperta del Landa,consuelapavon@example.net,+34 807294028,Implantes,WhatsApp,Página Web,15,3,1,Baja,0,1,1,0,1
+Félix Ayala Alonso,aginer@example.org,+34 982414939,Ortodoncia,Instagram,Recomendación,8,8,1,Baja,0,1,0,1,0
+Ciríaco Capdevila Sevillano,mdonoso@example.org,+34943983438,Ortodoncia,Instagram,WhatsApp Directo,18,6,1,Media,1,0,0,0,0
+Silvio Pardo-Coloma,salvadorcoral@example.org,+34825 76 01 70,Ortodoncia,Facebook,Recomendación,16,6,1,Baja,1,1,1,0,0
+Olivia Agustín Comas,bonetcarolina@example.net,+34883839450,Limpieza dental,WhatsApp,Google Ads,9,9,0,Alta,0,1,0,1,0
+Fortunata Garay Abad,xsole@example.com,+34 921652613,Implantes,Instagram,Recomendación,10,7,1,Baja,0,0,1,1,0
+Nidia Amador Gonzalez,porteronazaret@example.org,+34881789413,Implantes,TikTok,Facebook Ads,16,8,0,Baja,1,0,0,0,0
+Guadalupe Verdejo Menéndez,felisaduque@example.net,+34 844322091,Ortodoncia,WhatsApp,Recomendación,12,1,0,Media,0,1,0,0,1
+Inmaculada Torrent Peña,orios@example.net,+34 944317318,Ortodoncia,Otro,Página Web,9,2,1,Media,0,1,1,1,1
+Susana Ballesteros,fbenavides@example.org,+34949652378,Blanqueamiento,WhatsApp,WhatsApp Directo,19,2,1,Media,0,0,0,0,1
+Paulino Amo Correa,adolfoperera@example.org,+34846743480,Ortodoncia,WhatsApp,Google Ads,13,1,0,Baja,0,1,1,0,1
+Juan Bautista Rocha Villar,qamores@example.com,+34925 73 01 73,Endodoncia,WhatsApp,Google Ads,20,9,1,Baja,0,0,1,0,0
+Pacífica Peña Luján,losafabricio@example.org,+34 844 50 21 27,Evaluación general,Facebook,Google Ads,15,3,1,Alta,1,0,1,0,1
+Saturnino Guardiola-Bustos,galo86@example.com,+34812 61 31 60,Blanqueamiento,Facebook,WhatsApp Directo,20,9,0,Media,1,1,0,0,0
+Bernardita Santamaría Arco,fsalazar@example.org,+34 883008175,Evaluación general,Otro,Facebook Ads,19,4,1,Media,0,1,0,0,0
+Marisol Arcelia Morillo Rocamora,cerroflorinda@example.net,+34872199390,Ortodoncia,Facebook,Google Ads,9,6,0,Alta,0,1,0,1,0
+Bienvenida Blazquez-Ugarte,onofre40@example.org,+34 823 95 72 05,Ortodoncia,WhatsApp,Recomendación,11,3,0,Media,1,0,0,1,1
+Visitación Castro Valls,calderonazucena@example.com,+34826 092 047,Implantes,Facebook,Página Web,10,9,0,Baja,1,0,1,1,0
+Carolina Camacho,rolando94@example.net,+34925081777,Limpieza dental,WhatsApp,WhatsApp Directo,18,0,0,Baja,0,1,0,0,1
+Amada Azcona Andrade,eutimioizaguirre@example.org,+34 873 14 76 31,Limpieza dental,Otro,WhatsApp Directo,9,10,1,Media,1,1,1,1,0
+Dolores Manuel,teodora05@example.com,+34 978 724 293,Blanqueamiento,Otro,Facebook Ads,20,9,0,Media,1,0,1,0,0
+Guiomar Leon Royo,virgiliovilanova@example.org,+34 945 73 64 88,Endodoncia,Instagram,Recomendación,12,5,0,Media,1,0,1,0,0
+Eladio Heras Solera,sjaen@example.com,+34873083325,Limpieza dental,Instagram,WhatsApp Directo,15,6,1,Baja,0,1,0,0,0
+Moreno Aramburu Solé,wilfredojimenez@example.net,+34923251001,Ortodoncia,WhatsApp,Página Web,17,9,0,Media,0,1,1,0,0
+Ligia Arteaga Burgos,saavedravalerio@example.com,+34 977 633 269,Ortodoncia,Otro,Facebook Ads,10,7,0,Alta,0,1,0,1,0
+Melania Durán-Casal,juan-bautista35@example.org,+34943 51 43 28,Ortodoncia,WhatsApp,Facebook Ads,14,0,0,Alta,0,1,0,0,1
+Pablo Macias Gras,colomadora@example.com,+34824070550,Ortodoncia,Facebook,Página Web,18,8,1,Media,1,1,1,0,0
+Vera Ropero Lorenzo,chaparroeva@example.com,+34 862940405,Limpieza dental,WhatsApp,WhatsApp Directo,17,7,1,Alta,0,0,0,0,0
+Manu Mínguez Alvarez,rnino@example.net,+34886 843 324,Limpieza dental,Instagram,Google Ads,11,7,1,Alta,1,0,0,1,0
+Fátima Ros Alfaro,haydeeroig@example.com,+34 937 57 62 16,Endodoncia,Instagram,Facebook Ads,15,3,1,Baja,0,1,0,0,1
+Adalberto Cuéllar Estévez,xpeiro@example.com,+34 979 369 181,Limpieza dental,TikTok,Recomendación,13,4,1,Baja,1,1,0,0,0
+Asunción Romeu Enríquez,dorotea54@example.org,+34735 38 90 75,Blanqueamiento,Facebook,Google Ads,17,5,0,Baja,1,0,0,0,0
+Lidia Sosa España,zamoragabriel@example.com,+34 618 62 84 08,Limpieza dental,Instagram,Google Ads,12,0,0,Media,0,0,0,0,1
+Amancio Ayuso-Segura,apariciomarisol@example.com,+34954592011,Ortodoncia,TikTok,WhatsApp Directo,20,10,0,Media,1,1,1,0,0
+Teobaldo Saldaña Arribas,josefina41@example.net,+34827274079,Evaluación general,Facebook,Facebook Ads,12,7,0,Alta,1,1,0,0,0
+Samanta Nicolau Agustín,rivasalejandra@example.net,+34 941 32 13 12,Limpieza dental,TikTok,Recomendación,19,7,0,Media,0,1,1,0,0
+Eusebio Montoya Arco,marisol39@example.net,+34941 637 661,Endodoncia,WhatsApp,Google Ads,20,5,0,Media,0,0,0,0,0
+Pastor Valcárcel Arcos,lvillalobos@example.net,+34886 38 31 04,Implantes,Instagram,Facebook Ads,10,2,1,Media,0,0,0,1,1
+Luciano Plaza Padilla,bvalera@example.org,+34884 11 77 36,Evaluación general,TikTok,Recomendación,11,7,1,Baja,1,0,1,1,0
+Nereida Jurado Santamaria,mariaquiroga@example.net,+34945 93 37 09,Implantes,WhatsApp,Recomendación,18,10,1,Alta,1,0,0,0,0
+Joaquina Angulo Tirado,qsolano@example.org,+34921 29 01 67,Evaluación general,Facebook,Google Ads,16,9,0,Alta,1,0,1,0,0
+Dalila Arnau Durán,spazos@example.net,+34883 20 75 63,Ortodoncia,WhatsApp,Página Web,12,9,0,Media,0,1,1,0,0
+Eduardo Puga Cabañas,ldalmau@example.net,+34 981 054 365,Blanqueamiento,Facebook,Google Ads,19,9,0,Baja,1,0,1,0,0
+Renato Piñeiro Carreras,zdavila@example.org,+34871 29 83 83,Evaluación general,Facebook,WhatsApp Directo,9,4,1,Alta,0,0,0,1,0
+Leocadio Castellanos,mlobato@example.org,+34 886 46 48 18,Evaluación general,Facebook,Página Web,18,8,0,Alta,1,0,0,0,0
+Carlota Mascaró,iker76@example.net,+34 926 168 952,Limpieza dental,TikTok,Página Web,8,3,0,Baja,0,1,0,1,1
+Gonzalo Gilabert Aragonés,darco@example.net,+34 976 51 97 22,Endodoncia,WhatsApp,Facebook Ads,10,8,1,Baja,1,1,1,1,0
+Raquel Carballo Ayuso,kmacias@example.com,+34873920366,Evaluación general,Facebook,WhatsApp Directo,17,4,0,Baja,1,1,1,0,0
+Chuy Lamas,irma11@example.org,+34 800 18 88 92,Evaluación general,Facebook,Google Ads,14,9,0,Alta,1,1,1,0,0
+Elodia Palomar,leivahernando@example.com,+34 683 733 244,Blanqueamiento,TikTok,Facebook Ads,8,4,0,Alta,1,0,0,1,0
+Paloma Llorens Rosales,teodosioespinosa@example.org,+34 864 056 792,Limpieza dental,Instagram,Página Web,10,9,1,Baja,1,1,1,1,0
+Adalberto Piñeiro Rosa,gabrielpozo@example.com,+34 866442773,Ortodoncia,WhatsApp,Facebook Ads,18,3,0,Media,0,0,0,0,1
+Andrea Montero Peñas,primitivo98@example.net,+34 837 227 681,Evaluación general,Instagram,Facebook Ads,10,3,1,Alta,0,0,1,1,1
+Miguel Ángel Ruiz-Mariscal,tpena@example.org,+34 943 88 67 55,Blanqueamiento,Otro,Google Ads,12,6,1,Alta,0,1,0,0,0
+Sara Bernat Andres,guzmanflavio@example.net,+34 879930664,Evaluación general,Facebook,Página Web,11,10,1,Media,0,0,0,1,0
+Jenny Verdú Ibáñez,magdalena62@example.org,+34859072962,Evaluación general,Instagram,Recomendación,9,9,1,Media,0,1,1,1,0
+Carmela Olmo Esteban,maximoizquierdo@example.com,+34 978 00 68 93,Ortodoncia,Facebook,Página Web,8,7,1,Baja,1,0,0,1,0
+Roberta Alvarez,seguiovidio@example.com,+34948 94 70 69,Limpieza dental,Facebook,Página Web,12,2,0,Alta,0,1,0,0,1
+Matilde Segura Sarmiento,calatayudpaulino@example.org,+34 928 79 04 38,Ortodoncia,Facebook,Facebook Ads,11,6,0,Baja,1,0,0,1,0
+Melania Valero Contreras,nurialosada@example.net,+34976 35 14 22,Blanqueamiento,TikTok,WhatsApp Directo,15,0,1,Media,1,0,1,0,1
+Fabio Uribe,olmedoblanca@example.net,+34902 819 237,Implantes,Otro,Página Web,14,2,0,Alta,1,1,0,0,1
+María Carmen Mulet Villegas,folchrogelio@example.org,+34 885772180,Evaluación general,Otro,WhatsApp Directo,19,8,0,Media,0,0,1,0,0
+Feliciano Cáceres Sebastián,norberto75@example.net,+34 810180082,Limpieza dental,WhatsApp,Facebook Ads,16,1,1,Baja,1,0,1,0,1
+Fidel Abril-Corral,climacosoriano@example.org,+34 828 73 80 43,Endodoncia,WhatsApp,Facebook Ads,11,2,0,Alta,0,0,1,1,1
+Olalla Menendez Borrás,mosqueramarino@example.com,+34 976 68 11 76,Blanqueamiento,Instagram,Recomendación,8,10,1,Media,0,0,1,1,0
+Rosa Corominas Arregui,ligia34@example.com,+34 723204012,Implantes,Instagram,Facebook Ads,14,10,0,Alta,0,1,0,0,0
+Pelayo Lara Salgado,carneroemperatriz@example.org,+34 976 25 52 40,Endodoncia,Otro,Google Ads,12,2,1,Media,1,1,1,0,1
+Silvestre Mateo Llabrés,maxima44@example.com,+34 971844179,Blanqueamiento,Otro,WhatsApp Directo,20,10,1,Media,1,0,1,0,0
+Rosendo Sacristán-Bas,verdunorberto@example.org,+34 834 703 174,Implantes,Otro,Facebook Ads,9,4,0,Alta,1,1,1,1,0
+Josué Alcázar Millán,jose32@example.com,+34 934 773 919,Ortodoncia,Facebook,Facebook Ads,11,7,0,Media,1,1,0,1,0
+Noelia Cáceres,deliadominguez@example.com,+34980 08 75 94,Ortodoncia,Otro,WhatsApp Directo,18,10,1,Alta,0,0,0,0,0
+Jeremías Busquets Serra,clemente04@example.net,+34 843285098,Blanqueamiento,WhatsApp,WhatsApp Directo,9,6,1,Baja,0,0,0,1,0
+Evelia Sevillano Ferrer,guardiagervasio@example.org,+34 973 089 764,Blanqueamiento,TikTok,WhatsApp Directo,15,3,1,Alta,1,0,0,0,1
+Heliodoro Aliaga-Calvet,pastora06@example.net,+34900 54 52 37,Endodoncia,TikTok,Página Web,12,6,0,Alta,1,1,1,0,0
+Luna Modesta Almansa Gomila,florvioleta@example.com,+34971 32 70 04,Implantes,Instagram,Facebook Ads,20,8,0,Baja,1,1,1,0,0
+Ariel Alegria Barrios,oiriarte@example.com,+34 888276619,Implantes,Otro,Facebook Ads,11,0,0,Media,1,0,0,1,1
+Flora Perelló Nicolau,valleslola@example.net,+34715 05 77 36,Evaluación general,TikTok,Google Ads,17,2,1,Media,1,0,0,0,1
+Yésica Alegre-Bayón,hduran@example.net,+34820 722 274,Implantes,Instagram,Facebook Ads,16,10,1,Alta,1,1,0,0,0
+Quique Samu Busquets Yáñez,arizagil@example.net,+34 888 922 689,Endodoncia,TikTok,Página Web,15,8,1,Media,1,0,0,0,0
+Encarna Marcos,ameliacantero@example.net,+34 881 71 00 29,Implantes,TikTok,Recomendación,8,5,1,Alta,1,1,0,1,0
+Olga Ibarra Colom,palaciogriselda@example.org,+34731169329,Evaluación general,TikTok,Recomendación,10,0,1,Media,1,0,0,1,1
+Flavio Ambrosio Tena Abellán,casemiro08@example.net,+34949 25 20 30,Blanqueamiento,Otro,Google Ads,12,6,0,Alta,1,0,0,0,0
+Almudena Cases Castells,rpalomo@example.org,+34 978 63 01 15,Endodoncia,WhatsApp,Recomendación,15,8,0,Media,0,0,0,0,0
+Toribio Nicodemo Suarez Carlos,ireyes@example.net,+34 973465915,Ortodoncia,TikTok,Página Web,18,8,0,Baja,1,0,1,0,0
+Chema Mateo-Báez,amadoroldan@example.org,+34 975161414,Ortodoncia,Otro,Recomendación,12,7,0,Baja,1,0,0,0,0
+Ximena Gracia,daniel53@example.org,+34 981 835 632,Endodoncia,WhatsApp,Página Web,12,6,0,Baja,0,0,1,0,0
+Amada Barreda-Ferreras,amanciopons@example.org,+34 986 19 63 88,Implantes,Otro,Recomendación,17,8,0,Media,0,0,1,0,0
+Lucio Barrio Mosquera,santiagotudela@example.com,+34949 415 419,Endodoncia,WhatsApp,Google Ads,10,2,0,Baja,1,0,0,1,1
+Evaristo Valle Agullo,benignapalmer@example.net,+34 886 79 36 74,Implantes,TikTok,Recomendación,15,1,1,Media,0,0,1,0,1
+Amarilis Huerta Díez,espejojessica@example.org,+34922 918 347,Limpieza dental,Instagram,Recomendación,14,6,0,Baja,0,0,0,0,0
+Reyes Albero Lucena,puertaalfonso@example.net,+34 872615781,Ortodoncia,Instagram,Recomendación,19,4,1,Alta,1,1,0,0,0
+Jaime Vilalta Almansa,hcazorla@example.net,+34 877 70 88 73,Limpieza dental,WhatsApp,Página Web,20,8,0,Media,1,1,0,0,0
+Dulce Adela Solera León,matildeosorio@example.com,+34944474759,Limpieza dental,Otro,Página Web,19,10,1,Baja,0,0,0,0,0
+Emigdio del Bosch,hgomis@example.org,+34 944 96 51 09,Evaluación general,Facebook,WhatsApp Directo,20,5,1,Baja,0,0,1,0,0
+Encarnación Zurita Córdoba,ariel28@example.org,+34 660 57 11 56,Blanqueamiento,Facebook,WhatsApp Directo,10,8,1,Media,1,1,0,1,0
+Paca Beltrán Pomares,bgarrido@example.org,+34 875 17 10 32,Blanqueamiento,WhatsApp,WhatsApp Directo,11,6,0,Alta,1,0,1,1,0
+Leonardo Llopis Ferreras,benito62@example.com,+34951 41 76 10,Ortodoncia,WhatsApp,Google Ads,17,6,1,Alta,1,1,0,0,0
+Esteban Arias,alfonso44@example.com,+34 883817776,Blanqueamiento,WhatsApp,Recomendación,10,3,1,Baja,1,0,0,1,1
+Encarnita Ballesteros Balaguer,breig@example.org,+34807 049 486,Implantes,TikTok,Página Web,18,4,1,Baja,0,0,0,0,0
+Concepción Gaya-Bernal,nazariofeliu@example.org,+34 748624244,Implantes,Otro,Facebook Ads,12,5,0,Media,1,0,1,0,0
+Hilario Ribes,emoles@example.com,+34 884 324 508,Limpieza dental,Facebook,Recomendación,16,10,0,Media,1,0,0,0,0
+Lupe Peinado Martínez,talegre@example.com,+34985088562,Endodoncia,Otro,WhatsApp Directo,16,10,1,Media,1,0,0,0,0
+Florencio Carbajo Garcés,baezmaximo@example.net,+34 927 57 11 01,Limpieza dental,WhatsApp,WhatsApp Directo,20,8,0,Media,1,1,1,0,0
+Jessica Sabater Nevado,santosfuster@example.com,+34873 387 597,Implantes,Instagram,Google Ads,9,6,0,Baja,0,1,0,1,0
+Urbano Zapata Puga,isabel36@example.org,+34943131175,Limpieza dental,Otro,WhatsApp Directo,11,6,0,Alta,0,1,0,1,0
+Seve Gabaldón Batalla,gabriela99@example.net,+34825 30 66 05,Evaluación general,WhatsApp,Página Web,17,5,1,Baja,0,0,0,0,0
+Cayetana del Palomino,paulina37@example.org,+34943 21 18 74,Ortodoncia,Instagram,WhatsApp Directo,18,7,0,Alta,1,1,0,0,0
+Pelayo Tomas Melero,maria-jesusvillegas@example.org,+34 941029638,Evaluación general,Otro,Recomendación,8,5,0,Alta,0,1,0,1,0
+Pascual Ayala Fortuny,eolivera@example.org,+34 901 76 91 03,Ortodoncia,Instagram,Recomendación,10,4,0,Alta,0,1,1,1,0
+Rosenda del Sacristán,jimena59@example.net,+34 949 19 25 60,Limpieza dental,Facebook,Página Web,8,1,1,Alta,1,0,1,1,1
+María Dolores Estrada,cuencamarcio@example.net,+34876137536,Evaluación general,Otro,WhatsApp Directo,20,8,1,Baja,1,1,1,0,0
+Primitivo Serrano Barros,tito73@example.com,+34842 50 43 86,Evaluación general,WhatsApp,Página Web,18,4,1,Media,0,0,1,0,0
+Jordana Valbuena Samper,valcarceltrinidad@example.net,+34 975 884 331,Limpieza dental,TikTok,Página Web,20,7,1,Baja,1,1,1,0,0
+Ariel Mate,romannarcisa@example.net,+34 880517412,Implantes,Facebook,Google Ads,19,4,1,Alta,0,0,0,0,0
+Loreto Goñi,ztirado@example.org,+34935960085,Implantes,WhatsApp,WhatsApp Directo,8,1,1,Alta,0,1,0,1,1
+Paula Concha Aramburu Sarmiento,caminovisitacion@example.net,+34 825454704,Ortodoncia,Otro,Recomendación,18,2,1,Media,1,0,1,0,1
+Emiliana de Cortés,palomacozar@example.org,+34923702086,Evaluación general,TikTok,Facebook Ads,10,0,1,Media,0,0,0,1,1
+Eufemia Maza Navarrete,ema13@example.org,+34854 26 45 97,Evaluación general,Instagram,Recomendación,12,2,1,Media,1,1,0,0,1
+Jacinto Isidro Luque Barrena,virgilio22@example.net,+34 748 738 019,Limpieza dental,Facebook,WhatsApp Directo,13,6,1,Baja,0,0,1,0,0
+Mohamed Santamaria-Serna,jpena@example.net,+34843 586 204,Ortodoncia,Otro,Recomendación,10,8,0,Baja,1,1,1,1,0
+Ricarda Sales,tellopetrona@example.com,+34949269073,Endodoncia,Instagram,Facebook Ads,10,7,0,Baja,1,1,1,1,0
+Débora Ribera Iborra,marciolopez@example.net,+34874 651 927,Endodoncia,WhatsApp,Página Web,18,8,0,Baja,0,1,0,0,0
+Aura Bernal Falcón,andreapedrosa@example.com,+34 739880728,Limpieza dental,Otro,Página Web,15,4,1,Media,1,0,0,0,0
+Iván Jurado-Jover,klanda@example.net,+34 923 56 77 97,Endodoncia,Otro,Google Ads,19,5,0,Media,1,1,0,0,0
+Roque Cruz Robles,ana-sofiaalcantara@example.net,+34 926 224 973,Ortodoncia,WhatsApp,Facebook Ads,12,2,1,Baja,1,1,1,0,1
+Lucía Carballo Arellano,blanchazucena@example.org,+34945 020 634,Blanqueamiento,Facebook,Google Ads,14,5,0,Media,1,1,0,0,0
+Marcelo del Tur,tadadia@example.org,+34 827746273,Blanqueamiento,Facebook,WhatsApp Directo,17,3,1,Alta,1,0,0,0,1
+Marcelo Gallardo Cano,encarnita24@example.com,+34 822 78 40 99,Evaluación general,Otro,Google Ads,10,6,0,Media,1,1,1,1,0
+Carlito Martí Peral,fidel71@example.org,+34 877 56 81 80,Endodoncia,Facebook,Página Web,18,5,0,Media,1,1,0,0,0
+Dalila Rivas Vives,barralremedios@example.net,+34978 77 54 90,Ortodoncia,WhatsApp,Google Ads,16,3,1,Media,0,0,1,0,1
+Ulises Prat Domínguez,maximocorominas@example.org,+34669 092 897,Blanqueamiento,WhatsApp,WhatsApp Directo,17,0,1,Baja,1,1,1,0,1
+Angélica Sastre Lobo,rosa91@example.org,+34822035643,Ortodoncia,Facebook,WhatsApp Directo,18,2,1,Alta,1,0,1,0,1
+Noa del Carreño,pereabelen@example.net,+34 878 848 447,Implantes,Instagram,Google Ads,16,9,1,Alta,1,1,0,0,0
+Valero Villegas Cárdenas,baudelio75@example.net,+34 981 176 167,Limpieza dental,Facebook,Facebook Ads,15,6,1,Alta,1,1,0,0,0
+Imelda Manola Miralles Villena,isaurabarral@example.org,+34 912 107 581,Evaluación general,Otro,Recomendación,11,1,1,Media,0,0,1,1,1
+Aurora Vergara,iaviles@example.com,+34 843293938,Evaluación general,TikTok,WhatsApp Directo,14,3,1,Baja,1,0,1,0,1
+José Manuel Martinez Morera,jimena15@example.net,+34 875 546 396,Ortodoncia,WhatsApp,Google Ads,14,2,1,Baja,1,1,1,0,1
+Eduardo Saez Portillo,peinadofeliciano@example.com,+34885 704 513,Evaluación general,Instagram,WhatsApp Directo,10,6,1,Media,0,1,1,1,0
+Arcelia Mir Bermúdez,olimpiabaez@example.net,+34986 84 05 21,Ortodoncia,WhatsApp,WhatsApp Directo,16,7,1,Media,0,1,0,0,0
+Amarilis Peña Marti,teodora46@example.org,+34 963 29 38 75,Limpieza dental,TikTok,Recomendación,18,3,0,Alta,0,1,1,0,1
+Trini Redondo Castrillo,hcarmona@example.org,+34 849 97 73 73,Blanqueamiento,WhatsApp,Facebook Ads,20,4,0,Baja,0,1,1,0,0
+Danilo Zamorano Puig,qhurtado@example.com,+34 823 113 154,Blanqueamiento,Facebook,WhatsApp Directo,8,2,0,Media,0,1,1,1,1
+Onofre Diego Calvo,teobaldo57@example.com,+34875 24 01 51,Implantes,TikTok,WhatsApp Directo,16,8,1,Alta,0,1,0,0,0
+Anastasio del Pino,joelsola@example.com,+34 826 15 63 33,Endodoncia,Facebook,Recomendación,18,4,0,Alta,1,1,1,0,0
+Lupita de Piñol,ualcazar@example.com,+34842570071,Implantes,Facebook,WhatsApp Directo,12,0,0,Baja,0,1,1,0,1
+Ileana Segarra Guzman,romanlara@example.org,+34987 610 825,Implantes,WhatsApp,WhatsApp Directo,8,5,0,Alta,1,0,1,1,0
+Ricardo Pallarès Reyes,melerohugo@example.com,+34 878 75 95 59,Blanqueamiento,Otro,Página Web,14,2,0,Alta,0,1,1,0,1
+Juan Bautista del Jordá,oblasco@example.org,+34886 66 82 93,Limpieza dental,Facebook,Facebook Ads,19,0,1,Baja,0,1,1,0,1
+José Jurado Egea,adelia35@example.com,+34 885 01 49 85,Implantes,Otro,Google Ads,19,0,0,Media,1,1,0,0,1
+Montserrat Feliu Carrera,danielafajardo@example.org,+34847128920,Endodoncia,TikTok,Página Web,16,7,1,Media,1,0,1,0,0
+Toni Diaz Cárdenas,pascual41@example.com,+34872 877 833,Implantes,Otro,Recomendación,11,7,0,Baja,1,0,0,1,0
+Rodrigo Palomo-Feijoo,adadiaflorencio@example.com,+34 976 224 795,Endodoncia,Otro,Google Ads,15,8,0,Media,1,0,0,0,0
+Toni Romeu Manjón,americotellez@example.org,+34945 247 181,Implantes,Facebook,Facebook Ads,9,2,0,Alta,1,0,1,1,1
+Prudencio Almeida Miguel,nazaretarino@example.org,+34 871 52 98 84,Blanqueamiento,TikTok,WhatsApp Directo,18,1,0,Media,0,1,0,0,1
+Daniela Valentín,pacobarriga@example.net,+34 986634490,Limpieza dental,WhatsApp,Google Ads,9,4,0,Alta,1,1,1,1,0
+Fidel Guardiola Saldaña,roldanaguado@example.com,+34820 408 032,Limpieza dental,Instagram,WhatsApp Directo,20,8,1,Alta,0,1,0,0,0
+Anabel Aragón Tomás,calixtobolanos@example.net,+34 827 69 19 81,Blanqueamiento,Instagram,WhatsApp Directo,19,8,0,Alta,1,0,1,0,0
+Roxana Saez Barbero,samuel01@example.org,+34 877 745 930,Endodoncia,WhatsApp,Recomendación,15,8,1,Alta,1,0,1,0,0
+Eli Rocío Sierra Ocaña,saeztiburcio@example.com,+34985155450,Implantes,Otro,Recomendación,11,3,0,Alta,0,1,0,1,1
+Benita Bernat,palaciosleoncio@example.org,+34 928 27 90 96,Implantes,Otro,Google Ads,8,8,0,Alta,0,1,0,1,0
+Felicidad Nogueira Bonilla,marina38@example.com,+34 849 186 269,Limpieza dental,Facebook,WhatsApp Directo,17,4,0,Media,1,1,0,0,0
+Rosalva Morell Julián,regueraalexandra@example.net,+34 927 06 56 14,Evaluación general,Otro,Google Ads,15,7,0,Media,0,1,0,0,0
+Máxima Carrillo,hugomontserrat@example.com,+34 810 047 223,Implantes,Facebook,Google Ads,15,1,0,Alta,1,0,1,0,1
+Roberto Uribe Cabezas,chelo09@example.com,+34820 707 025,Blanqueamiento,Facebook,Google Ads,13,2,1,Baja,0,1,0,0,1
+Eduardo Prat Orozco,jzorrilla@example.com,+34883 54 79 32,Blanqueamiento,Instagram,Página Web,19,0,0,Media,0,1,0,0,1
+Isaura Donoso,lozanomartirio@example.com,+34883 19 80 18,Evaluación general,TikTok,Página Web,13,9,1,Baja,0,1,1,0,0
+Fulgencio Ibañez Rosa,ingridsantana@example.net,+34846 025 961,Endodoncia,Instagram,Facebook Ads,11,8,0,Baja,1,0,1,1,0
+Crescencia Gálvez Riquelme,ildefonsoquiroga@example.org,+34 841 50 67 12,Limpieza dental,TikTok,Recomendación,13,3,1,Media,0,1,1,0,1
+Gastón Plana Carballo,nsegarra@example.org,+34883975884,Implantes,TikTok,Recomendación,16,1,1,Media,1,1,0,0,1
+Alex Salas Cañete,ignacia28@example.net,+34920447086,Implantes,TikTok,WhatsApp Directo,16,0,0,Alta,1,0,0,0,1
+Rolando Mayol,cristinamate@example.net,+34 980 07 35 86,Implantes,Instagram,Facebook Ads,8,2,0,Baja,0,0,1,1,1
+Jose Luis del Nadal,elvirarecio@example.com,+34 847 821 964,Endodoncia,Instagram,Recomendación,14,9,1,Baja,0,0,1,0,0
+Sosimo Almansa Alemán,rcazorla@example.com,+34974 785 586,Ortodoncia,TikTok,Google Ads,12,2,0,Alta,1,0,0,0,1
+Otilia de Baró,glauco28@example.org,+34912 120 070,Evaluación general,TikTok,Facebook Ads,11,8,0,Baja,0,0,0,1,0
+Alexandra Olimpia Villalobos Costa,kolivares@example.net,+34 988 704 710,Limpieza dental,WhatsApp,Página Web,10,4,1,Baja,1,0,0,1,0
+Eleuterio Trujillo Manuel,ayalaremedios@example.net,+34901471132,Endodoncia,Otro,Google Ads,9,10,0,Alta,1,0,0,1,0
+Isabel Carpio Calatayud,maciasaranzazu@example.org,+34 900080897,Endodoncia,Facebook,Página Web,16,2,1,Media,1,1,0,0,1
+Galo Juárez Gallo,nazario69@example.org,+34876 04 17 01,Endodoncia,Facebook,Página Web,12,0,1,Baja,0,1,0,0,1
+Hilda Higueras Marí,roldan99@example.com,+34 917 37 80 77,Blanqueamiento,WhatsApp,Página Web,20,6,0,Alta,1,1,0,0,0
+Juan Pablo Fortunato Roura Herrero,walter32@example.com,+34 834 75 42 71,Limpieza dental,Instagram,Página Web,20,6,1,Media,0,1,1,0,0
+Hortensia Blázquez-Pareja,marcelomarquez@example.net,+34 900 87 74 26,Implantes,TikTok,Recomendación,18,4,1,Media,1,0,0,0,0
+Cecilio Aguiló,meleroemelina@example.org,+34 849881274,Implantes,Instagram,Google Ads,16,4,1,Baja,1,0,1,0,0
+Primitivo de Pombo,gilbertovalcarcel@example.net,+34981 718 744,Implantes,WhatsApp,Google Ads,18,4,0,Alta,1,0,1,0,0
+Amor Galan Fuster,cuencaemperatriz@example.com,+34 923542035,Implantes,WhatsApp,WhatsApp Directo,16,3,1,Baja,0,0,0,0,1
+Francisco Dalmau,chaparroheraclio@example.net,+34 983478341,Endodoncia,Facebook,Página Web,18,8,0,Media,0,1,1,0,0
+Primitiva Porta,oguardia@example.org,+34 949854131,Blanqueamiento,Facebook,Facebook Ads,19,4,1,Media,1,1,1,0,0
+Fausto Olivera Arnau,jolmedo@example.net,+34 973720822,Blanqueamiento,WhatsApp,Facebook Ads,15,10,0,Alta,1,1,1,0,0
+Josefina Vallés Perales,francisco-javier43@example.org,+34709 99 46 72,Endodoncia,WhatsApp,Página Web,15,3,1,Alta,1,0,0,0,1
+Flor Hernando Botella,aguiladomitila@example.com,+34 887 609 710,Endodoncia,Instagram,Google Ads,16,8,1,Alta,1,0,0,0,0
+Ligia Chaves Ocaña,alexandra30@example.org,+34875 883 376,Blanqueamiento,TikTok,WhatsApp Directo,13,5,1,Baja,1,1,0,0,0
+Octavio Valencia Quiroga,jatienza@example.net,+34 980646864,Blanqueamiento,Facebook,Recomendación,17,7,1,Baja,1,1,1,0,0
+Leandra Granados Exposito,gracielagrau@example.org,+34 901809689,Endodoncia,Instagram,WhatsApp Directo,15,6,1,Baja,0,1,0,0,0
+Áurea Maza Ricart,agaray@example.net,+34873 44 08 99,Limpieza dental,Instagram,Recomendación,15,7,0,Baja,1,1,1,0,0
+Joaquín Iriarte Bermúdez,balaguerpetrona@example.com,+34 900 801 619,Limpieza dental,Instagram,Google Ads,10,7,0,Media,0,1,1,1,0
+Segismundo Maximiliano Frías Benitez,leonardocepeda@example.net,+34923001033,Blanqueamiento,Facebook,Facebook Ads,19,8,0,Alta,0,1,0,0,0
+Arturo Jordán-Dominguez,rufina49@example.com,+34878 01 03 77,Implantes,Instagram,WhatsApp Directo,9,0,1,Baja,1,1,1,1,1
+Ruperta Guillén Menendez,aguirreponcio@example.com,+34930177466,Endodoncia,Facebook,Recomendación,9,6,1,Baja,0,1,0,1,0
+Judith Paola Viña Blázquez,melchornieto@example.com,+34 942 001 965,Limpieza dental,Facebook,Recomendación,14,8,0,Alta,1,1,1,0,0
+Efraín Herrera Mateo,roperovicenta@example.org,+34 877 582 991,Ortodoncia,Facebook,Facebook Ads,9,3,0,Baja,1,1,1,1,1
+Ángela Murcia,lorena23@example.org,+34815 816 785,Endodoncia,WhatsApp,Facebook Ads,14,2,0,Media,0,0,1,0,1
+Berto del Pazos,gonzalocasandra@example.org,+34 987 16 87 90,Blanqueamiento,Facebook,Google Ads,17,5,1,Baja,1,1,0,0,0
+Timoteo Cosme Arteaga Novoa,mmarti@example.net,+34 884 006 796,Evaluación general,WhatsApp,Recomendación,17,3,0,Media,1,1,0,0,1
+Dani Ríos-Agustín,llorentejose-carlos@example.org,+34 900 590 401,Limpieza dental,Facebook,Recomendación,8,9,1,Alta,1,1,1,1,0
+Eloy Ferrera,ozamorano@example.net,+34800 58 32 14,Implantes,Facebook,WhatsApp Directo,20,9,1,Alta,0,0,0,0,0
+Ema Aguirre Busquets,celestina76@example.net,+34 920 872 845,Endodoncia,Instagram,Recomendación,18,1,0,Media,1,0,1,0,1
+Mario Ferrer Pazos,tarnaiz@example.com,+34 902 171 588,Blanqueamiento,Otro,Página Web,15,9,1,Alta,0,1,1,0,0
+Hector Nadal Arteaga,domitilazurita@example.com,+34879 17 21 30,Endodoncia,Otro,WhatsApp Directo,16,1,1,Alta,1,0,0,0,1
+Asdrubal Bernal-Luján,hector03@example.net,+34968 948 154,Endodoncia,Instagram,Recomendación,11,3,0,Baja,1,1,0,1,1
+Néstor Roque Barceló Ocaña,usegarra@example.org,+34846361423,Endodoncia,TikTok,Google Ads,12,2,0,Alta,1,0,0,0,1
+Primitivo Olivé Peñas,placido37@example.com,+34883 61 37 40,Implantes,Instagram,Google Ads,19,0,0,Baja,1,1,0,0,1
+Ruy Girón Batalla,chita94@example.org,+34 881 745 028,Limpieza dental,Otro,Facebook Ads,19,0,0,Media,0,1,1,0,1
+Epifanio Cervantes Piquer,flavio65@example.org,+34985039407,Blanqueamiento,TikTok,Facebook Ads,16,10,0,Alta,0,0,1,0,0
+Baltasar Benítez-Coronado,lucasalbero@example.com,+34922885112,Endodoncia,WhatsApp,Google Ads,16,9,1,Baja,1,0,0,0,0
+Nicolasa Arce Solé,eugenio69@example.com,+34949027052,Evaluación general,Facebook,WhatsApp Directo,18,8,0,Media,0,0,0,0,0
+Leopoldo Artigas,qbenito@example.net,+34 846175095,Blanqueamiento,WhatsApp,Google Ads,19,3,0,Baja,0,1,1,0,1
+Jose Luis Porcel-Alfonso,reinaldo14@example.net,+34843372221,Limpieza dental,Facebook,Recomendación,16,10,1,Baja,1,0,1,0,0
+María Fernanda Zabala-Palomar,yjaen@example.com,+34872348977,Endodoncia,Otro,Recomendación,19,0,0,Alta,0,0,1,0,1
+Rafaela Bastida Acosta,scolomer@example.net,+34 800391727,Limpieza dental,Facebook,Google Ads,12,7,1,Alta,0,1,0,0,0
+Segismundo Calderon Julián,danilo75@example.org,+34982 034 152,Ortodoncia,Instagram,Facebook Ads,17,0,0,Alta,0,1,0,0,1
+Roberto Olmo Parra,rjover@example.org,+34 827 727 450,Blanqueamiento,WhatsApp,Google Ads,15,0,0,Baja,1,1,0,0,1
+Teodoro Serra Castejón,gibertmartin@example.com,+34 915 660 019,Ortodoncia,WhatsApp,Recomendación,14,9,1,Baja,1,1,0,0,0
+Blanca Montserrat-Contreras,abriones@example.org,+34 824398679,Blanqueamiento,WhatsApp,WhatsApp Directo,19,3,0,Baja,1,1,1,0,1
+Carmela Cárdenas Requena,tgutierrez@example.com,+34943612696,Endodoncia,Instagram,Recomendación,16,9,0,Media,1,1,0,0,0
+Cristina Villalba Calderon,cobosconrado@example.com,+34874 46 95 13,Ortodoncia,Otro,Facebook Ads,17,5,1,Baja,0,0,0,0,0
+Sarita Arnaiz Esparza,vallsmartin@example.org,+34824 560 468,Implantes,Instagram,Facebook Ads,20,0,1,Alta,0,0,1,0,1
+Berta Peral Santamaría,ftorrens@example.com,+34921 143 787,Ortodoncia,Facebook,WhatsApp Directo,17,3,1,Baja,0,0,1,0,1
+Salomé Oliveras Segarra,gomezvirgilio@example.org,+34 828 721 055,Evaluación general,TikTok,WhatsApp Directo,10,2,0,Alta,1,1,0,1,1
+Jose Carlos Hurtado-Piñol,amadabernat@example.org,+34879 24 81 53,Ortodoncia,WhatsApp,WhatsApp Directo,19,4,1,Alta,1,0,0,0,0
+Dionisia Llorens-Castejón,gloriaiglesias@example.com,+34920292515,Limpieza dental,Instagram,WhatsApp Directo,10,1,1,Baja,0,1,0,1,1
+Aurelia Rosell,cgomez@example.com,+34979 29 96 03,Implantes,Otro,WhatsApp Directo,12,4,0,Media,1,1,1,0,0
+Celso Correa Vara,victor06@example.com,+34 855 140 544,Ortodoncia,Otro,Recomendación,16,7,0,Baja,1,0,0,0,0
+Gertrudis Malo-Solera,gertrudis07@example.net,+34 826 96 54 48,Blanqueamiento,Otro,Google Ads,20,3,1,Baja,1,1,1,0,1
+Olivia Galiano Mayol,imartinez@example.com,+34980599944,Blanqueamiento,WhatsApp,Recomendación,14,10,1,Baja,1,1,0,0,0
+Anita Morcillo,croldan@example.net,+34848 606 082,Ortodoncia,Otro,Google Ads,17,2,0,Media,1,1,1,0,1
+José de Peral,leandra71@example.net,+34944 833 381,Endodoncia,TikTok,WhatsApp Directo,18,5,1,Alta,0,0,1,0,0
+Poncio de Domingo,quique65@example.org,+34978109805,Implantes,Otro,Google Ads,15,4,0,Alta,1,0,0,0,0
+Javiera Mayol Millán,lope02@example.com,+34807 05 33 80,Implantes,TikTok,Recomendación,10,3,0,Baja,1,0,1,1,1
+Fidel Ferrera,tejeromanola@example.net,+34 945 52 52 48,Limpieza dental,Instagram,WhatsApp Directo,8,8,1,Alta,0,1,1,1,0
+Graciela Zamora Reig,marinbalduino@example.org,+34983 711 391,Endodoncia,Facebook,WhatsApp Directo,8,5,1,Baja,1,0,1,1,0
+Maura Iniesta-Alcalá,gelabertclemente@example.net,+34 983 00 43 44,Ortodoncia,Otro,Facebook Ads,15,3,1,Alta,0,0,1,0,1
+Eva María de Arco,nazaretsans@example.net,+34 827985478,Endodoncia,WhatsApp,WhatsApp Directo,19,0,0,Media,0,1,0,0,1
+Urbano Mas Arco,reinamaxi@example.com,+34984169399,Evaluación general,TikTok,Facebook Ads,11,2,1,Baja,0,1,1,1,1
+Gracia Alma Requena Arévalo,quirogacrescencia@example.org,+34 828 02 29 50,Evaluación general,TikTok,Facebook Ads,9,10,1,Alta,0,0,0,1,0
+Victoria Montesinos,bayonadiana@example.com,+34901 567 462,Endodoncia,Facebook,Google Ads,8,9,0,Baja,0,1,0,1,0
+Manuela Iñiguez,lacero@example.com,+34 709 45 00 68,Evaluación general,TikTok,Google Ads,12,8,1,Baja,0,1,0,0,0
+Amalia del Durán,feliciajuarez@example.com,+34 971 17 10 99,Evaluación general,Instagram,Página Web,8,3,1,Media,0,1,0,1,1
+Bartolomé Alarcón Tovar,amparotejero@example.org,+34982 20 74 80,Evaluación general,Instagram,Google Ads,10,8,0,Alta,0,0,1,1,0
+Esmeralda Parejo López,xnavas@example.net,+34944 18 83 96,Blanqueamiento,TikTok,Facebook Ads,9,7,0,Media,0,1,1,1,0
+Cleto Figueroa Mayo,consuelomateos@example.org,+34841752342,Endodoncia,TikTok,Facebook Ads,8,2,0,Media,1,1,0,1,1
+Reina Figueroa Salgado,marisela00@example.com,+34975 768 233,Ortodoncia,Facebook,Página Web,14,3,0,Media,1,1,1,0,1
+Cándido García,rosa-maria40@example.com,+34 849826234,Endodoncia,Instagram,Facebook Ads,18,8,0,Alta,0,0,1,0,0
+Sonia Solsona Criado,gargallojordan@example.org,+34984 26 42 73,Limpieza dental,WhatsApp,Recomendación,15,3,0,Media,0,1,1,0,1
+Máximo Mariscal Castillo,isabel75@example.com,+34882102174,Ortodoncia,TikTok,Recomendación,12,1,1,Baja,0,0,0,0,1
+Eusebia Guzman Melero,qferran@example.net,+34 888 76 47 28,Evaluación general,TikTok,Página Web,16,6,0,Media,1,0,0,0,0
+Olegario Garcia Gomez,villegasleyre@example.net,+34902 59 02 69,Ortodoncia,WhatsApp,Página Web,10,0,0,Alta,1,1,0,1,1
+Reyes Gerónimo Mayoral Porta,dduran@example.org,+34 944 188 791,Endodoncia,TikTok,Página Web,16,10,1,Baja,1,1,0,0,0
+Modesto Bustamante Lobo,palomojoaquin@example.org,+34964 13 31 60,Ortodoncia,TikTok,Página Web,15,9,1,Media,1,1,0,0,0
+Fabián Cardona Robles,roldanaleman@example.org,+34926 315 539,Evaluación general,TikTok,Facebook Ads,13,0,1,Alta,1,1,1,0,1
+Jennifer Piña Alba,isalva@example.net,+34823 334 030,Limpieza dental,Instagram,WhatsApp Directo,10,5,0,Media,0,1,0,1,0
+Teodora Real Benavides,mariselaaliaga@example.com,+34974017349,Limpieza dental,Facebook,Recomendación,8,4,0,Media,0,1,0,1,0
+Ambrosio Alcolea Sola,kquintero@example.org,+34871 550 040,Blanqueamiento,TikTok,Página Web,12,8,0,Alta,0,1,0,0,0
+Beatriz Grau Sancho,landafabiola@example.org,+34 900 61 94 00,Ortodoncia,Instagram,Facebook Ads,16,4,1,Media,1,0,1,0,0
+Cristian Puerta-Zabaleta,guadalupecalatayud@example.net,+34 902 13 03 84,Implantes,TikTok,Recomendación,17,6,0,Baja,1,1,1,0,0
+Lalo Manso,cmoran@example.org,+34 882 988 558,Ortodoncia,Facebook,Recomendación,9,10,0,Media,0,0,1,1,0
+Desiderio Pozuelo Barros,xgallego@example.net,+34 863017946,Blanqueamiento,Otro,Página Web,16,3,0,Media,0,0,1,0,1
+Jafet Correa Alvarez,zrojas@example.net,+34 885 56 33 50,Evaluación general,Instagram,Página Web,11,4,0,Media,0,1,1,1,0
+Elba Vilaplana Alvarez,fhernando@example.com,+34 900028899,Blanqueamiento,WhatsApp,Página Web,10,2,1,Baja,0,0,0,1,1
+Zaira Clarisa Coello Monreal,feijoovicente@example.org,+34980 08 99 31,Limpieza dental,Instagram,Recomendación,20,3,0,Alta,1,1,1,0,1
+Amílcar Cal Rosell,isaacsegui@example.net,+34974 910 729,Limpieza dental,Otro,Google Ads,11,6,1,Media,0,1,1,1,0
+Jose Angel Tapia Sanchez,nicodemobenavides@example.net,+34976 02 30 71,Ortodoncia,Instagram,WhatsApp Directo,11,7,0,Alta,1,0,0,1,0
+Casandra Santos Casanovas,cirinoamores@example.com,+34885660961,Evaluación general,Facebook,WhatsApp Directo,16,5,0,Media,1,0,0,0,0
+Miguel del Benavides,wpalma@example.com,+34737 942 492,Endodoncia,Instagram,Página Web,20,9,1,Baja,0,1,1,0,0
+José Sastre Rozas,enriqueroldan@example.com,+34 875 90 34 51,Endodoncia,Otro,Página Web,11,10,0,Baja,0,1,0,1,0
+Jenny Ugarte Escrivá,xcarranza@example.org,+34 874 31 74 38,Endodoncia,Otro,Recomendación,18,0,0,Baja,1,1,1,0,1
+Tadeo Moll Vilalta,consuelacabanas@example.com,+34 948449960,Ortodoncia,Facebook,WhatsApp Directo,18,7,1,Media,0,1,1,0,0
+Alexandra Soriano Bernal,blancoteobaldo@example.net,+34 946 142 957,Blanqueamiento,Instagram,Google Ads,16,7,0,Media,1,0,1,0,0
+Amarilis Cándida Lobato Sabater,requenaciro@example.com,+34985 60 75 92,Evaluación general,Instagram,Google Ads,20,7,1,Media,1,1,0,0,0
+Virginia Cruz Hoz,aramburujulian@example.com,+34 965338025,Endodoncia,Instagram,Página Web,8,0,0,Baja,1,0,1,1,1
+Toño del Reguera,dimasgabaldon@example.org,+34877 920 012,Ortodoncia,WhatsApp,WhatsApp Directo,16,8,0,Alta,0,1,0,0,0
+Tatiana de Martí,pcorominas@example.org,+34 876418272,Endodoncia,Facebook,Recomendación,12,1,0,Alta,0,1,0,0,1
+Paola Zabala-Ríos,ylaguna@example.net,+34 983 93 42 70,Evaluación general,Otro,Página Web,17,7,0,Alta,1,1,0,0,0
+Rubén Saez Mosquera,ruanoisabela@example.com,+34 822848932,Limpieza dental,TikTok,WhatsApp Directo,18,8,0,Alta,0,0,0,0,0
+Hilda Ferrán Ramón,leire23@example.net,+34 911098099,Implantes,Instagram,WhatsApp Directo,13,0,1,Alta,1,0,0,0,1
+Marco Burgos Martín,sarabiaclaudio@example.net,+34 928 429 884,Ortodoncia,Instagram,Página Web,17,7,0,Media,1,0,0,0,0
+Juan Carlos Marcos Barreda,bpazos@example.com,+34 846918053,Implantes,Otro,Recomendación,14,7,0,Baja,1,0,1,0,0
+Fátima Poza Palacios,baldomero02@example.com,+34875205759,Ortodoncia,WhatsApp,WhatsApp Directo,12,0,0,Baja,1,1,0,0,1
+Américo del Diego,galvandionisio@example.com,+34 942788990,Ortodoncia,WhatsApp,WhatsApp Directo,19,2,0,Baja,0,1,1,0,1
+Ana Belén Mascaró Casanova,severo71@example.com,+34 928872744,Limpieza dental,WhatsApp,Facebook Ads,9,6,1,Baja,1,1,0,1,0
+Quirino Cerdá Roselló,iker35@example.net,+34 823 092 201,Blanqueamiento,Instagram,WhatsApp Directo,11,2,1,Baja,1,1,1,1,1
+Juanito Boix Esparza,albinanunez@example.com,+34 939 988 631,Ortodoncia,Otro,WhatsApp Directo,9,2,0,Alta,1,0,0,1,1
+Yolanda Gras-Gallart,herreroteresita@example.org,+34 827931111,Evaluación general,Facebook,Recomendación,19,0,1,Media,0,0,0,0,1
+Fidel de Acosta,berta86@example.org,+34928 14 57 07,Ortodoncia,WhatsApp,Google Ads,8,10,0,Alta,1,1,0,1,0
+Germán Carrillo Bayona,cleto81@example.com,+34 923 62 08 86,Evaluación general,Instagram,WhatsApp Directo,15,3,1,Alta,1,0,0,0,1
+Aurelio Piñeiro Hernando,figuerasmiguela@example.com,+34 944 369 190,Ortodoncia,Facebook,WhatsApp Directo,18,4,1,Media,1,0,1,0,0
+Dora Santiago Montaña,elucena@example.com,+34820 09 38 09,Ortodoncia,Facebook,Recomendación,19,1,0,Media,1,0,1,0,1
+Rufina Marquez Vega,gisela04@example.org,+34975 356 721,Blanqueamiento,Instagram,WhatsApp Directo,20,8,1,Media,0,0,1,0,0
+Mohamed Castells-Porcel,molinermelania@example.com,+34 823 601 587,Implantes,TikTok,Página Web,16,1,0,Media,0,0,0,0,1
+Emiliano Diéguez,larranagacecilia@example.org,+34881705075,Blanqueamiento,Instagram,Google Ads,15,3,1,Media,0,1,0,0,1
+Lidia Guijarro Moles,clara84@example.net,+34972 434 110,Endodoncia,WhatsApp,Recomendación,9,4,0,Baja,0,1,0,1,0
+Atilio Huguet Robledo,ingrid66@example.net,+34988 566 256,Blanqueamiento,Otro,WhatsApp Directo,11,7,0,Media,1,0,0,1,0
+Narciso Pina Sabater,juanito18@example.com,+34 927101400,Limpieza dental,Facebook,Google Ads,13,10,1,Alta,0,0,0,0,0
+Maximiano Farré Bou,irozas@example.net,+34 841 383 491,Evaluación general,WhatsApp,WhatsApp Directo,17,6,0,Baja,0,1,0,0,0
+Zacarías Aguirre Díez,juan-carlostudela@example.org,+34981 384 375,Blanqueamiento,TikTok,Página Web,19,4,0,Media,1,1,1,0,0
+Donato Vicente Moreno,sandra84@example.net,+34 931 036 568,Ortodoncia,WhatsApp,WhatsApp Directo,11,7,1,Media,0,1,1,1,0
+Nieves Valcárcel,wgaray@example.com,+34 981 69 40 60,Blanqueamiento,TikTok,Recomendación,14,7,1,Media,1,1,1,0,0
+Victoria Dueñas Solana,mayodorita@example.com,+34848 53 05 16,Implantes,Otro,Google Ads,14,2,1,Media,1,1,0,0,1
+Leire Berrocal Linares,ruth37@example.org,+34 803 10 62 85,Endodoncia,WhatsApp,Recomendación,11,10,1,Baja,0,1,0,1,0
+Patricio Valero Peñalver,teresa12@example.com,+34 888316306,Ortodoncia,Facebook,Recomendación,17,0,1,Baja,1,1,1,0,1
+Águeda Álamo-Peral,martina09@example.com,+34 874 16 84 48,Limpieza dental,TikTok,WhatsApp Directo,19,2,1,Alta,1,1,1,0,1
+Benito Cabo Manjón,iriartejose-maria@example.net,+34925554146,Implantes,TikTok,Recomendación,10,4,1,Media,0,0,1,1,0
+Narciso Bermúdez Macias,lluchcarlota@example.org,+34 846852754,Ortodoncia,TikTok,Página Web,10,0,1,Media,1,1,0,1,1
+Lisandro Español Gallego,pserna@example.net,+34823 450 904,Ortodoncia,WhatsApp,Facebook Ads,17,4,1,Baja,0,1,0,0,0
+Bienvenida Olivera Arrieta,maria-pilarmorcillo@example.net,+34 920 23 45 26,Implantes,TikTok,Página Web,8,7,0,Baja,1,1,0,1,0
+Luis Gisbert Garrido,roque93@example.org,+34 832 48 47 62,Blanqueamiento,TikTok,WhatsApp Directo,8,5,0,Alta,1,0,0,1,0
+Violeta del Mir,juan84@example.org,+34 861556113,Limpieza dental,Otro,Google Ads,8,2,0,Alta,0,1,0,1,1
+Clarisa Alberola Pacheco,adrianaquesada@example.net,+34 980 92 42 13,Blanqueamiento,Facebook,Google Ads,19,1,0,Media,0,0,0,0,1
+Víctor Porras Julián,mendezjulio@example.com,+34 984 89 92 59,Blanqueamiento,WhatsApp,Facebook Ads,19,10,0,Media,1,0,1,0,0
+Juan Pablo Aranda Acevedo,rosendonavas@example.org,+34 845 452 648,Endodoncia,WhatsApp,WhatsApp Directo,10,3,1,Baja,0,0,0,1,1
+Chus Montalbán Ferrández,htenorio@example.org,+34947767276,Endodoncia,Otro,Google Ads,20,1,1,Media,0,1,1,0,1
+Inés Castellanos Flor,darioferran@example.org,+34920 29 18 82,Implantes,Facebook,Página Web,12,5,0,Alta,0,0,1,0,0
+Olimpia Álvarez-Arjona,celia87@example.com,+34 876384867,Implantes,Instagram,Recomendación,14,5,0,Alta,1,0,0,0,0
+Pedro Escobar Torrens,tania70@example.com,+34723 25 26 51,Ortodoncia,TikTok,Google Ads,15,1,0,Alta,1,0,0,0,1
+Benigna Priego Coloma,tanialucas@example.org,+34984489967,Evaluación general,Instagram,Facebook Ads,8,6,0,Baja,0,1,0,1,0
+Cecilio Pardo-Sanz,osalas@example.net,+34944 25 34 27,Implantes,Instagram,Google Ads,9,0,1,Baja,1,1,0,1,1
+Xiomara Cabrero Cid,piedadecheverria@example.net,+34 744174945,Endodoncia,TikTok,Google Ads,14,3,0,Media,1,1,0,0,1
+Ámbar Teruel Gallo,mhervia@example.com,+34 950 172 991,Implantes,WhatsApp,Google Ads,18,8,1,Alta,1,1,0,0,0
+Maricruz Valdés Morata,isabelacastro@example.net,+34985 605 471,Limpieza dental,Otro,Facebook Ads,8,0,1,Media,1,1,0,1,1
+Sofía Itziar Vidal Jaume,umontes@example.org,+34807 851 861,Implantes,WhatsApp,WhatsApp Directo,15,6,0,Alta,1,1,1,0,0
+Eli Valencia Ferrando,zuritamoises@example.net,+34823 41 72 50,Evaluación general,Instagram,Facebook Ads,12,2,0,Baja,1,0,1,0,1
+Joel Rodrigo Cases,paca03@example.org,+34965877713,Implantes,Otro,Google Ads,17,3,1,Baja,1,0,0,0,1
+Sarita Mas Alcalá,bclavero@example.net,+34806 13 81 51,Limpieza dental,Otro,Página Web,20,2,0,Baja,1,0,1,0,1
+Nilda Canales Benavides,micaela98@example.org,+34843 519 780,Endodoncia,Facebook,Facebook Ads,9,1,1,Baja,0,0,0,1,1
+Adora de Donaire,calista33@example.com,+34939555333,Blanqueamiento,WhatsApp,Facebook Ads,13,4,1,Media,0,0,0,0,0
+Isaac Esteve Sáez,lobatocayetano@example.com,+34 878390130,Implantes,Otro,Página Web,19,0,1,Alta,0,1,1,0,1
+Santos Flores Río,isernquique@example.com,+34883 474 905,Limpieza dental,Facebook,Facebook Ads,10,2,0,Media,0,1,0,1,1
+Cornelio Maximiliano Hernández Hurtado,piabueno@example.net,+34947 79 78 77,Limpieza dental,TikTok,WhatsApp Directo,15,2,0,Media,1,1,0,0,1
+René Pinilla Ferrera,vazquezobdulia@example.org,+34 949 89 15 18,Implantes,TikTok,Google Ads,8,8,1,Media,0,1,0,1,0
+Clementina Camps-Cornejo,berenguermayte@example.net,+34946 28 85 85,Implantes,Otro,Google Ads,16,2,0,Media,0,1,1,0,1
+Ariadna del Plana,aranzazumateos@example.net,+34 987 396 278,Implantes,TikTok,Google Ads,20,7,1,Media,0,0,0,0,0
+Arsenio Pedraza-Solano,domingo90@example.org,+34949778398,Ortodoncia,Facebook,Facebook Ads,19,1,1,Alta,1,0,1,0,1
+Ismael Moliner Villalba,caviles@example.net,+34744 463 381,Implantes,Instagram,Facebook Ads,14,1,0,Alta,0,1,1,0,1
+Florina Flor Calderon,lisandro74@example.org,+34 910 06 70 30,Evaluación general,Otro,WhatsApp Directo,11,4,0,Media,0,0,0,1,0
+Josefina Asenjo Blanch,medinaporfirio@example.org,+34982 81 96 49,Evaluación general,Otro,WhatsApp Directo,12,10,0,Alta,0,0,0,0,0
+Vera Pizarro Morillo,azaharnevado@example.net,+34 807857750,Ortodoncia,TikTok,WhatsApp Directo,16,9,0,Alta,1,0,0,0,0
+Cándido Bernal Barón,cleal@example.org,+34 803 77 77 85,Endodoncia,WhatsApp,Google Ads,8,5,1,Media,0,1,1,1,0
+Osvaldo Prats Ayllón,gabrielabellido@example.com,+34 708 10 77 47,Ortodoncia,Otro,WhatsApp Directo,9,8,0,Alta,1,0,0,1,0
+Belen Plana Uribe,aragonpepito@example.com,+34 876 053 749,Ortodoncia,Facebook,Página Web,13,4,0,Media,0,0,0,0,0
+Cristina Lumbreras Solano,dmateu@example.com,+34924 32 86 68,Limpieza dental,Facebook,Facebook Ads,10,7,0,Alta,1,0,1,1,0
+Vinicio Díez Zabaleta,jose-luisvalera@example.net,+34928370226,Ortodoncia,Instagram,Página Web,14,6,1,Alta,1,0,0,0,0
+Clímaco Tapia Arellano,lopezadora@example.org,+34881159734,Blanqueamiento,Otro,WhatsApp Directo,12,2,0,Baja,0,1,1,0,1
+Juliana Mulet Barrio,saezfortunata@example.com,+34 884 222 548,Endodoncia,Instagram,Facebook Ads,10,6,1,Media,1,1,0,1,0
+Mamen Haro Tenorio,xcalatayud@example.com,+34 739733967,Endodoncia,Facebook,Recomendación,14,8,1,Media,1,1,1,0,0
+Dimas Vazquez Espada,dorita58@example.net,+34 823 418 060,Implantes,Facebook,Facebook Ads,18,8,0,Baja,1,0,0,0,0
+Carmina Cervantes Gibert,rochavictor-manuel@example.com,+34821112205,Evaluación general,WhatsApp,Recomendación,16,2,0,Baja,0,0,0,0,1
+Lola Santamaria Pinto,gilseveriano@example.com,+34880 339 647,Evaluación general,Instagram,Google Ads,8,6,1,Baja,0,1,0,1,0
+Primitiva Sarmiento-Campos,brossello@example.com,+34943963304,Limpieza dental,TikTok,WhatsApp Directo,9,4,1,Alta,0,1,1,1,0
+Abraham Moisés Pozo Leon,albinovalentin@example.net,+34 843169899,Ortodoncia,Otro,Google Ads,9,0,1,Alta,0,0,1,1,1
+Jeremías de Ureña,barredafernando@example.com,+34922 74 69 74,Implantes,Instagram,Recomendación,8,4,1,Baja,0,0,0,1,0
+Régulo Bayo Trujillo,nfrias@example.com,+34 924447468,Blanqueamiento,Instagram,Google Ads,9,8,0,Media,0,1,0,1,0
+Jacinto de Barragán,felipe21@example.com,+34 975180308,Blanqueamiento,TikTok,Google Ads,8,8,0,Baja,0,0,1,1,0
+Nacio Torrecilla Díez,ovidiocasal@example.net,+34 978 55 45 15,Ortodoncia,Otro,Recomendación,10,1,1,Baja,1,1,0,1,1
+Cintia del Río,wilfredovillanueva@example.org,+34941 23 81 76,Evaluación general,WhatsApp,Página Web,19,0,1,Baja,0,0,1,0,1
+Amarilis Valcárcel Alemany,ppozo@example.com,+34 807001751,Limpieza dental,TikTok,Facebook Ads,17,0,0,Baja,0,0,0,0,1
+Bernardino Máximo Alcalde Pla,edelmiraizquierdo@example.org,+34966 522 222,Ortodoncia,WhatsApp,Google Ads,14,9,0,Alta,1,1,1,0,0
+Evita Zamorano,armidamateu@example.com,+34881 125 337,Endodoncia,Instagram,Recomendación,8,1,1,Baja,1,0,1,1,1
+Anita Arco Machado,kespada@example.net,+34983 597 864,Implantes,Instagram,Recomendación,12,10,0,Baja,0,0,0,0,0
+Leticia Dominga Pinedo Posada,sebastianjorda@example.com,+34877 947 502,Endodoncia,Facebook,Facebook Ads,18,1,1,Baja,1,0,0,0,1
+Fabio Abilio Ramón Izquierdo,mirallescosme@example.org,+34 849674434,Blanqueamiento,Otro,Recomendación,13,4,0,Media,0,1,0,0,0
+Clarisa Gascón Coca,mateo47@example.org,+34 841 314 767,Blanqueamiento,Facebook,Recomendación,18,10,1,Media,1,1,0,0,0
+Heliodoro Tirado Domínguez,campoyursula@example.org,+34 930 371 252,Ortodoncia,Instagram,Facebook Ads,17,10,0,Media,0,0,1,0,0
+Marisela Tirado Pagès,luis-angel84@example.com,+34 877 620 744,Blanqueamiento,Otro,WhatsApp Directo,18,3,1,Alta,1,1,1,0,1
+Silvio Recio Galván,cbarbera@example.com,+34 884 515 802,Endodoncia,Facebook,Página Web,8,10,0,Media,1,1,1,1,0
+Juliana del Parra,elba84@example.com,+34 707613336,Blanqueamiento,Otro,Google Ads,19,3,0,Baja,1,1,1,0,1
+Dolores Marín Santana,loretogomis@example.org,+34 978 07 23 89,Blanqueamiento,WhatsApp,Facebook Ads,12,10,1,Baja,0,1,1,0,0
+Tere Fuente Fuster,juana44@example.net,+34 942 88 46 85,Blanqueamiento,Instagram,Recomendación,14,6,1,Alta,1,0,1,0,0
+Fabio Vallejo Vara,ana-belendieguez@example.net,+34922 791 812,Blanqueamiento,Facebook,Google Ads,13,9,1,Baja,1,1,0,0,0
+Dolores de Girón,qmanso@example.net,+34803 912 961,Endodoncia,WhatsApp,Recomendación,20,10,0,Alta,0,1,0,0,0
+Yaiza del Sanz,soniapuga@example.net,+34845 69 55 85,Implantes,TikTok,Recomendación,14,8,0,Alta,0,1,0,0,0
+Gertrudis Villalobos Calzada,jfranco@example.org,+34 887 55 62 14,Evaluación general,Instagram,Recomendación,11,5,1,Media,0,1,0,1,0
+Paz Tejera Blanch,olallaleiva@example.org,+34 926 168 619,Blanqueamiento,Instagram,Recomendación,16,10,0,Baja,1,0,1,0,0
+Reinaldo Mínguez-Fernandez,baltasarvila@example.net,+34 987 75 74 99,Implantes,Facebook,Página Web,13,5,0,Baja,1,0,1,0,0
+Wilfredo Giralt Pedrero,mrius@example.com,+34901 33 71 31,Blanqueamiento,Otro,Google Ads,8,9,1,Baja,0,0,0,1,0
+Zaira Rueda Valderrama,azaharrivas@example.net,+34 901 890 836,Limpieza dental,Otro,Página Web,13,4,0,Baja,1,0,0,0,0
+Heriberto Castrillo Villalobos,pprat@example.org,+34 972 555 997,Ortodoncia,TikTok,WhatsApp Directo,11,0,1,Alta,1,0,1,1,1
+Donato del Reig,ggonzalez@example.org,+34844 53 88 38,Implantes,Facebook,Página Web,15,1,0,Alta,1,0,1,0,1
+Herberto Seguí-Goicoechea,wduarte@example.com,+34986 84 67 26,Ortodoncia,Otro,WhatsApp Directo,12,1,1,Baja,1,1,1,0,1
+Nadia Núñez Malo,bertranamor@example.org,+34841 10 53 53,Limpieza dental,TikTok,WhatsApp Directo,17,2,0,Baja,0,1,1,0,1
+Vanesa Rafaela Lamas Amat,pedrojaviera@example.com,+34846 70 42 97,Ortodoncia,Facebook,WhatsApp Directo,20,1,0,Media,1,0,1,0,1
+Lourdes Peiró,ariel77@example.com,+34 847 82 97 63,Endodoncia,Facebook,WhatsApp Directo,17,0,0,Baja,1,0,1,0,1
+Alejo Barco Blanca,gervasio92@example.net,+34821910791,Implantes,Otro,Recomendación,20,5,0,Alta,0,1,1,0,0
+Vanesa Ortuño Expósito,yago22@example.com,+34881349604,Ortodoncia,Instagram,Página Web,16,10,0,Alta,0,0,1,0,0
+Fanny Fuertes Castejón,ypolo@example.net,+34921 485 406,Ortodoncia,Instagram,Recomendación,15,4,1,Media,1,1,1,0,0
+Teófila Paulina Borrell Linares,camilomunoz@example.org,+34841 177 682,Endodoncia,Otro,WhatsApp Directo,14,6,0,Baja,0,0,0,0,0
+Nazaret de Almansa,fernando69@example.org,+34881255867,Blanqueamiento,TikTok,WhatsApp Directo,14,3,0,Media,1,1,1,0,1
+Paco Lloret Murcia,manuelaparejo@example.org,+34922592192,Evaluación general,Instagram,Facebook Ads,13,10,0,Alta,0,0,0,0,0
+Abilio Jonatan Olivares Ledesma,ofelia38@example.net,+34983 60 56 70,Evaluación general,WhatsApp,Recomendación,11,9,1,Baja,1,1,0,1,0
+Alejo Sans Andrés,eligia01@example.com,+34946 54 37 42,Evaluación general,TikTok,Recomendación,13,9,0,Media,1,0,1,0,0
+Narciso Alba Santos,rebollomaria-luisa@example.net,+34974 46 81 06,Blanqueamiento,Otro,WhatsApp Directo,18,0,0,Alta,0,1,0,0,1
+Paco Coll,sjurado@example.net,+34874 48 54 77,Ortodoncia,Facebook,WhatsApp Directo,13,1,0,Baja,0,1,0,0,1
+Mario Ocaña,anitapont@example.net,+34 881668365,Implantes,Instagram,Recomendación,14,1,0,Media,0,1,1,0,1
+Moreno Tejera,florentinariquelme@example.org,+34873566112,Blanqueamiento,WhatsApp,WhatsApp Directo,18,7,0,Media,0,0,0,0,0
+Malena Cabañas Pedrero,amor40@example.net,+34977 65 66 97,Evaluación general,WhatsApp,Página Web,14,0,1,Alta,0,0,0,0,1
+Manolo Alejo Melero Plana,serrajacobo@example.org,+34 844 47 51 57,Ortodoncia,TikTok,WhatsApp Directo,16,4,1,Baja,0,0,0,0,0
+Nayara Alfaro Daza,carmelitaelorza@example.org,+34 959 10 10 92,Ortodoncia,WhatsApp,WhatsApp Directo,14,2,1,Alta,0,0,0,0,1
+Ulises Alba,alvarezhilario@example.net,+34 918435818,Blanqueamiento,Otro,Google Ads,15,2,1,Baja,1,1,0,0,1
+Alonso Ferrer Adán,casalsfelix@example.com,+34920 76 34 18,Blanqueamiento,Otro,Recomendación,10,4,1,Alta,0,0,1,1,0
+Sosimo Ortega Barriga,candida92@example.net,+34883 59 11 98,Endodoncia,Facebook,WhatsApp Directo,20,9,1,Media,0,1,1,0,0
+Bernardino Córdoba-Guardia,gloria76@example.net,+34827145766,Evaluación general,Instagram,Recomendación,18,10,1,Media,1,1,1,0,0
+Valentina Arévalo Olmedo,zaragozaseveriano@example.com,+34925 477 357,Implantes,Facebook,Google Ads,8,6,0,Media,0,1,1,1,0
+Adelaida Figueroa Fiol,torrijosquique@example.com,+34984 09 39 88,Blanqueamiento,Otro,Página Web,20,7,1,Alta,0,0,0,0,0
+Amor Roldan Sevillano,zcornejo@example.com,+34 977 62 41 71,Blanqueamiento,TikTok,Google Ads,20,6,0,Media,0,0,0,0,0
+Haroldo Vargas-Muñoz,arnaizcristian@example.com,+34 807 894 807,Endodoncia,Otro,Recomendación,16,5,1,Baja,0,0,0,0,0
+Fito de Río,donairevictorino@example.org,+34 901 90 45 14,Endodoncia,Otro,WhatsApp Directo,17,4,1,Baja,0,1,1,0,0
+Humberto Roda Fuster,borregososimo@example.com,+34948 45 43 45,Ortodoncia,Otro,Página Web,10,10,0,Alta,0,1,0,1,0
+Maximiliano Nebot,rocacayetano@example.net,+34947705210,Implantes,Otro,Página Web,20,6,0,Alta,0,0,0,0,0
+Carla Fonseca-Vilaplana,arceliaayllon@example.com,+34873193375,Ortodoncia,TikTok,Google Ads,14,1,1,Media,1,0,1,0,1
+Francisco Crespi Giner,alemanmaximo@example.net,+34923 56 90 42,Ortodoncia,Instagram,Página Web,8,4,0,Media,1,0,1,1,0
+Demetrio Iglesias Lasa,umontoya@example.com,+34 943475789,Implantes,Facebook,Recomendación,12,4,0,Baja,1,0,1,0,0
+Visitación Bayo-Guardia,celia50@example.org,+34 921192349,Blanqueamiento,Instagram,Google Ads,9,6,0,Media,0,0,0,1,0
+Manuel Segovia Aguilar,encarnacionpareja@example.org,+34 846892657,Blanqueamiento,TikTok,Facebook Ads,13,9,0,Baja,1,0,1,0,0
+Mariana del Rovira,fortunataarregui@example.net,+34 844 21 80 29,Evaluación general,WhatsApp,Facebook Ads,19,5,0,Baja,0,0,1,0,0
+Milagros de Pintor,tadeopardo@example.net,+34983 644 540,Endodoncia,Instagram,Facebook Ads,13,7,0,Media,1,1,1,0,0
+Patricio Arjona Cerezo,gracielalloret@example.org,+34 849 21 87 65,Blanqueamiento,Otro,Google Ads,20,8,0,Baja,1,1,1,0,0
+Amaya Patiño Garcia,marcsantamaria@example.org,+34 849136325,Evaluación general,Facebook,WhatsApp Directo,18,2,1,Media,0,0,1,0,1
+Trinidad Amores Díaz,portilloruperto@example.net,+34 927 22 58 86,Limpieza dental,Instagram,Página Web,11,0,0,Media,1,0,1,1,1
+Maribel Cortina Iglesias,garciasocorro@example.net,+34 745491275,Limpieza dental,Instagram,Página Web,14,1,0,Media,0,0,0,0,1
+Catalina Vega Artigas,monteslisandro@example.com,+34 984664503,Endodoncia,WhatsApp,WhatsApp Directo,16,5,1,Baja,1,1,1,0,0
+Pedro Ildefonso Cabo Valcárcel,cesarnunez@example.org,+34 901 572 757,Endodoncia,WhatsApp,Google Ads,16,2,0,Media,1,1,1,0,1
+Rosario Agustí Valenciano,pascual67@example.com,+34800 676 270,Evaluación general,WhatsApp,Facebook Ads,8,7,0,Alta,0,1,0,1,0
+Mar Peñas Quintanilla,bgallego@example.net,+34 986 95 19 50,Evaluación general,Instagram,Facebook Ads,20,3,0,Media,1,1,0,0,1
+Dimas del Baños,ramador@example.com,+34 708 47 02 54,Limpieza dental,WhatsApp,WhatsApp Directo,17,5,1,Media,1,0,1,0,0
+Guadalupe Cuevas Burgos,lllado@example.org,+34 902 376 343,Endodoncia,Instagram,Página Web,18,7,0,Baja,1,0,0,0,0
+Tristán Arteaga Alvarez,zuritamaria-del-carmen@example.org,+34854 039 401,Implantes,WhatsApp,Facebook Ads,9,10,0,Baja,0,0,1,1,0
+Mariana Pons Prieto,vallejomayte@example.com,+34883 72 77 73,Blanqueamiento,Instagram,Google Ads,9,5,0,Alta,1,0,0,1,0
+Nazaret Escalona Fuente,planapablo@example.com,+34 900 36 04 06,Blanqueamiento,WhatsApp,WhatsApp Directo,8,4,0,Alta,1,1,0,1,0
+Almudena Hernando-Ponce,teofilo02@example.org,+34 946289152,Blanqueamiento,Instagram,Página Web,20,6,0,Media,1,1,0,0,0
+Hernán Mármol Vigil,ferminarino@example.org,+34973 534 570,Limpieza dental,Otro,Google Ads,9,7,1,Baja,1,0,0,1,0
+Leyre Clavero Herranz,borrassilvia@example.com,+34 944 549 509,Blanqueamiento,Facebook,Recomendación,14,0,1,Baja,1,1,1,0,1
+Soledad del Planas,lunapinedo@example.com,+34 741 642 751,Limpieza dental,Otro,Facebook Ads,10,5,0,Baja,1,0,1,1,0
+Benjamín Amador Caro,lfolch@example.net,+34 983 98 65 45,Evaluación general,Instagram,Google Ads,18,3,0,Baja,0,0,1,0,1
+Octavia del Palomar,carminalopez@example.com,+34 963779757,Implantes,Instagram,Google Ads,17,8,1,Alta,0,1,0,0,0
+Isidora Monreal,isabela68@example.net,+34 885543045,Limpieza dental,Instagram,WhatsApp Directo,14,4,0,Alta,0,1,0,0,0
+Julio César de Atienza,auraacedo@example.org,+34 975 83 60 94,Limpieza dental,Instagram,Página Web,15,0,1,Alta,1,1,0,0,1
+Leticia Feijoo-Guitart,colivera@example.org,+34706918993,Implantes,TikTok,Página Web,9,6,1,Media,1,1,1,1,0
+Nilda Torres Lastra,linaresblanca@example.net,+34 922 77 58 61,Limpieza dental,Otro,Página Web,16,1,0,Alta,1,1,0,0,1
+Andrea Arévalo-Soria,tatiana64@example.com,+34 911 39 59 37,Ortodoncia,TikTok,Google Ads,14,3,1,Baja,0,0,1,0,1
+Aureliano de Roldán,casadoadelina@example.org,+34902 495 085,Ortodoncia,TikTok,Recomendación,10,10,0,Alta,0,1,0,1,0
+Corona Jover Canales,rene96@example.org,+34 968 948 667,Endodoncia,WhatsApp,Facebook Ads,15,1,1,Alta,1,0,1,0,1
+Narciso Benavent,pascualsolano@example.org,+34803 577 607,Ortodoncia,Instagram,Página Web,12,3,0,Baja,1,1,0,0,1
+Amarilis Vallés Boada,villegascruz@example.com,+34862119111,Implantes,Facebook,Recomendación,14,6,1,Alta,1,0,0,0,0
+Cornelio Murillo Bermúdez,jacintapedrero@example.com,+34 921405249,Endodoncia,Facebook,WhatsApp Directo,20,4,0,Baja,0,0,1,0,0
+Che Rocha Canet,fuentestimoteo@example.org,+34 702 51 65 59,Ortodoncia,Otro,Facebook Ads,11,10,1,Media,0,1,1,1,0
+Nazario Terrón,jmayo@example.com,+34971537232,Ortodoncia,Facebook,WhatsApp Directo,20,5,1,Baja,0,1,1,0,0
+Vasco Almazán Salmerón,olimpia74@example.com,+34873 37 09 90,Implantes,Instagram,Página Web,13,5,0,Media,1,0,1,0,0
+Ricardo Jiménez Bosch,sanchocamara@example.com,+34927 98 85 62,Blanqueamiento,TikTok,Página Web,14,6,0,Alta,0,1,1,0,0
+Juan Manuel Pinto Lastra,barrenajosefina@example.net,+34 882 36 77 13,Limpieza dental,WhatsApp,Recomendación,10,9,1,Media,0,0,1,1,0
+Joaquín Tomás Becerra Nebot,aguilerasantos@example.com,+34 868275133,Evaluación general,Instagram,Facebook Ads,17,7,0,Baja,1,0,0,0,0
+Josep Arévalo Cano,albinoarroyo@example.net,+34872 83 65 00,Limpieza dental,Instagram,WhatsApp Directo,10,5,1,Alta,1,0,1,1,0
+Ileana Llanos Fuertes,angelinocoello@example.org,+34978 72 87 93,Evaluación general,TikTok,Facebook Ads,9,10,1,Baja,1,1,1,1,0
+Máxima Marcos Santana,rosaurasantiago@example.org,+34 845200157,Implantes,Facebook,Google Ads,20,3,1,Baja,1,0,0,0,1
+Consuelo Salinas-Ponce,buenaventuraduran@example.org,+34 944 58 15 77,Ortodoncia,TikTok,WhatsApp Directo,8,7,0,Baja,1,1,0,1,0
+Emma del Lucena,soriagertrudis@example.org,+34 881 02 64 90,Limpieza dental,Otro,WhatsApp Directo,9,0,0,Media,1,0,0,1,1
+Abraham Arenas Chaves,luisinasotelo@example.net,+34820 075 659,Evaluación general,Instagram,WhatsApp Directo,15,8,0,Media,0,1,0,0,0
+Vera Escrivá Verdugo,maxineira@example.com,+34 974 36 23 49,Limpieza dental,TikTok,Página Web,20,4,1,Media,1,0,0,0,0
+Hipólito Miguel,casalsruperto@example.com,+34 816 77 41 47,Implantes,WhatsApp,Facebook Ads,18,4,0,Baja,0,0,1,0,0
+Apolinar Olmo Ordóñez,remigio41@example.net,+34 727787002,Limpieza dental,Instagram,Recomendación,18,7,0,Media,0,0,1,0,0
+Cayetano Cuadrado Mir,eli90@example.com,+34 848 94 40 02,Endodoncia,Instagram,Página Web,10,8,1,Media,1,1,1,1,0
+Fernanda Samper-Perea,xlarrea@example.net,+34885 974 898,Evaluación general,Instagram,Página Web,18,7,1,Alta,1,1,0,0,0
+Amílcar Otero Asenjo,encarnita33@example.net,+34947560327,Limpieza dental,Facebook,Recomendación,20,8,0,Alta,1,1,0,0,0
+Ofelia Bellido-Casares,encarna30@example.com,+34706975957,Limpieza dental,WhatsApp,WhatsApp Directo,8,9,1,Baja,0,1,1,1,0
+Primitiva Plaza Corral,paniaguamar@example.net,+34886 05 31 10,Implantes,TikTok,Página Web,15,10,0,Alta,0,0,0,0,0
+Perlita Amo Solís,eliasjosue@example.net,+34 943 457 132,Implantes,TikTok,Recomendación,15,8,1,Alta,1,1,0,0,0
+Maximiano Paniagua Viana,magusti@example.net,+34925888423,Endodoncia,Otro,Facebook Ads,10,3,0,Media,0,1,1,1,1
+Rómulo Cuervo-Suarez,nadiagalindo@example.net,+34971493548,Evaluación general,TikTok,Facebook Ads,18,0,0,Media,0,1,0,0,1
+Leandra Rodriguez Barros,osvaldo37@example.net,+34985 721 648,Implantes,Instagram,Google Ads,15,6,0,Baja,1,0,1,0,0
+Carmen Mendizábal-Alcalá,candelario13@example.com,+34942390697,Endodoncia,TikTok,WhatsApp Directo,12,2,0,Media,0,0,1,0,1
+Amalia Arnau-Valverde,rosalinda18@example.org,+34986643839,Endodoncia,WhatsApp,Recomendación,18,1,1,Media,0,1,0,0,1
+José Ángel Gallego Valcárcel,constanza49@example.org,+34 848 964 280,Ortodoncia,WhatsApp,Recomendación,14,4,0,Baja,1,1,1,0,0
+Zacarías Juan Daza,luchovizcaino@example.com,+34 803 739 316,Ortodoncia,Instagram,Página Web,11,7,1,Media,1,1,0,1,0
+Alonso de Iniesta,agustinatilio@example.com,+34 947 768 928,Blanqueamiento,Instagram,Google Ads,9,10,0,Media,0,0,0,1,0
+Jose Miguel Mayoral Valverde,palomamanzanares@example.org,+34922 49 72 53,Ortodoncia,TikTok,Google Ads,20,1,0,Alta,0,1,1,0,1
+Fernanda Martínez Agudo,nereapujadas@example.com,+34 946 448 096,Endodoncia,TikTok,WhatsApp Directo,12,1,1,Alta,1,0,0,0,1
+Dominga Tormo Cantón,luisina99@example.com,+34885857510,Evaluación general,Otro,Página Web,10,7,1,Alta,1,0,1,1,0
+Augusto Román,antunezluis-angel@example.com,+34925 95 20 23,Implantes,WhatsApp,Google Ads,12,2,0,Alta,0,1,1,0,1
+Lucía Vallejo-Domínguez,andres-felipe31@example.org,+34881 88 34 52,Ortodoncia,Instagram,Google Ads,9,7,0,Media,0,1,0,1,0
+Sebastián Sotelo Segarra,suarezangela@example.com,+34 983 602 990,Ortodoncia,TikTok,WhatsApp Directo,10,8,0,Baja,1,0,1,1,0
+Ruben Jaén-Carro,ezequiel32@example.net,+34 974353915,Endodoncia,Otro,Recomendación,20,4,0,Baja,0,1,1,0,0
+Leocadio Quesada Frutos,vendrellvictoriano@example.org,+34925063581,Evaluación general,TikTok,Recomendación,16,8,1,Media,0,1,0,0,0
+Angelita Carnero Jordá,quintanamiguel-angel@example.org,+34844 72 48 04,Implantes,Facebook,WhatsApp Directo,10,3,1,Alta,1,0,0,1,1
+Albano Somoza Estevez,felicidadgarcia@example.org,+34 901 42 20 43,Limpieza dental,Otro,Facebook Ads,10,2,1,Media,1,1,1,1,1
+Amalia Reig Vicente,narcisa91@example.org,+34824 76 79 60,Implantes,Otro,Facebook Ads,9,5,0,Alta,0,0,1,1,0
+Rosalina Rosell Gomila,reyes22@example.org,+34824 067 863,Limpieza dental,Otro,Página Web,12,5,1,Media,0,0,1,0,0
+Federico Roldán Llorente Vizcaíno,iriartebalduino@example.net,+34 872 029 645,Blanqueamiento,Instagram,Facebook Ads,17,3,1,Baja,1,1,0,0,1
+Belén Botella Olivera,oayuso@example.net,+34 979411598,Limpieza dental,Otro,Google Ads,12,0,1,Baja,1,1,1,0,1
