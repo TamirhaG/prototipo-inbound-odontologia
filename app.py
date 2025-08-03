@@ -28,7 +28,7 @@ def cargar_datos():
         # Normalizar valores de interes_activo
         if "interes_activo" in df.columns:
             df["interes_activo"] = df["interes_activo"].replace({"Sí": 1, "No": 0})
-            df["interes_activo"] = pd.to_numeric(df["interes_activo"], errors="coerce").fillna(0).astype(int)
+            df["interes_activo"] = pd.to_numeric(df["interes_activo"], errors="coerce").fillna(0).astype(int).clip(0, 1)
 
         return df
     else:
@@ -70,7 +70,7 @@ with tabs[0]:
         enviar = st.form_submit_button("Guardar Lead")
 
         if enviar:
-            if nombre and correo and telefono:
+            if nombre.strip() and correo.strip() and telefono.strip():
                 df_nuevo = pd.DataFrame([{
                     "nombre": nombre,
                     "correo": correo,
@@ -123,6 +123,9 @@ with tabs[1]:
             "nombre", "correo", "telefono", "servicio", "canal", "interes_activo",
             "horario_contacto", "dias_desde_contacto", "referido", "tratamiento_prev"
         ]
+
+        df = df[columnas_mostrar]
+
         st.dataframe(df[columnas_mostrar].tail(10))
 
         csv_buffer = generar_descarga_csv(df)
