@@ -9,7 +9,7 @@ import os
 st.set_page_config(page_title="Captura de Leads - Clínica Odontológica", layout="centered")
 
 # ---------------- FUNCIONES AUXILIARES ----------------
-CSV_FILE = "leads_ver1.csv"
+CSV_FILE = "leads_ver3.csv"
 
 def cargar_datos():
     columnas = [
