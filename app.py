@@ -9,8 +9,12 @@ import joblib
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
-# Cargar el modelo desde disco
-modelo = joblib.load("modelo/modelo_inbound_clinica.pkl")
+# Cargar el modelo 
+import cloudpickle
+
+with open("modelo/modelo_inbound_clinica.pkl", "rb") as f:
+    modelo = cloudpickle.load(f)
+
 
 # ---------------- CONFIGURACIÓN GENERAL ----------------
 st.set_page_config(page_title="Captura de Leads - Clínica Odontológica", layout="centered")
