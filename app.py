@@ -123,8 +123,9 @@ with tabs[0]:
                     'es_mañana': 1 if horario == "Mañana" else 0,
                     'dias_recientes': 1 if dias_recientes == "Sí" else 0,
                     'hora_contacto': hora_contacto,
-                    'dias_desde_contacto': dias_desde_contacto
+                    'dias_desde_contacto': dias_desde  # ← aquí estaba el error
                 }])
+
 
                 # Ingeniería de variables adicionales
                 df_pred['momento_dia'] = df_pred['hora_contacto'].apply(
