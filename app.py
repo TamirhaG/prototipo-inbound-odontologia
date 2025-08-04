@@ -66,7 +66,7 @@ def es_correo_valido(correo):
 st.title("🦷 Captura y Visualización de Leads")
 st.markdown("Este prototipo permite registrar leads y visualizar su análisis.")
 
-tabs = st.tabs(["➕ Registrar Lead", "📊 Análisis de Leads", "🤖 Predicción de Conversión"])
+tabs = st.tabs(["🤖 Registro y Predicción de Lead", "📊 Análisis de Leads"])
 
 # ---------------- TAB 1: REGISTRO ----------------
 with tabs[0]:
