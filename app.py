@@ -167,7 +167,19 @@ with tabs[0]:
 
 
                 try:
+                    # Reordenar columnas para asegurar que coincidan con el modelo entrenado
+                    features_ordenadas = [
+                        'servicio', 'canal', 'canal_origen', 'urgencia', 'mensaje_largo',
+                        'referido', 'tratamiento_prev', 'es_mañana', 'dias_recientes',
+                        'hora_contacto', 'dias_desde_contacto', 'momento_dia',
+                        'longitud_nombre', 'dominio_correo', 'operador_telefono', 'canal_simplificado'
+                    ]
+    
+                    df_pred = df_pred[features_ordenadas]
+
+                    # Hacer predicción
                     prob = modelo.predict_proba(df_pred)[0][1]
+    
                     st.markdown("---")
                     st.subheader("🤖 Predicción de Conversión")
                     st.success(f"🔮 Probabilidad estimada: **{prob*100:.1f}%**")
@@ -178,6 +190,7 @@ with tabs[0]:
                         st.markdown("🟡 Probabilidad moderada de conversión")
                     else:
                         st.markdown("🔻 Baja probabilidad de conversión")
+
                 except Exception as e:
                     st.error(f"❗ Error al predecir: {e}")
             else:
