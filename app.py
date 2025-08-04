@@ -168,14 +168,14 @@ with tabs[0]:
 
                 try:
                     # Reordenar columnas para asegurar que coincidan con el modelo entrenado
-                    #features_ordenadas = [
-                    #    'servicio', 'canal', 'canal_origen', 'urgencia', 'mensaje_largo',
-                    #    'referido', 'tratamiento_prev', 'es_mañana', 'dias_recientes',
-                    #    'hora_contacto', 'dias_desde_contacto', 'momento_dia',
-                    #    'longitud_nombre', 'dominio_correo', 'operador_telefono', 'canal_simplificado'
-                    #]
+                    features_ordenadas = [
+                        'servicio', 'canal', 'canal_origen', 'urgencia', 'mensaje_largo',
+                        'referido', 'tratamiento_prev', 'es_mañana', 'dias_recientes',
+                        'hora_contacto', 'dias_desde_contacto', 'momento_dia',
+                        'longitud_nombre', 'dominio_correo', 'operador_telefono', 'canal_simplificado'
+                    ]
     
-                    #df_pred = df_pred[features_ordenadas]
+                    df_pred = df_pred[features_ordenadas]
 
                     # Hacer predicción
                     # Codificar variables categóricas como en el entrenamiento
