@@ -111,19 +111,59 @@ with tabs[0]:
                 st.success("✅ Lead registrado con éxito.")
 
                 # Preparar datos para predicción
+                # Construir DataFrame base
                 df_pred = pd.DataFrame([{
-                    "servicio": servicio,
-                    "canal": canal,
-                    "canal_origen": canal_origen,
-                    "urgencia": urgencia,
-                    "mensaje_largo": 1 if mensaje_largo == "Sí" else 0,
-                    "referido": 1 if referido == "Sí" else 0,
-                    "tratamiento_prev": 1 if tratamiento_prev == "Sí" else 0,
-                    "es_mañana": 1 if horario == "Mañana" else 0,
-                    "dias_recientes": 1 if dias_recientes == "Sí" else 0,
-                    "hora_contacto": hora_contacto,
-                    "dias_desde_contacto": dias_desde
+                    'servicio': servicio,
+                    'canal': canal,
+                    'canal_origen': canal_origen,
+                    'urgencia': urgencia,
+                    'mensaje_largo': 1 if mensaje_largo == "Sí" else 0,
+                    'referido': 1 if referido == "Sí" else 0,
+                    'tratamiento_prev': 1 if tratamiento_prev == "Sí" else 0,
+                    'es_mañana': 1 if horario == "Mañana" else 0,
+                    'dias_recientes': 1 if dias_recientes == "Sí" else 0,
+                    'hora_contacto': hora_contacto,
+                    'dias_desde_contacto': dias_desde_contacto
                 }])
+
+                # Ingeniería de variables adicionales
+                df_pred['momento_dia'] = df_pred['hora_contacto'].apply(
+                    lambda h: "mañana" if h < 12 else ("tarde" if h < 18 else "noche")
+                )
+
+                df_pred['longitud_nombre'] = len(nombre.strip())
+
+                df_pred['dominio_correo'] = correo.strip().split("@")[-1].lower() if "@" in correo else "desconocido"
+
+                def operador_peruano(numero):
+                    if pd.isna(numero):
+                        return "desconocido"
+                    numero = str(numero)
+                    if len(numero) < 12:
+                        return "otro"
+                    prefix = numero[5:8]
+                    if prefix in ['981', '982', '983', '984', '985']:
+                        return "claro"
+                    elif prefix in ['990', '991', '992', '993', '994']:
+                        return "movistar"
+                    else:
+                        return "otro"
+
+                df_pred['operador_telefono'] = operador_peruano(telefono)
+
+                def simplificar_canal(c):
+                    c = str(c).lower()
+                    if "whatsapp" in c:
+                        return "whatsapp"
+                    elif any(r in c for r in ["facebook", "instagram", "tiktok"]):
+                        return "redes_sociales"
+                    elif "web" in c:
+                        return "web"
+                    else:
+                        return "otro"
+
+                df_pred['canal_simplificado'] = simplificar_canal(canal)
+
 
                 try:
                     prob = modelo.predict_proba(df_pred)[0][1]
