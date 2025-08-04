@@ -83,12 +83,17 @@ with tabs[0]:
         dias_desde = st.number_input("Días desde el contacto inicial", min_value=0, step=1)
         referido = st.selectbox("¿Fue referido por otro paciente?", ["Sí", "No"])
         tratamiento_prev = st.selectbox("¿Ha recibido tratamiento previo en la clínica?", ["Sí", "No"])
+        canal_origen = st.selectbox("Canal de origen", ["Página web", "Google Ads", "Recomendación", "Llamada directa"])
+        urgencia = st.selectbox("Nivel de urgencia", ["Alta", "Media", "Baja"])
+        mensaje_largo = st.selectbox("¿Mensaje largo?", ["Sí", "No"])
+        hora_contacto = st.slider("Hora de contacto (0-23)", min_value=0, max_value=23)
+        dias_recientes = st.selectbox("¿Días recientes?", ["Sí", "No"])
 
-        enviar = st.form_submit_button("Guardar Lead")
+        enviar = st.form_submit_button("Guardar Lead y Predecir")
 
         if enviar:
-            # Validación de campos obligatorios y correo válido
             if nombre.strip() and correo.strip() and telefono.strip() and es_correo_valido(correo):
+                # Guardar lead en CSV
                 df_nuevo = pd.DataFrame([{
                     "nombre": nombre.strip().title(),
                     "correo": correo.strip().lower(),
@@ -104,6 +109,36 @@ with tabs[0]:
 
                 guardar_dato(df_nuevo)
                 st.success("✅ Lead registrado con éxito.")
+
+                # Preparar datos para predicción
+                df_pred = pd.DataFrame([{
+                    "servicio": servicio,
+                    "canal": canal,
+                    "canal_origen": canal_origen,
+                    "urgencia": urgencia,
+                    "mensaje_largo": 1 if mensaje_largo == "Sí" else 0,
+                    "referido": 1 if referido == "Sí" else 0,
+                    "tratamiento_prev": 1 if tratamiento_prev == "Sí" else 0,
+                    "es_mañana": 1 if horario == "Mañana" else 0,
+                    "dias_recientes": 1 if dias_recientes == "Sí" else 0,
+                    "hora_contacto": hora_contacto,
+                    "dias_desde_contacto": dias_desde
+                }])
+
+                try:
+                    prob = modelo.predict_proba(df_pred)[0][1]
+                    st.markdown("---")
+                    st.subheader("🤖 Predicción de Conversión")
+                    st.success(f"🔮 Probabilidad estimada: **{prob*100:.1f}%**")
+
+                    if prob >= 0.7:
+                        st.markdown("✅ Alta probabilidad de conversión")
+                    elif prob >= 0.4:
+                        st.markdown("🟡 Probabilidad moderada de conversión")
+                    else:
+                        st.markdown("🔻 Baja probabilidad de conversión")
+                except Exception as e:
+                    st.error(f"❗ Error al predecir: {e}")
             else:
                 st.error("❗ Por favor, completa todos los campos correctamente (correo válido requerido).")
 
