@@ -165,49 +165,19 @@ with tabs[0]:
 
                 df_pred['canal_simplificado'] = simplificar_canal(canal)
 
-
                 try:
-                    # Reordenar columnas para asegurar que coincidan con el modelo entrenado
                     features_ordenadas = [
                         'servicio', 'canal', 'canal_origen', 'urgencia', 'mensaje_largo',
                         'referido', 'tratamiento_prev', 'es_mañana', 'dias_recientes',
                         'hora_contacto', 'dias_desde_contacto', 'momento_dia',
                         'longitud_nombre', 'dominio_correo', 'operador_telefono', 'canal_simplificado'
                     ]
-    
+
                     df_pred = df_pred[features_ordenadas]
 
-                    # Hacer predicción
-                    # Codificar variables categóricas como en el entrenamiento
-                    columnas_categoricas = [
-                       'servicio', 'canal', 'canal_origen', 'urgencia',
-                       'momento_dia', 'dominio_correo', 'operador_telefono', 'canal_simplificado'
-                    ]
+                    # Usar directamente el Pipeline para predecir
+                    prob = modelo.predict_proba(df_pred)[0][1]
 
-                    df_pred_encoded = pd.get_dummies(df_pred, columns=columnas_categoricas)
-
-                    # Alinear columnas con las del modelo (rellenar columnas faltantes con 0)
-                    columnas_modelo = modelo.named_steps["classifier"].get_booster().feature_names
-
-                    booster = modelo.named_steps["classifier"].get_booster()
-                    if booster.feature_names is not None:
-                        columnas_modelo = booster.feature_names
-                    else:
-                        columnas_modelo = df_pred_encoded.columns.tolist()  # como fallback
-
-
-                    for col in columnas_modelo:
-                        if col not in df_pred_encoded.columns:
-                            df_pred_encoded[col] = 0
-
-                    # Asegurar mismo orden de columnas
-                    df_pred_encoded = df_pred_encoded[columnas_modelo]
-
-                    df_pred_encoded = df_pred_encoded.astype(float)
-
-
-                    prob = modelo.predict_proba(df_pred_encoded)[0][1]
-    
                     st.markdown("---")
                     st.subheader("🤖 Predicción de Conversión")
                     st.success(f"🔮 Probabilidad estimada: **{prob*100:.1f}%**")
@@ -221,6 +191,8 @@ with tabs[0]:
 
                 except Exception as e:
                     st.error(f"❗ Error al predecir: {e}")
+    
+                    
             else:
                 st.error("❗ Por favor, completa todos los campos correctamente (correo válido requerido).")
 
