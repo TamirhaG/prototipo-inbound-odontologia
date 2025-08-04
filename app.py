@@ -178,7 +178,26 @@ with tabs[0]:
                     df_pred = df_pred[features_ordenadas]
 
                     # Hacer predicción
-                    prob = modelo.predict_proba(df_pred)[0][1]
+                    # Codificar variables categóricas como en el entrenamiento
+                    columnas_categoricas = [
+                       'servicio', 'canal', 'canal_origen', 'urgencia',
+                       'momento_dia', 'dominio_correo', 'operador_telefono', 'canal_simplificado'
+                    ]
+
+                    df_pred_encoded = pd.get_dummies(df_pred, columns=columnas_categoricas)
+
+                    # Alinear columnas con las del modelo (rellenar columnas faltantes con 0)
+                    columnas_modelo = modelo.get_booster().feature_names
+                    for col in columnas_modelo:
+                        if col not in df_pred_encoded.columns:
+                            df_pred_encoded[col] = 0
+
+                    # Asegurar mismo orden de columnas
+                    df_pred_encoded = df_pred_encoded[columnas_modelo]
+
+
+
+                    prob = modelo.predict_proba(df_pred_encoded)[0][1]
     
                     st.markdown("---")
                     st.subheader("🤖 Predicción de Conversión")
