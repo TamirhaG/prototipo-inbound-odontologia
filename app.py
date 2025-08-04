@@ -189,6 +189,13 @@ with tabs[0]:
                     # Alinear columnas con las del modelo (rellenar columnas faltantes con 0)
                     columnas_modelo = modelo.named_steps["classifier"].get_booster().feature_names
 
+                    booster = modelo.named_steps["classifier"].get_booster()
+                    if booster.feature_names is not None:
+                        columnas_modelo = booster.feature_names
+                    else:
+                        columnas_modelo = df_pred_encoded.columns.tolist()  # como fallback
+
+
                     for col in columnas_modelo:
                         if col not in df_pred_encoded.columns:
                             df_pred_encoded[col] = 0
