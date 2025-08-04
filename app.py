@@ -195,6 +195,7 @@ with tabs[0]:
                     # Asegurar mismo orden de columnas
                     df_pred_encoded = df_pred_encoded[columnas_modelo]
 
+                    df_pred_encoded = df_pred_encoded.astype(float)
 
 
                     prob = modelo.predict_proba(df_pred_encoded)[0][1]
