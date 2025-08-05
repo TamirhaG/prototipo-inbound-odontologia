@@ -9,6 +9,10 @@ from datetime import datetime
 # -------------------------
 modelo = joblib.load('modelo/modelo_inbound_clinica.pkl')
 
+# Obtener lista única de servicios y canales
+servicios_unicos = sorted(leads_df["servicio"].dropna().unique())
+canales_unicos = sorted(leads_df["canal"].dropna().unique())
+
 # -------------------------
 # Funciones auxiliares
 # -------------------------
@@ -25,7 +29,7 @@ def simplificar_canal(canal):
     canal = canal.lower()
     if 'whatsapp' in canal:
         return 'whatsapp'
-    elif 'facebook' in canal or 'instagram' in canal:
+    elif any(x in canal for x in ['facebook', 'instagram', 'tiktok']):
         return 'redes'
     elif 'web' in canal:
         return 'web'
@@ -83,13 +87,9 @@ with st.form("formulario_lead"):
     correo = st.text_input("Correo electrónico")
     telefono = st.text_input("Número de teléfono")
 
-    servicio = st.selectbox("Servicio de interés", [
-        "Ortodoncia", "Implantes", "Blanqueamiento", "Limpieza", "Otros"
-    ])
+    servicio = st.selectbox("Servicio de interés", servicios_unicos)
 
-    canal = st.selectbox("Canal de contacto", [
-        "Facebook", "Instagram", "WhatsApp", "Web", "Otro"
-    ])
+    canal = st.selectbox("Canal de contacto", canales_unicos)
 
     urgencia = st.selectbox("Nivel de urgencia", [
         "Baja", "Media", "Alta"
