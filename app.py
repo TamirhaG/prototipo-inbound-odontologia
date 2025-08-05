@@ -166,6 +166,7 @@ with tabs[0]:
                 df_pred['canal_simplificado'] = simplificar_canal(canal)
 
                 try:
+                    # Reordenar columnas según las usadas en el entrenamiento
                     features_ordenadas = [
                         'servicio', 'canal', 'canal_origen', 'urgencia', 'mensaje_largo',
                         'referido', 'tratamiento_prev', 'es_mañana', 'dias_recientes',
@@ -175,8 +176,9 @@ with tabs[0]:
 
                     df_pred = df_pred[features_ordenadas]
 
-                    # Usar directamente el Pipeline para predecir
+                    # Pasar directamente al modelo (pipeline hace el procesamiento)
                     prob = modelo.predict_proba(df_pred)[0][1]
+
 
                     st.markdown("---")
                     st.subheader("🤖 Predicción de Conversión")
