@@ -4,6 +4,17 @@ import joblib
 import os
 from datetime import datetime
 
+# Cargar leads solo si el archivo existe
+if os.path.exists("leads_ver4.csv"):
+    leads_df = pd.read_csv("leads_ver4.csv")
+    servicios_unicos = sorted(leads_df["servicio"].dropna().unique())
+    canales_unicos = sorted(leads_df["canal"].dropna().unique())
+    if "TikTok" not in canales_unicos:
+        canales_unicos.append("TikTok")
+else:
+    st.error("❌ No se encontró el archivo 'leads_ver4.csv'. Asegúrate de que esté en la misma carpeta que 'app.py'.")
+    st.stop()
+
 # -------------------------
 # Cargar modelo entrenado
 # -------------------------
