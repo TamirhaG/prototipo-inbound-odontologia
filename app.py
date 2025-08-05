@@ -24,6 +24,14 @@ modelo = joblib.load('modelo/modelo_inbound_clinica.pkl')
 servicios_unicos = sorted(leads_df["servicio"].dropna().unique())
 canales_unicos = sorted(leads_df["canal"].dropna().unique())
 
+# Asegurarnos de que TikTok esté incluido
+if "TikTok" not in canales_unicos:
+    canales_unicos.append("TikTok")
+
+# Opcional: ordenar alfabéticamente nuevamente
+canales_unicos = sorted(canales_unicos)
+
+
 # -------------------------
 # Funciones auxiliares
 # -------------------------
