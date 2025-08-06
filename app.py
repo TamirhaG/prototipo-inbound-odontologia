@@ -3,18 +3,12 @@ import pandas as pd
 import joblib
 import os
 from datetime import datetime
-from utils.visualizaciones import mostrar_dashboard
 
 
 # Cargar leads solo si el archivo existe
 if os.path.exists("leads_ver4.csv"):
     leads_df = pd.read_csv("leads_ver4.csv")
     
-    # Menú lateral
-    st.sidebar.title("Navegación")
-    menu = st.sidebar.radio("Selecciona una sección:", ["Captura de Leads", "Dashboard de Visualización"])
-
-
     servicios_unicos = sorted(leads_df["servicio"].dropna().unique())
     canales_unicos = sorted(leads_df["canal"].dropna().unique())
     if "TikTok" not in canales_unicos:
