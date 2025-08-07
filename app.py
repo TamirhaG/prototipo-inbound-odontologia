@@ -60,35 +60,49 @@ def operador_desde_prefijo(numero):
             return 'movistar'
     return 'otro'
 
-def procesar_input(nombre, correo, telefono, servicio, canal, urgencia, hora_contacto):
-    # Columnas básicas
-    canal_simplificado = simplificar_canal(canal)
-    momento_dia = clasificar_momento(hora_contacto)
+def procesar_input(
+    nombre, correo, telefono, servicio, canal, urgencia,
+    horario_contacto, dias_desde_contacto,
+    interes_confirmado, referido, tratamiento_previo
+):
+    # Convertir horario textual a hora estimada
+    if horario_contacto == 'Mañana':
+        hora_contacto = 9
+        momento_dia = 'mañana'
+    elif horario_contacto == 'Tarde':
+        hora_contacto = 15
+        momento_dia = 'tarde'
+    else:
+        hora_contacto = 20
+        momento_dia = 'noche'
+
+    # Longitud del nombre
     longitud_nombre = len(nombre.strip())
+
+    # Dominio del correo
     dominio_correo = correo.split('@')[-1].lower().strip()
-    operador_telefono = operador_desde_prefijo(telefono)
 
-    # Derivadas
-    interes_confirmado = (
-        (canal_simplificado == 'whatsapp' or urgencia.lower() == 'alta') and
-        (9 <= hora_contacto <= 17) and
-        (longitud_nombre > 10)
-    )
-    interes_confirmado = 'Sí' if interes_confirmado else 'No'
+    # Operador del teléfono
+    def operador_desde_prefijo(numero):
+        if numero is None:
+            return 'otro'
+        numero = str(numero)
+        if numero.startswith(('9')):
+            if numero[1:3] in ['41', '42', '43', '44']:
+                return 'claro'
+            elif numero[1:3] in ['70', '71', '72']:
+                return 'movistar'
+        return 'otro'
 
-    dias_desde_contacto = 0  # Opcional: reemplaza con algo real si se requiere
+    operador = operador_desde_prefijo(telefono)
 
-    referido = (
-        canal_simplificado == 'otro' and
-        dominio_correo not in ['gmail.com', 'hotmail.com', 'outlook.com', 'yahoo.com']
-    )
-    referido = 'Sí' if referido else 'No'
+    # Canal simplificado
+    canal_simplificado = simplificar_canal(canal)
 
-    tratamiento_previo = 'No'  # Solo se puede saber si se revisa duplicado en los registros previos
-
+    # Variables combinadas (como en entrenamiento)
     urgencia_momento = urgencia.lower() + "_" + momento_dia
     canal_servicio = canal_simplificado + "_" + servicio.lower().replace(" ", "_")
-    dominio_operador = dominio_correo + "_" + operador_telefono
+    dominio_operador = dominio_correo + "_" + operador
 
     return pd.DataFrame([{
         'servicio': servicio,
@@ -98,7 +112,7 @@ def procesar_input(nombre, correo, telefono, servicio, canal, urgencia, hora_con
         'momento_dia': momento_dia,
         'longitud_nombre': longitud_nombre,
         'dominio_correo': dominio_correo,
-        'operador_telefono': operador_telefono,
+        'operador_telefono': operador,
         'interes_confirmado': interes_confirmado,
         'dias_desde_contacto': dias_desde_contacto,
         'referido': referido,
@@ -107,7 +121,6 @@ def procesar_input(nombre, correo, telefono, servicio, canal, urgencia, hora_con
         'canal_servicio': canal_servicio,
         'dominio_operador': dominio_operador
     }])
-
 
 def guardar_lead(data, pred):
     salida = data.copy()
