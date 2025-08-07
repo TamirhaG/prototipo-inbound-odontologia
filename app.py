@@ -174,7 +174,12 @@ with tab1:
         if not nombre or not correo or not telefono:
             st.warning("⚠️ Por favor, completa todos los campos obligatorios.")
         else:
-            df_input = procesar_input(nombre, correo, telefono, servicio, canal, urgencia, hora_contacto)
+            df_input = procesar_input(
+                nombre, correo, telefono, servicio, canal, urgencia,
+                horario_contacto, dias_desde_contacto,
+                interes_confirmado, referido, tratamiento_previo
+            )
+            
             pred = modelo.predict(df_input)[0]
             proba = modelo.predict_proba(df_input)[0][1]
 
