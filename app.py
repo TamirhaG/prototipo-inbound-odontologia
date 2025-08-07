@@ -61,16 +61,53 @@ def operador_desde_prefijo(numero):
     return 'otro'
 
 def procesar_input(nombre, correo, telefono, servicio, canal, urgencia, hora_contacto):
+    # Columnas básicas
+    canal_simplificado = simplificar_canal(canal)
+    momento_dia = clasificar_momento(hora_contacto)
+    longitud_nombre = len(nombre.strip())
+    dominio_correo = correo.split('@')[-1].lower().strip()
+    operador_telefono = operador_desde_prefijo(telefono)
+
+    # Derivadas
+    interes_confirmado = (
+        (canal_simplificado == 'whatsapp' or urgencia.lower() == 'alta') and
+        (9 <= hora_contacto <= 17) and
+        (longitud_nombre > 10)
+    )
+    interes_confirmado = 'Sí' if interes_confirmado else 'No'
+
+    dias_desde_contacto = 0  # Opcional: reemplaza con algo real si se requiere
+
+    referido = (
+        canal_simplificado == 'otro' and
+        dominio_correo not in ['gmail.com', 'hotmail.com', 'outlook.com', 'yahoo.com']
+    )
+    referido = 'Sí' if referido else 'No'
+
+    tratamiento_previo = 'No'  # Solo se puede saber si se revisa duplicado en los registros previos
+
+    urgencia_momento = urgencia.lower() + "_" + momento_dia
+    canal_servicio = canal_simplificado + "_" + servicio.lower().replace(" ", "_")
+    dominio_operador = dominio_correo + "_" + operador_telefono
+
     return pd.DataFrame([{
         'servicio': servicio,
-        'canal_simplificado': simplificar_canal(canal),
+        'canal_simplificado': canal_simplificado,
         'urgencia': urgencia,
         'hora_contacto': hora_contacto,
-        'momento_dia': clasificar_momento(hora_contacto),
-        'longitud_nombre': len(nombre.strip()),
-        'dominio_correo': correo.split('@')[-1].lower().strip(),
-        'operador_telefono': operador_desde_prefijo(telefono)
+        'momento_dia': momento_dia,
+        'longitud_nombre': longitud_nombre,
+        'dominio_correo': dominio_correo,
+        'operador_telefono': operador_telefono,
+        'interes_confirmado': interes_confirmado,
+        'dias_desde_contacto': dias_desde_contacto,
+        'referido': referido,
+        'tratamiento_previo': tratamiento_previo,
+        'urgencia_momento': urgencia_momento,
+        'canal_servicio': canal_servicio,
+        'dominio_operador': dominio_operador
     }])
+
 
 def guardar_lead(data, pred):
     salida = data.copy()
