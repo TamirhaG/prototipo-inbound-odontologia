@@ -170,65 +170,34 @@ with tab1:
 # TAB 2: Dashboard de seguimiento
 # -------------------------
 with tab2:
-    st.title("📊 Dashboard de Leads")
+    st.title("📊 Dashboard de Leads Clasificados")
 
-    # Selector de fuente de datos
-    fuente = st.radio(
-        "Selecciona los datos a analizar:",
-        ["📁 Dataset original (leads_ver4.csv)", "📝 Nuevos leads clasificados", "📊 Todos combinados"],
-        index=2
-    )
+    ruta = "data/leads_clasificados.csv"
+    if os.path.exists(ruta):
+        df_leads = pd.read_csv(ruta)
 
-    # Leer dataset original
-    df_base = pd.read_csv("leads_ver4.csv")
-    df_base = df_base.copy()
-    df_base['canal_simplificado'] = df_base['canal'].apply(simplificar_canal)
+        st.subheader("🔢 Resumen")
+        col1, col2 = st.columns(2)
+        with col1:
+            st.metric("Total registrados", len(df_leads))
+        with col2:
+            tasa = (df_leads['interes_activo'].sum() / len(df_leads)) * 100
+            st.metric("Tasa de interés alto", f"{tasa:.2f}%")
 
-    # Cargar leads manuales si existen
-    ruta_manual = "data/leads_clasificados.csv"
-    if os.path.exists(ruta_manual):
-        df_manual = pd.read_csv(ruta_manual)
+        st.subheader("🦷 Servicios más solicitados")
+        st.bar_chart(df_leads['servicio'].value_counts())
+
+        st.subheader("📱 Canales más usados")
+        st.bar_chart(df_leads['canal_simplificado'].value_counts())
+
+        st.subheader("📈 Últimos registros")
+        st.dataframe(df_leads.tail(10))
+
+        st.download_button(
+            label="📥 Descargar CSV",
+            data=df_leads.to_csv(index=False).encode("utf-8"),
+            file_name="leads_clasificados.csv",
+            mime="text/csv"
+        )
     else:
-        df_manual = pd.DataFrame()
-
-    # Definir dataset a mostrar
-    if fuente == "📁 Dataset original (leads_ver4.csv)":
-        df_mostrar = df_base
-    elif fuente == "📝 Nuevos leads clasificados":
-        if df_manual.empty:
-            st.warning("⚠️ Aún no hay registros clasificados manualmente.")
-            st.stop()
-        df_mostrar = df_manual
-    else:  # Todos combinados
-        df_mostrar = pd.concat([df_base, df_manual], ignore_index=True)
-
-    # ------------------------
-    # Dashboard
-    # ------------------------
-
-    st.subheader("🔢 Resumen")
-    col1, col2 = st.columns(2)
-    with col1:
-        st.metric("Total registrados", len(df_mostrar))
-    with col2:
-        tasa = (df_mostrar['interes_activo'].sum() / len(df_mostrar)) * 100
-        st.metric("Tasa de interés alto", f"{tasa:.2f}%")
-
-    st.subheader("🦷 Servicios más solicitados")
-    if 'servicio' in df_mostrar.columns:
-        st.bar_chart(df_mostrar['servicio'].value_counts())
-
-    st.subheader("📱 Canales más usados")
-    if 'canal_simplificado' in df_mostrar.columns:
-        st.bar_chart(df_mostrar['canal_simplificado'].value_counts())
-
-    st.subheader("📈 Últimos registros")
-    st.dataframe(df_mostrar.tail(10))
-
-    # Botón de descarga
-    st.download_button(
-        label="📥 Descargar CSV",
-        data=df_mostrar.to_csv(index=False).encode("utf-8"),
-        file_name="leads_dashboard.csv",
-        mime="text/csv"
-    )
+        st.warning("⚠️ Aún no hay registros clasificados.")
