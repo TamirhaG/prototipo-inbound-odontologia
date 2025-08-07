@@ -161,8 +161,14 @@ with tab1:
         servicio = st.selectbox("Servicio de interés", servicios_unicos)
         canal = st.selectbox("Canal de contacto", canales_unicos)
         urgencia = st.selectbox("Nivel de urgencia", ["Baja", "Media", "Alta"])
-        hora_contacto = st.slider("Hora de contacto", 0, 23, 12)
+        horario_contacto = st.selectbox("Horario de contacto", ["Mañana", "Tarde", "Noche"])
+        dias_desde_contacto = st.number_input("Días desde el contacto inicial", min_value=0, max_value=60, value=5)
+        interes_confirmado = st.radio("¿Interés confirmado?", ["Sí", "No"])
+        referido = st.radio("¿Fue referido por otro paciente?", ["Sí", "No"])
+        tratamiento_previo = st.radio("¿Ha recibido tratamiento previo en la clínica?", ["Sí", "No"])
+
         submit = st.form_submit_button("Registrar y Clasificar")
+
 
     if submit:
         if not nombre or not correo or not telefono:
