@@ -1,6 +1,6 @@
 # Sistema de Captura y Clasificación de Leads con IA para una Clínica Odontológica
 
-Este proyecto utiliza técnicas de Machine Learning para capturar y clasificar leads en una clínica odontológica, priorizando aquellos con mayor probabilidad de conversión. 
+Este proyecto utiliza técnicas de Machine Learning para capturar y clasificar leads en una clínica odontológica. 
 
 ## Tecnologías:
 - 🧠 XGBoost, Scikit-learn
